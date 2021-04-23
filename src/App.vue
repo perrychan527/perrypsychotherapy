@@ -1,13 +1,9 @@
 <template>
   <div>
-    aaaaa
+    aaaa
   </div>
 </template>
 
 <script>
 
 </script>
-
-<style>
-
-</style>
