@@ -5,7 +5,7 @@
         <h1 class="font-weight-bold display-3 basil--text">
           Perry W. T. Chan
         </h1>
-        <p1>Psychotherapist & Counsellor (How can I put this below my name?)</p1>
+        <p>Psychotherapist & Counsellor (How can I put this below my name?)</p>
         
       </v-card-title>
 
@@ -38,9 +38,9 @@
       </v-tabs-items>
     </v-card>
     
-    <p1>The coding of this website is still in progress. I am a therapist, not a web developer. Please give me some time :D</p1>
+    <p>The coding of this website is still in progress. I am a therapist, not a web developer. Please give me some time :D</p>
     
-    <p2>You can call me Perry. I am a qualified psychotherapist and counsellor based in Edinburgh, Scotland (*At this moment, I only work online with clients based in the UK and Hong Kong). We can talk in either English, Cantonese or Mandarin. My approach is psychodynamic and person-centred. In fact, I don’t like to categorise. So more accurately speaking, my approach is relational. It is two people sitting together trying to discover who we really are, what is perpepuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. Psychotherapy, in my opinion, is not about fixing something. It’s all about developing our self-awareness, the capacity to reflect on ourselves and to make better decisions in life, without repeating our unhealthy patterns.
+    <p>You can call me Perry. I am a qualified psychotherapist and counsellor based in Edinburgh, Scotland (*At this moment, I only work online with clients based in the UK and Hong Kong). We can talk in either English, Cantonese or Mandarin. My approach is psychodynamic and person-centred. In fact, I don’t like to categorise. So more accurately speaking, my approach is relational. It is two people sitting together trying to discover who we really are, what is perpepuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. Psychotherapy, in my opinion, is not about fixing something. It’s all about developing our self-awareness, the capacity to reflect on ourselves and to make better decisions in life, without repeating our unhealthy patterns.
 
         We together try to make sense of something painful and unbearable, create meanings out of it, and thus experience psychic transformation. Hmmm.....it might sound vague. To give you an analogy, imagine both of us trying to map a dark foggy city together with a compass and find the way out. Though it might be scary, it is a transformative journey. In our work, this is a safe space for us to let this exquisite alchemical reaction happen. It is simple......but deep…...very deep......
 
@@ -56,7 +56,7 @@
         My usual fee is £50 per session (50 mins), but it is negotiable depending on your financial circumstances. I offer a free first meeting where we can explore different possibilities. 
 
         At the moment, I am also working on my doctoral research at the University of Edinburgh. My study is to explore and discover, in a social dreaming matrix, unconscious complex ideas which remained hidden as a result of traumatic retention in the context of Hong Kong’s collective trauma. How has this ongoing collective trauma been shaping our (I'm from HK btw) sense of identity, psyche, social and cultural complex, and so on?
-     </p2>
+     </p>
   </v-app>
 </template>
 
