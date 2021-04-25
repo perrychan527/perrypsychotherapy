@@ -16,23 +16,25 @@
         grow
       >
         <v-tab
-          v-for="item in items"
-          :key="item"
+          v-for="item in tab_items"
+          :key="item.title"
         >
-          {{ item }}
+          {{ item.title }}
         </v-tab>
       </v-tabs>
 
-      <v-tabs-items v-model="tab">
+      <v-tabs-items
+        v-model="tab"
+      >
         <v-tab-item
-          v-for="item in items"
-          :key="item"
+          v-for="item in tab_items"
+          :key="item.title"
         >
           <v-card
             color="basil"
             flat
           >
-            <v-card-text>{{ text }}</v-card-text>
+            <v-card-text>{{ item.text }}</v-card-text>
           </v-card>
         </v-tab-item>
       </v-tabs-items>
@@ -65,10 +67,20 @@
     data () {
       return {
         tab: null,
-        items: [
-          'Home', 'About', 'Our Work', 'Fee', 'Resources', 'Contact',
+        tab_items: [
+          {
+            title: "home",
+            text: "aaa",
+          },
+          {
+            title: "work",
+            text: "bbb",
+          },
+          {
+            title: "contact",
+            text: "ccc",
+          },
         ],
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       }
     },
   }
