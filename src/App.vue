@@ -73,7 +73,7 @@
     },
   }
 </script>
-<style>
+<style scoped>
   /* Helper classes */
   .basil {
     background-color: #FFFBE6 !important;
@@ -81,4 +81,7 @@
   .basil--text {
     color: #356859 !important;
   }
+  
+  
+
 </style>
