@@ -1,106 +1,66 @@
 <template>
   <v-app>
-    aaa
+    <v-card color="basil">
+      <v-card-title class="text-center justify-center py-6">
+        <h1 class="font-weight-bold display-3 basil--text">
+          Perry W. T. Chan
+        </h1>
+        <p class="perry-center font-2" >Psychotherapy & Counselling</p>
+        
+      </v-card-title>
 
+      <v-tabs
+        v-model="tab"
+        background-color="transparent"
+        color="basil"
+        grow
+      >
+        <v-tab
+          v-for="item in items"
+          :key="item"
+        >
+          {{ item }}
+        </v-tab>
+      </v-tabs>
+
+      <v-tabs-items v-model="tab">
+        <v-tab-item
+          v-for="item in items"
+          :key="item"
+        >
+          <v-card
+            color="basil"
+            flat
+          >
+            <v-card-text>{{ text }}</v-card-text>
+          </v-card>
+        </v-tab-item>
+      </v-tabs-items>
+    </v-card>
     
-      <div>
-      <v-card
-        class="d-flex justify-start mb-6"
-        :color="$vuetify.theme.dark ? 'grey darken-3' : 'grey lighten-4'"
-        flat
-        tile
-      >
-        <v-card
-          v-for="n in 3"
-          :key="n"
-          class="pa-2"
-          outlined
-          tile
-        >
-          justify-start
-        </v-card>
-      </v-card>
-
-      <v-card
-        class="d-flex justify-end mb-6"
-        :color="$vuetify.theme.dark ? 'grey darken-3' : 'grey lighten-4'"
-        flat
-        tile
-      >
-        <v-card
-          v-for="n in 3"
-          :key="n"
-          class="pa-2"
-          outlined
-          tile
-        >
-          justify-end
-        </v-card>
-      </v-card>
-
-      <v-card
-        class="d-flex justify-center mb-6"
-        :color="$vuetify.theme.dark ? 'grey darken-3' : 'grey lighten-4'"
-        flat
-        tile
-      >
-        <v-card
-          v-for="n in 3"
-          :key="n"
-          class="pa-2"
-          outlined
-          tile
-        >
-          justify-center
-        </v-card>
-      </v-card>
-
-      <v-card
-        class="d-flex justify-space-between mb-6"
-        :color="$vuetify.theme.dark ? 'grey darken-3' : 'grey lighten-4'"
-        flat
-        tile
-      >
-        <v-card
-          v-for="n in 3"
-          :key="n"
-          class="pa-2"
-          outlined
-          tile
-        >
-          justify-space-between
-        </v-card>
-      </v-card>
-
-      <v-card
-        class="d-flex justify-space-around mb-6"
-        :color="$vuetify.theme.dark ? 'grey darken-3' : 'grey lighten-4'"
-        flat
-        tile
-      >
-        <v-card
-          v-for="n in 3"
-          :key="n"
-          class="pa-2"
-          outlined
-          tile
-        >
-          justify-space-around
-        </v-card>
-      </v-card>
-    </div>
-    
-        <v-select
-      :items="items"
-      label="Standard"
-    ></v-select>
+    <p>The coding of this website is still in progress. I am a therapist, not a web developer. Please give me some time :D</p>
   </v-app>
 </template>
 
 <script>
   export default {
-    data: () => ({
-      items: ['Foo', 'Bar', 'Fizz', 'Buzz'],
-    }),
+    data () {
+      return {
+        tab: null,
+        items: [
+          'Home', 'About', 'Our Work', 'Fee', 'Resources', 'Contact',
+        ],
+        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      }
+    },
   }
 </script>
+<style>
+  /* Helper classes */
+  .basil {
+    background-color: #FFFBE6 !important;
+  }
+  .basil--text {
+    color: #356859 !important;
+  }
+</style>
