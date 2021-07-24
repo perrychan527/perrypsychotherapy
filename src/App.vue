@@ -1,99 +1,124 @@
 <template>
-  <v-app>
-    <v-card color="basil">
-      <v-card-title class="text-center justify-center py-6">
-        <h1 class="font-weight-bold display-3 basil--text">
-          Perry W. T. Chan
-        </h1>
-        <p>Psychotherapist & Counsellor (How can I put this below my name?)</p>
-        
-      </v-card-title>
+  <v-card>
+    <v-toolbar
+      flat
+      color=gray
+    >
+      <v-toolbar-title>Perry W.T. Chan, psychotherapist & counsellor</v-toolbar-title>
+    </v-toolbar>
+    <v-tabs centered>
+      <v-tab>
+        welcome
+      </v-tab>
+      <v-tab>
+        bio
+      </v-tab>
+      <v-tab>
+        our work
+      </v-tab>
+      <v-tab>
+        practicalities
+      </v-tab>
+      <v-tab>
+        contact
+      </v-tab>
+      <v-tab>
+        resources
+      </v-tab>
+      <v-tab-item>
+        <v-card flat>
+          <v-card-text>
+            <p>
+              Ssed aliquam ultrices mauris. Donec posuere vulputate arcu. Morbi ac felis. Etiam feugiat lorem non metus. Sed a libero.
+            </p>
 
-      <v-tabs
-        v-model="tab"
-        background-color="transparent"
-        color="basil"
-        grow
-      >
-        <v-tab
-          v-for="item in tab_items"
-          :key="item.title"
-        >
-          {{ item.title }}
-        </v-tab>
-      </v-tabs>
+            <p>
+              Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Aliquam lobortis. Aliquam lobortis. Suspendisse non nisl sit amet velit hendrerit rutrum.
+            </p>
 
-      <v-tabs-items
-        v-model="tab"
-      >
-        <v-tab-item
-          v-for="item in tab_items"
-          :key="item.title"
-        >
-          <v-card
-            color="basil"
-            flat
-          >
-            <v-card-text>{{ item.text }}</v-card-text>
-          </v-card>
-        </v-tab-item>
-      </v-tabs-items>
-    </v-card>
-    
-    <p>The coding of this website is still in progress. I am a therapist, not a web developer. Please give me some time :D</p>
-    
-    <p>You can call me Perry. I am a qualified psychotherapist and counsellor based in Edinburgh, Scotland (*At this moment, I only work online with clients based in the UK and Hong Kong). We can talk in either English, Cantonese or Mandarin. My approach is psychodynamic and person-centred. In fact, I don’t like to categorise. So more accurately speaking, my approach is relational. It is two people sitting together trying to discover who we really are, what is perpepuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. Psychotherapy, in my opinion, is not about fixing something. It’s all about developing our self-awareness, the capacity to reflect on ourselves and to make better decisions in life, without repeating our unhealthy patterns.
+            <p class="mb-0">
+              Phasellus dolor. Fusce neque. Fusce fermentum odio nec arcu. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam. Phasellus blandit leo ut odio.
+            </p>
+          </v-card-text>
+        </v-card>
+      </v-tab-item>
+      <v-tab-item>
+        <v-card flat>
+          <v-card-text>
+            <p>
+              Morbi nec metus. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Nunc sed turpis.
+            </p>
 
-        We together try to make sense of something painful and unbearable, create meanings out of it, and thus experience psychic transformation. Hmmm.....it might sound vague. To give you an analogy, imagine both of us trying to map a dark foggy city together with a compass and find the way out. Though it might be scary, it is a transformative journey. In our work, this is a safe space for us to let this exquisite alchemical reaction happen. It is simple......but deep…...very deep......
+            <p>
+              Suspendisse feugiat. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. In hac habitasse platea dictumst. Fusce ac felis sit amet ligula pharetra condimentum.
+            </p>
 
-        This is a poem I wrote at the beginning of my training. It basically sums up what is possibly going on in our relational space.
+            <p>
+              Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Nam commodo suscipit quam. In consectetuer turpis ut velit. Sed cursus turpis vitae tortor. Aliquam eu nunc.
+            </p>
 
-        𝘛𝘸𝘰 𝘵𝘪𝘯𝘺 𝘦𝘨𝘨𝘴 𝘪𝘯 𝘵𝘩𝘦 𝘣𝘪𝘳𝘥’𝘴 𝘯𝘦𝘴𝘵 
-        𝘋𝘳𝘦𝘢𝘮 𝘵𝘩𝘦 𝘶𝘯𝘥𝘳𝘦𝘢𝘮𝘢𝘣𝘭𝘦 
-        𝘚𝘱𝘦𝘢𝘬 𝘵𝘩𝘦 𝘶𝘯𝘴𝘱𝘦𝘢𝘬𝘢𝘣𝘭𝘦 
-        𝘍𝘦𝘦𝘭 𝘵𝘩𝘦 “𝘶𝘯𝘧𝘦𝘦𝘭𝘢𝘣𝘭𝘦” 
-        𝘍𝘰𝘳𝘮𝘶𝘭𝘢𝘵𝘦 𝘵𝘩𝘦 𝘶𝘯𝘧𝘰𝘳𝘮𝘶𝘭𝘢𝘵𝘦𝘥
-        𝘌𝘹𝘱𝘦𝘳𝘪𝘦𝘯𝘤𝘦 𝘵𝘩𝘦 𝘶𝘯𝘥𝘦𝘳𝘴𝘵𝘢𝘯𝘥𝘢𝘣𝘭𝘦 
+            <p>
+              Etiam ut purus mattis mauris sodales aliquam. Ut varius tincidunt libero. Aenean viverra rhoncus pede. Duis leo. Fusce fermentum odio nec arcu.
+            </p>
 
-        My usual fee is £50 per session (50 mins), but it is negotiable depending on your financial circumstances. I offer a free first meeting where we can explore different possibilities. 
+            <p class="mb-0">
+              Donec venenatis vulputate lorem. Aenean viverra rhoncus pede. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. Fusce commodo aliquam arcu. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi.
+            </p>
+          </v-card-text>
+        </v-card>
+      </v-tab-item>
+      <v-tab-item>
+        <v-card flat>
+          <v-card-text>
+            <p>
+              Fusce a quam. Phasellus nec sem in justo pellentesque facilisis. Nam eget dui. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. In dui magna, posuere eget, vestibulum et, tempor auctor, justo.
+            </p>
 
-        At the moment, I am also working on my doctoral research at the University of Edinburgh. My study is to explore and discover, in a social dreaming matrix, unconscious complex ideas which remained hidden as a result of traumatic retention in the context of Hong Kong’s collective trauma. How has this ongoing collective trauma been shaping our (I'm from HK btw) sense of identity, psyche, social and cultural complex, and so on?
-     </p>
-  </v-app>
+            <p class="mb-0">
+              Cras sagittis. Phasellus nec sem in justo pellentesque facilisis. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nam at tortor in tellus interdum sagittis.
+            </p>
+          </v-card-text>
+        </v-card>
+      </v-tab-item>
+      <v-tab-item>
+        <v-card flat>
+          <v-card-text>
+            <p>
+              NUMBER 4! Fusce a quam. Phasellus nec sem in justo pellentesque facilisis. Nam eget dui. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. In dui magna, posuere eget, vestibulum et, tempor auctor, justo.
+            </p>
+
+            <p class="mb-0">
+              Cras sagittis. Phasellus nec sem in justo pellentesque facilisis. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nam at tortor in tellus interdum sagittis.
+            </p>
+          </v-card-text>
+        </v-card>
+      </v-tab-item>
+      <v-tab-item>
+        <v-card flat>
+          <v-card-text>
+            <p>
+              NUMBER 5! Fusce a quam. Phasellus nec sem in justo pellentesque facilisis. Nam eget dui. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. In dui magna, posuere eget, vestibulum et, tempor auctor, justo.
+            </p>
+
+            <p class="mb-0">
+              Cras sagittis. Phasellus nec sem in justo pellentesque facilisis. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nam at tortor in tellus interdum sagittis.
+            </p>
+          </v-card-text>
+        </v-card>
+      </v-tab-item>
+      <v-tab-item>
+        <v-card flat>
+          <v-card-text>
+            <p>
+              NUMBER 6! Fusce a quam. Phasellus nec sem in justo pellentesque facilisis. Nam eget dui. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. In dui magna, posuere eget, vestibulum et, tempor auctor, justo.
+            </p>
+
+            <p class="mb-0">
+              Cras sagittis. Phasellus nec sem in justo pellentesque facilisis. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nam at tortor in tellus interdum sagittis.
+            </p>
+          </v-card-text>
+        </v-card>
+      </v-tab-item>
+    </v-tabs>
+  </v-card>
 </template>
-
-<script>
-  export default {
-    data () {
-      return {
-        tab: null,
-        tab_items: [
-          {
-            title: "home",
-            text: "aaa",
-          },
-          {
-            title: "work",
-            text: "bbb",
-          },
-          {
-            title: "contact",
-            text: "ccc",
-          },
-        ],
-      }
-    },
-  }
-</script>
-<style scoped>
-  /* Helper classes */
-  .basil {
-    background-color: #FFFBE6 !important;
-  }
-  .basil--text {
-    color: #356859 !important;
-  }
-  
-  
-
-</style>
