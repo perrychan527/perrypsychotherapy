@@ -6,6 +6,7 @@
       flat
     >
       <v-toolbar-title>Perry W.T. Chan, psychotherapist & counsellor</v-toolbar-title>
+
     </v-toolbar>
     <v-tabs 
     centered
@@ -32,15 +33,34 @@
         <v-card flat>
           <v-card-text>
             <p>
-              Ssed aliquam ultrices mauris. Donec posuere vulputate arcu. Morbi ac felis. Etiam feugiat lorem non metus. Sed a libero.
+              Two tiny eggs in the bird's nest
             </p>
-
+            
             <p>
-              Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Aliquam lobortis. Aliquam lobortis. Suspendisse non nisl sit amet velit hendrerit rutrum.
+            Dream the undreamable
+            </p>
+            
+            <p>
+            Speak the unspeakable
+            </p>
+            
+            <p>
+            Feel the "unfeelable"
+            </p>
+            
+            <p>
+            Formulate the unformulated
+            </p>
+            
+            <p>
+            Experience the understandable
+            </p>
+            
+            <p>
+            (A poem written by myself at the beginning of my training. It basically sums up what is possibly going on in our relational space)
             </p>
 
             <p class="mb-0">
-              Phasellus dolor. Fusce neque. Fusce fermentum odio nec arcu. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam. Phasellus blandit leo ut odio.
             </p>
             <v-img  src="@/assets/perrybird.jpeg"
                     max-width="500"
@@ -53,24 +73,29 @@
         <v-card flat>
           <v-card-text>
             <p>
-              Morbi nec metus. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Nunc sed turpis.
+              You can call me Perry. I am a (COSCA) qualified psychotherapist and counsellor based in Edinburgh, Scotland. I am doing my private practice and, at the same time, working in different counselling centres. We can talk in either English, Cantonese or Mandarin. 
             </p>
 
             <p>
-              Suspendisse feugiat. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. In hac habitasse platea dictumst. Fusce ac felis sit amet ligula pharetra condimentum.
+
             </p>
 
             <p>
-              Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Nam commodo suscipit quam. In consectetuer turpis ut velit. Sed cursus turpis vitae tortor. Aliquam eu nunc.
+
             </p>
 
             <p>
-              Etiam ut purus mattis mauris sodales aliquam. Ut varius tincidunt libero. Aenean viverra rhoncus pede. Duis leo. Fusce fermentum odio nec arcu.
+
             </p>
 
             <p class="mb-0">
-              Donec venenatis vulputate lorem. Aenean viverra rhoncus pede. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. Fusce commodo aliquam arcu. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi.
             </p>
+            
+            <v-img  src="@/assets/perrybio.jpg"
+                    max-width="200"
+                    max-height="400"
+            ></v-img>
+            
           </v-card-text>
         </v-card>
       </v-tab-item>
@@ -78,12 +103,18 @@
         <v-card flat>
           <v-card-text>
             <p>
-              Fusce a quam. Phasellus nec sem in justo pellentesque facilisis. Nam eget dui. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. In dui magna, posuere eget, vestibulum et, tempor auctor, justo.
+              My approach is psychodynamic and person-centred. In fact, I don’t like to categorise. So more accurately speaking, my approach is relational. It is two people sitting together trying to discover who we really are, what is perpepuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. Psychotherapy, in my opinion, is not about fixing something. It’s all about making sense of painful experience, developing self-awareness. As a result, we can have higher capacity to embrace more not-knowing in life and to make better decisions without repeating our unhealthy patterns.
             </p>
 
             <p class="mb-0">
-              Cras sagittis. Phasellus nec sem in justo pellentesque facilisis. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nam at tortor in tellus interdum sagittis.
+              I don't like labels such as xxx disorder, xxx syndrome as I find it pathologising and over-powering. I see each person as an individual with unique stories, experiences, personalities, behavioural patterns, complexes, psyches, souls......which are all meaningful, whether or not they are making sense for you just yet at this moment. We together try to make sense of something painful and unbearable, create meanings out of it, and thus experience psychic transformation. Hmmm.....it might sound vague. To give you an analogy, imagine both of us trying to map a dark foggy city together with a compass and find the way out. Though it might be scary, it is a transformative journey. In our work, this is a safe space for us to let this exquisite alchemical reaction happen. It is simple......but deep…...very deep......
             </p>
+            
+            <v-img  src="@/assets/perryfish.jpg"
+                    max-width="800"
+                    max-height="400"
+            ></v-img>
+            
           </v-card-text>
         </v-card>
       </v-tab-item>
@@ -91,12 +122,10 @@
         <v-card flat>
           <v-card-text>
             <p>
-              NUMBER 4! Fusce a quam. Phasellus nec sem in justo pellentesque facilisis. Nam eget dui. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. In dui magna, posuere eget, vestibulum et, tempor auctor, justo.
+              I offer face to face, online or phone counselling session.
             </p>
 
-            <p class="mb-0">
-              Cras sagittis. Phasellus nec sem in justo pellentesque facilisis. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nam at tortor in tellus interdum sagittis.
-            </p>
+
           </v-card-text>
         </v-card>
       </v-tab-item>
