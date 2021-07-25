@@ -43,8 +43,6 @@
             <p class="mb-0">
               Phasellus dolor. Fusce neque. Fusce fermentum odio nec arcu. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam. Phasellus blandit leo ut odio.
             </p>
-
-            </img src="images/perrybird.jpg">
           </v-card-text>
         </v-card>
       </v-tab-item>
