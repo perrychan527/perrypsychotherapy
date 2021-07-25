@@ -1,5 +1,5 @@
 <template>
-<v-app>
+ <v-app>
   <v-card>
     <v-toolbar
       flat
