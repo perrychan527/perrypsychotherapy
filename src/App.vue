@@ -44,7 +44,10 @@
             <p class="mb-0">
               Phasellus dolor. Fusce neque. Fusce fermentum odio nec arcu. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam. Phasellus blandit leo ut odio.
             </p>
-            <v-img src="@/assets/perrybird.jpeg"></v-img>
+            <v-img  src="@/assets/perrybird.jpeg"
+                    max-width="500"
+                    max-height="300"
+            ></v-img>
           </v-card-text>
         </v-card>
       </v-tab-item>
