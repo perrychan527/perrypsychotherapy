@@ -2,7 +2,7 @@
  <v-app>
   <v-card>
     <v-toolbar
-      color="cyan"
+      color="teal lighten-4"
       dark
       flat
     >
