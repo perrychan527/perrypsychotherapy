@@ -1,4 +1,5 @@
 <template>
+<v-app>
   <v-card>
     <v-toolbar
       flat
@@ -123,4 +124,5 @@
       </v-tab-item>
     </v-tabs>
   </v-card>
+ </v-app> 
 </template>
