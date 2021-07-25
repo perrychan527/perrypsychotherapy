@@ -2,7 +2,7 @@
   <v-card>
     <v-toolbar
       flat
-      color=gray
+      color="primary"
     >
       <v-toolbar-title>Perry W.T. Chan, psychotherapist & counsellor</v-toolbar-title>
     </v-toolbar>
