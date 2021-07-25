@@ -3,15 +3,14 @@
   <v-card>
     <v-toolbar
       flat
-      color="primary"
     >
       <v-toolbar-title>Perry W.T. Chan, psychotherapist & counsellor</v-toolbar-title>
     </v-toolbar>
     <v-tabs 
-    background-color="primary"
+    
     centered>
       <v-tab>
-        welcome1
+        welcome
       </v-tab>
       <v-tab>
         bio
