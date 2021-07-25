@@ -6,7 +6,9 @@
     >
       <v-toolbar-title>Perry W.T. Chan, psychotherapist & counsellor</v-toolbar-title>
     </v-toolbar>
-    <v-tabs centered>
+    <v-tabs 
+    background-color="primary"
+    centered>
       <v-tab>
         welcome
       </v-tab>
