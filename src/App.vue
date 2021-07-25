@@ -6,11 +6,11 @@
       dark
       flat
     >
-      <v-app-bar-nav-icon@click="toggle=!toggle"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon></v-app-bar-nav-icon>
       <v-toolbar-title>Perry W.T. Chan, psychotherapist & counsellor</v-toolbar-title>
     </v-toolbar>
     <v-tabs 
-    centered>
+    center-active>
       <v-tab>
         welcome
       </v-tab>
