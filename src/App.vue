@@ -1,6 +1,7 @@
 <template>
  <v-app>
   <v-card>
+    <v-app-bar-nav-icon></v-app-bar-nav-icon>
     <v-toolbar
       flat
     >
