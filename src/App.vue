@@ -7,7 +7,6 @@
       <v-toolbar-title>Perry W.T. Chan, psychotherapist & counsellor</v-toolbar-title>
     </v-toolbar>
     <v-tabs 
-    
     centered>
       <v-tab>
         welcome
