@@ -8,6 +8,20 @@
       <v-toolbar-title class="flex text-center">Perry W.T. Chan, psychotherapist & counsellor</v-toolbar-title>
 
     </v-toolbar>
+    
+        <v-card align="center"
+    class="mx-auto"
+    >
+                  <v-img  
+                  class="white--text align-end"
+                  src="@/assets/fuji.jpg"
+                      max-width="1000"
+                      max-height="150">
+                <v-card-title>Perry W.T. Chan, psychotherapist & counsellor</v-card-title>
+                <v-card-subtitle>Perry W.T. Chan, psychotherapist & counsellor</v-card-subtitle>
+            </v-img>
+
+              </v-card>
     <v-tabs 
     centered
     center-active>
