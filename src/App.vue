@@ -1,41 +1,26 @@
 <template>
  <v-app>
   <v-card>
-    <v-toolbar
-      color="teal lighten-4"
-      flat
-    >
-      <v-toolbar-title class="flex text-center">Perry W.T. Chan, psychotherapist & counsellor</v-toolbar-title>
-
-    </v-toolbar>
-    
-        <v-card align="center"
-    class="mx-auto"
-    >
-                  <v-img  
-                  class="white--text align-end"
-                  src="@/assets/fuji.jpg"
-                      max-width="1000"
-                      max-height="150">
-                <v-card-title>Perry W.T. Chan, psychotherapist & counsellor</v-card-title>
-                <v-card-subtitle>Perry W.T. Chan, psychotherapist & counsellor</v-card-subtitle>
-            </v-img>
-
-              </v-card>
+    <v-card>
+      <v-card-title class="justify-center font-weight-light display-1"> Perry W.T. Chan</v-card-title>
+      <v-card-subtitle class="text-center">Psychotherapist / Counsellor</v-card-subtitle>
+    </v-card>
+   
     <v-tabs 
     centered
-    center-active>
-      <v-tab>
+    center-active
+    >
+      <v-tab class="text-capitalize">
         bio
       </v-tab>
-      <v-tab>
+      <v-tab class="text-capitalize">
         our work
       </v-tab>
-      <v-tab>
+      <v-tab class="text-capitalize">
         practicalities
       </v-tab>
       <v-tab-item>
-        <v-card flat>
+        <v-card flat max-width="900" elevation="0" class="justify-center">
           <v-card-text>
             <v-container class="px-16 mx-16"> 
               <p>
@@ -66,7 +51,7 @@
         </v-card>
       </v-tab-item>
       <v-tab-item>
-        <v-card flat>
+        <v-card flat max-width="900" elevation="0">
           <v-card-text>
             <v-container class="px-16">
               <p>
