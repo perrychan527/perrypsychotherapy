@@ -2,7 +2,7 @@
  <v-app>
   <v-card>
     <v-card>
-      <v-card-title class="justify-center font-weight-light display-1"> Perry W.T. Chan</v-card-title>
+      <v-card-title class="justify-center font-weight-light display-1 pt-10"> Perry W.T. Chan</v-card-title>
       <v-card-subtitle class="text-center">Psychotherapist / Counsellor</v-card-subtitle>
     </v-card>
    
@@ -20,9 +20,31 @@
         practicalities
       </v-tab>
       <v-tab-item>
-        <v-card flat max-width="900" elevation="0" class="justify-center">
+        <v-card flat max-width="900" elevation="0" class="justify-center" style="
+        background: #FFFFFF;
+        background: -webkit-linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+        background: linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+        ">
+
+        
           <v-card-text>
-            <v-container class="px-16 mx-16"> 
+            <v-container class="px-10 py-10"> 
+            <v-layout row wrap>
+              <v-flex xs12 md4>
+                <v-img  src="@/assets/perrybio.jpg"
+                      max-width="200"
+                      max-height="400"
+                ></v-img></div>
+              </v-flex>
+              <v-flex xs12 md6>
+                <div>Hello. Welcome to my page. You can call me Perry. I am a (COSCA) qualified psychotherapist and counsellor based in Edinburgh, Scotland. I am doing my private practice and, at the same time, working in different counselling centres. We can talk in either English, Cantonese or Mandarin. 
+                </div>
+              </v-flex>
+
+            </v-layout>
+          
+
+            
               <p>
                Hello. You can call me Perry. I am a (COSCA) qualified psychotherapist and counsellor based in Edinburgh, Scotland. I am doing my private practice and, at the same time, working in different counselling centres. We can talk in either English, Cantonese or Mandarin. 
               </p>
@@ -46,14 +68,26 @@
                       max-width="200"
                       max-height="400"
               ></v-img>
+              <v-img  src="@/assets/cosca1.jpg"
+                      max-width="150"
+                      max-height="150"
+              ></v-img>
+              <v-img  src="@/assets/cosca2.jpg"
+                      max-width="150"
+                      max-height="150"
+              ></v-img>
             </v-container> 
           </v-card-text>
         </v-card>
       </v-tab-item>
       <v-tab-item>
-        <v-card flat max-width="900" elevation="0">
+        <v-card flat max-width="900" elevation="0" style="
+        background: #FFFFFF;
+        background: -webkit-linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+        background: linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+        ">
           <v-card-text>
-            <v-container class="px-16">
+            <v-container class="px-10 py-10">
               <p>
                 My approach is psychodynamic and person-centred. In fact, I don’t like to categorise. So more accurately speaking, my approach is relational. It is two people sitting together trying to discover who we really are, what is perpepuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. Psychotherapy, in my opinion, is not about fixing something. It’s all about making sense of painful experience, developing self-awareness. As a result, we can have higher capacity to embrace more not-knowing in life and to make better decisions without repeating our unhealthy patterns.
               </p>
@@ -65,6 +99,10 @@
               <v-img  src="@/assets/perryfish.jpg"
                       max-width="800"
                       max-height="400"
+              ></v-img>
+              <v-img  src="@/assets/foggycity.jpg"
+                      max-width="700"
+                      max-height="600"
               ></v-img>
               <p>
                 Two tiny eggs in the bird's nest
