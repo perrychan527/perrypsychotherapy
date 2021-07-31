@@ -19,7 +19,7 @@
       <v-tab class="text-capitalize">
         practicalities
       </v-tab>
-      <v-tab-item>
+        <v-tab-item align="center" class="px-10 py-3">
         <v-card flat max-width="900" elevation="0" class="justify-center" style="
         background: #FFFFFF;
         background: -webkit-linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
@@ -27,7 +27,7 @@
         ">
 
         
-          <v-card-text>
+          <v-card-text class="text-left">
             <v-container class="px-10 py-10"> 
             <v-layout row wrap>
               <v-flex xs12 md4>
@@ -80,13 +80,13 @@
           </v-card-text>
         </v-card>
       </v-tab-item>
-      <v-tab-item>
+      <v-tab-item align="center" class="px-10 py-3">
         <v-card flat max-width="900" elevation="0" style="
         background: #FFFFFF;
         background: -webkit-linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
         background: linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
         ">
-          <v-card-text>
+          <v-card-text class="text-left">
             <v-container class="px-10 py-10">
               <p>
                 My approach is psychodynamic and person-centred. In fact, I don’t like to categorise. So more accurately speaking, my approach is relational. It is two people sitting together trying to discover who we really are, what is perpepuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. Psychotherapy, in my opinion, is not about fixing something. It’s all about making sense of painful experience, developing self-awareness. As a result, we can have higher capacity to embrace more not-knowing in life and to make better decisions without repeating our unhealthy patterns.
@@ -138,47 +138,28 @@
                       max-width="500"
                       max-height="300"
               ></v-img>
-            </v-container class="px-16">
+            </v-container>
           </v-card-text>
         </v-card>
       </v-tab-item>
-      <v-tab-item>
-        <v-card flat>
-          <v-card-text>
-            <p>
+      <v-tab-item align="center" class="px-10 py-3">
+        <v-card flat max-width="900" elevation="0" style="
+            background: #FFFFFF;
+            background: -webkit-linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+            background: linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+            ">
+          <v-card-text class="text-left">
+            <v-container class="px-10 py-10">
+
+            <p class="mb-0">
               I offer face to face, online or phone counselling session.
             </p>
-
+            </v-container>
 
           </v-card-text>
         </v-card>
       </v-tab-item>
-      <v-tab-item>
-        <v-card flat>
-          <v-card-text>
-            <p>
-              NUMBER 5! Fusce a quam. Phasellus nec sem in justo pellentesque facilisis. Nam eget dui. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. In dui magna, posuere eget, vestibulum et, tempor auctor, justo.
-            </p>
 
-            <p class="mb-0">
-              Cras sagittis. Phasellus nec sem in justo pellentesque facilisis. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nam at tortor in tellus interdum sagittis.
-            </p>
-          </v-card-text>
-        </v-card>
-      </v-tab-item>
-      <v-tab-item>
-        <v-card flat>
-          <v-card-text>
-            <p>
-              NUMBER 6! Fusce a quam. Phasellus nec sem in justo pellentesque facilisis. Nam eget dui. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. In dui magna, posuere eget, vestibulum et, tempor auctor, justo.
-            </p>
-
-            <p class="mb-0">
-              Cras sagittis. Phasellus nec sem in justo pellentesque facilisis. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nam at tortor in tellus interdum sagittis.
-            </p>
-          </v-card-text>
-        </v-card>
-      </v-tab-item>
     </v-tabs>
   </v-card>
  </v-app> 
