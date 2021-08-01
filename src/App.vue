@@ -20,7 +20,7 @@
         practicalities
       </v-tab>
         <v-tab-item align="center" class="px-10 py-3">
-        <v-card flat max-width="900" elevation="0" class="justify-center" style="
+        <v-card flat max-width="900" elevation="0" style="
         background: #FFFFFF;
         background: -webkit-linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
         background: linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
@@ -28,16 +28,18 @@
 
         
           <v-card-text class="text-left">
-            <v-container class="px-10 py-10"> 
+            <v-container class="px-md-10 px-xs-5 py-md-10 py-xs-5"> 
             <v-layout row wrap>
-              <v-flex xs12 md4>
-                <v-img  src="@/assets/perrybio.jpg"
+              <v-flex xs12 md5>
+                <v-img src="@/assets/perrybio.jpg"
                       max-width="200"
                       max-height="400"
                 ></v-img></div>
               </v-flex>
-              <v-flex xs12 md6>
-                <div>Hello. Welcome to my page. You can call me Perry. I am a (COSCA) qualified psychotherapist and counsellor based in Edinburgh, Scotland. I am doing my private practice and, at the same time, working in different counselling centres. We can talk in either English, Cantonese or Mandarin. 
+              <v-flex xs12 md7>
+                <div class="subtitle-1">Hello. Welcome to my page. You can call me Perry. I am a (COSCA) qualified psychotherapist and counsellor based in Edinburgh, Scotland. I am doing my private practice and, at the same time, working in different counselling centres. We can talk in either English, Cantonese or Mandarin. 
+                </div>
+                                <div class="subtitle-1">Hello. Welcome to my page. You can call me Perry. I am a (COSCA) qualified psychotherapist and counsellor based in Edinburgh, Scotland. I am doing my private practice and, at the same time, working in different counselling centres. We can talk in either English, Cantonese or Mandarin. 
                 </div>
               </v-flex>
 
@@ -87,7 +89,7 @@
         background: linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
         ">
           <v-card-text class="text-left">
-            <v-container class="px-10 py-10">
+            <v-container class="px-md-10 px-xs-5 py-md-10 py-xs-5">
               <p>
                 My approach is psychodynamic and person-centred. In fact, I don’t like to categorise. So more accurately speaking, my approach is relational. It is two people sitting together trying to discover who we really are, what is perpepuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. Psychotherapy, in my opinion, is not about fixing something. It’s all about making sense of painful experience, developing self-awareness. As a result, we can have higher capacity to embrace more not-knowing in life and to make better decisions without repeating our unhealthy patterns.
               </p>
@@ -149,7 +151,7 @@
             background: linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
             ">
           <v-card-text class="text-left">
-            <v-container class="px-10 py-10">
+            <v-container class="px-md-10 px-xs-5 py-md-10 py-xs-5">
 
             <p class="mb-0">
               I offer face to face, online or phone counselling session.
