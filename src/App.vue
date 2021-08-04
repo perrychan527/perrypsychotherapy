@@ -28,56 +28,51 @@
 
         
           <v-card-text class="text-left">
-            <v-container class="px-md-10 px-xs-5 py-md-10 py-xs-5"> 
+            <v-container class="px-md-10 px-sm-10 px-xs-5 py-md-10 py-sm-10 py-xs-5"> 
             <v-layout row wrap>
-              <v-flex xs12 md5>
+              <v-flex xs12 sm4 md3>
                 <v-img src="@/assets/perrybio.jpg"
-                      max-width="200"
-                      max-height="400"
-                ></v-img></div>
+                      max-width="220"
+                      max-height="430"
+
+                ></v-img>
+                <div text-indent="-1.5em">•	PGDip in Counselling, University of Edinburgh</div>
+                <div>•	Counselling and Psychotherapy in Scotland (COSCA) membership no. 4804</div>
               </v-flex>
-              <v-flex xs12 md7>
+              <v-flex sm1 md1>
+              </v-flex>
+              <v-flex xs12 sm7 md8>
                 <div class="subtitle-1">Hello. Welcome to my page. You can call me Perry. I am a (COSCA) qualified psychotherapist and counsellor based in Edinburgh, Scotland. I am doing my private practice and, at the same time, working in different counselling centres. We can talk in either English, Cantonese or Mandarin. 
                 </div>
-                                <div class="subtitle-1">Hello. Welcome to my page. You can call me Perry. I am a (COSCA) qualified psychotherapist and counsellor based in Edinburgh, Scotland. I am doing my private practice and, at the same time, working in different counselling centres. We can talk in either English, Cantonese or Mandarin. 
-                </div>
               </v-flex>
-
-            </v-layout>
-          
-
-            
-              <p>
-               Hello. You can call me Perry. I am a (COSCA) qualified psychotherapist and counsellor based in Edinburgh, Scotland. I am doing my private practice and, at the same time, working in different counselling centres. We can talk in either English, Cantonese or Mandarin. 
-              </p>
-
-              <p>
-               Get in touch:
-              </p>
-              perrywtchan@gmail.com
-              <p>
-
-              </p>
-
-              <p>
-
-              </p>
-
-              <p class="mb-0">
-              </p>
-              
-              <v-img  src="@/assets/perrybio.jpg"
-                      max-width="200"
-                      max-height="400"
-              ></v-img>
+              <v-flex xs12 md5>
+               abc
               <v-img  src="@/assets/cosca1.jpg"
                       max-width="150"
                       max-height="150"
               ></v-img>
-              <v-img  src="@/assets/cosca2.jpg"
+             <v-img  src="@/assets/cosca2.jpg"
                       max-width="150"
                       max-height="150"
               ></v-img>
+              </v-flex>
+              <v-flex xs12 md7>
+               abc
+
+              </v-flex>
+              
+              
+              
+            </v-layout>
+          
+
+
+
+
+              
+
+
+
             </v-container> 
           </v-card-text>
         </v-card>
