@@ -73,7 +73,7 @@
               </v-flex>
               <v-flex xs6 md3 class="d-flex flex-column-reverse">
               <v-img  src="@/assets/cosca2.jpg"
-                      max-width="220"
+                      max-width="250"
                       max-height="150"
               ></v-img>
               </v-flex>
