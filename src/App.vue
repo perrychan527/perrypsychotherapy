@@ -11,7 +11,7 @@
     center-active
     >
       <v-tab class="text-capitalize">
-        bio
+        hi
       </v-tab>
       <v-tab class="text-capitalize">
         our work
@@ -19,11 +19,14 @@
       <v-tab class="text-capitalize">
         practicalities
       </v-tab>
+      <v-tab class="text-capitalize">
+        bio
+      </v-tab>
         <v-tab-item align="center" class="px-10 py-3">
         <v-card flat max-width="900" elevation="0" style="
         background: #FFFFFF;
-        background: -webkit-linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
-        background: linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+        background: -webkit-linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+        background: linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
         ">
 
         
@@ -31,46 +34,57 @@
             <v-container class="px-md-10 px-sm-10 px-xs-5 py-md-10 py-sm-10 py-xs-5"> 
             <v-layout row wrap>
               <v-flex xs12 sm4 md3>
-                <v-img src="@/assets/perrybio.jpg"
+                <v-img class="mx-auto"
+                      src="@/assets/perrybio.jpg"
                       max-width="220"
                       max-height="430"
 
                 ></v-img>
-                <div text-indent="-1.5em">•	PGDip in Counselling, University of Edinburgh</div>
-                <div>•	Counselling and Psychotherapy in Scotland (COSCA) membership no. 4804</div>
               </v-flex>
               <v-flex sm1 md1>
               </v-flex>
               <v-flex xs12 sm7 md8>
-                <div class="subtitle-1">Hello. Welcome to my page. You can call me Perry. I am a (COSCA) qualified psychotherapist and counsellor based in Edinburgh, Scotland. I am doing my private practice and, at the same time, working in different counselling centres. We can talk in either English, Cantonese or Mandarin. 
-                </div>
+                <p class="subtitle-1">Hello. Welcome to my page. You can call me Perry.
+                </p>
+                <p class="overline text-capitalize pt-md-8 pt-sm-5">my core value
+                </p>
+                <p class="subtitle-1">I never like labels such as xx disorder or xx syndrome as I find them pathologising and over-powering. I see each person as an individual with unique stories, experiences, personalities, behavioural patterns, complexes, psyches, souls......which are all meaningful, whether or not they're making sense at this moment. I'm committed to create this safe space for us to explore together on a deeper level. 
+                </p>
+                <p class="overline text-capitalize pt-md-8 pt-sm-5">qualifications
+                </p>
+                <p class="subtitle-1">•	PGDip in Counselling (The University of Edinburgh)
+                </p>
+                <p class="subtitle-1">•	Counselling and Psychotherapy in Scotland (COSCA), membership no. 4804
+                </p>
+                <p class="subtitle-1">•	Individual member of British Association for Counselling and Psychotherapy (BACP), membership no. 00973613
+                </p>
+                <p class="subtitle-1">•	Certificate in Focusing Skills (The British Focusing Association)
+                </p>
               </v-flex>
-              <v-flex xs12 md5>
-               abc
-              <v-img  src="@/assets/cosca1.jpg"
-                      max-width="150"
-                      max-height="150"
-              ></v-img>
-             <v-img  src="@/assets/cosca2.jpg"
-                      max-width="150"
-                      max-height="150"
-              ></v-img>
-              </v-flex>
-              <v-flex xs12 md7>
-               abc
-
-              </v-flex>
-              
-              
-              
             </v-layout>
-          
-
-
-
-
+            
+            <v-layout row wrap justify-center>
+              <v-flex xs6 md3 class="d-flex flex-column-reverse pt-md-16 pt-sm-5">
+              <v-img  class="mx-auto"
+              src="@/assets/cosca1.jpg"
+                      max-width="150"
+                      max-height="150"
+              ></v-img>
+              </v-flex>
+              <v-flex xs6 md3 class="d-flex flex-column-reverse">
+              <v-img  src="@/assets/cosca2.jpg"
+                      max-width="220"
+                      max-height="150"
+              ></v-img>
+              </v-flex>
+              <v-flex xs12 md12 class="d-flex flex-column-reverse">
+                <p class="text-center subtitle-2">perrywtchan@gmail.com</p>
+                <p class="text-center overline text-capitalize">Get in Touch</p>
+              </v-flex>
+            </v-layout>
               
 
+              
 
 
             </v-container> 
@@ -80,8 +94,8 @@
       <v-tab-item align="center" class="px-10 py-3">
         <v-card flat max-width="900" elevation="0" style="
         background: #FFFFFF;
-        background: -webkit-linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
-        background: linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+        background: -webkit-linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+        background: linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
         ">
           <v-card-text class="text-left">
             <v-container class="px-md-10 px-xs-5 py-md-10 py-xs-5">
@@ -142,8 +156,8 @@
       <v-tab-item align="center" class="px-10 py-3">
         <v-card flat max-width="900" elevation="0" style="
             background: #FFFFFF;
-            background: -webkit-linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
-            background: linear-gradient(to right bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+            background: -webkit-linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+            background: linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
             ">
           <v-card-text class="text-left">
             <v-container class="px-md-10 px-xs-5 py-md-10 py-xs-5">
@@ -156,8 +170,27 @@
           </v-card-text>
         </v-card>
       </v-tab-item>
+      <v-tab-item align="center" class="px-10 py-3">
+        <v-card flat max-width="900" elevation="0" style="
+            background: #FFFFFF;
+            background: -webkit-linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+            background: linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+            ">
+          <v-card-text class="text-left">
+            <v-container class="px-md-10 px-xs-5 py-md-10 py-xs-5">
+
+            <p class="mb-0">
+              Born in Hong Kong, educated in the UK.
+            </p>
+            </v-container>
+
+          </v-card-text>
+        </v-card>
+      </v-tab-item>
 
     </v-tabs>
+    
   </v-card>
  </v-app> 
+ 
 </template>
