@@ -3,23 +3,23 @@
   <v-card>
     <v-card>
       <v-card-title class="justify-center font-weight-light display-1 pt-10"> Perry W.T. Chan</v-card-title>
-      <v-card-subtitle class="text-center">Psychotherapist / Counsellor</v-card-subtitle>
+      <v-card-subtitle class="overline text-capitalize text-center">Psychotherapist / Counsellor</v-card-subtitle>
     </v-card>
    
     <v-tabs 
     centered
     center-active
     >
-      <v-tab class="text-capitalize">
+      <v-tab class="overline text-capitalize">
         hi
       </v-tab>
-      <v-tab class="text-capitalize">
+      <v-tab class="overline text-capitalize">
         our work
       </v-tab>
-      <v-tab class="text-capitalize">
+      <v-tab class="overline text-capitalize">
         practicalities
       </v-tab>
-      <v-tab class="text-capitalize">
+      <v-tab class="overline text-capitalize">
         bio
       </v-tab>
         <v-tab-item align="center" class="px-10 py-3">
@@ -34,7 +34,7 @@
             <v-container class="px-md-10 px-sm-10 px-xs-5 py-md-10 py-sm-10 py-xs-5"> 
             <v-layout row wrap>
               <v-flex xs12 sm4 md3>
-                <v-img class="mx-auto"
+                <v-img class="mx-auto pb-xs-10"
                       src="@/assets/perrybio.jpg"
                       max-width="220"
                       max-height="430"
@@ -46,25 +46,31 @@
               <v-flex xs12 sm7 md8>
                 <p class="subtitle-1">Hello. Welcome to my page. You can call me Perry.
                 </p>
-                <p class="overline text-capitalize pt-md-8 pt-sm-5">my core value
+                <p class="overline text-capitalize pt-md-5 pt-sm-5">my core value
                 </p>
                 <p class="subtitle-1">I never like labels such as xx disorder or xx syndrome as I find them pathologising and over-powering. I see each person as an individual with unique stories, experiences, personalities, behavioural patterns, complexes, psyches, souls......which are all meaningful, whether or not they're making sense at this moment. I'm committed to create this safe space for us to explore together on a deeper level. 
                 </p>
-                <p class="overline text-capitalize pt-md-8 pt-sm-5">qualifications
+                
+              </v-flex>
+            </v-layout>
+            
+            <v-layout row wrap>
+              <v-flex xs12 sm12 md12>
+                <p class="overline text-capitalize pt-md-5 pt-sm-5">Perry W.T. Chan, MCOSCA, MBACP
                 </p>
                 <p class="subtitle-1">•	PGDip in Counselling (The University of Edinburgh)
                 </p>
-                <p class="subtitle-1">•	Counselling and Psychotherapy in Scotland (COSCA), membership no. 4804
+                <p class="subtitle-1">•	Registered in Counselling and Psychotherapy in Scotland (MCOSCA), membership no. 4804
                 </p>
-                <p class="subtitle-1">•	Individual member of British Association for Counselling and Psychotherapy (BACP), membership no. 00973613
+                <p class="subtitle-1">•	Registered member of British Association for Counselling and Psychotherapy (MBACP), membership no. 00973613
                 </p>
                 <p class="subtitle-1">•	Certificate in Focusing Skills (The British Focusing Association)
                 </p>
               </v-flex>
             </v-layout>
             
-            <v-layout row wrap justify-center>
-              <v-flex xs6 md3 class="d-flex flex-column-reverse pt-md-16 pt-sm-5">
+            <v-layout row wrap justify-space-around pt-md-16 pt-sm-5>
+              <v-flex xs6 md3 class="d-flex flex-column-reverse">
               <v-img  class="mx-auto"
               src="@/assets/cosca1.jpg"
                       max-width="150"
@@ -75,6 +81,12 @@
               <v-img  src="@/assets/cosca2.jpg"
                       max-width="250"
                       max-height="150"
+              ></v-img>
+              </v-flex>
+              <v-flex xs6 md4 class="d-flex flex-column-reverse pb-md-6">
+              <v-img  src="@/assets/bacp.jpg"
+                      max-width="230"
+                      max-height="100"
               ></v-img>
               </v-flex>
               <v-flex xs12 md12 class="d-flex flex-column-reverse">
