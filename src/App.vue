@@ -34,7 +34,7 @@
             <v-container class="px-md-10 px-sm-10 px-xs-5 py-md-10 py-sm-10 py-xs-5"> 
             <v-layout row wrap>
               <v-flex xs12 sm4 md3>
-                <v-img class="mx-auto pb-xs-10"
+                <v-img class="mx-auto"
                       src="@/assets/perrybio.jpg"
                       max-width="220"
                       max-height="430"
@@ -111,22 +111,49 @@
         ">
           <v-card-text class="text-left">
             <v-container class="px-md-10 px-xs-5 py-md-10 py-xs-5">
-              <p>
-                My approach is psychodynamic and person-centred. In fact, I don’t like to categorise. So more accurately speaking, my approach is relational. It is two people sitting together trying to discover who we really are, what is perpepuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. Psychotherapy, in my opinion, is not about fixing something. It’s all about making sense of painful experience, developing self-awareness. As a result, we can have higher capacity to embrace more not-knowing in life and to make better decisions without repeating our unhealthy patterns.
-              </p>
-
-              <p class="mb-0">
-                I don't like labels such as xxx disorder, xxx syndrome as I find it pathologising and over-powering. I see each person as an individual with unique stories, experiences, personalities, behavioural patterns, complexes, psyches, souls......which are all meaningful, whether or not they are making sense for you just yet at this moment. We together try to make sense of something painful and unbearable, create meanings out of it, and thus experience psychic transformation. Hmmm.....it might sound vague. To give you an analogy, imagine both of us trying to map a dark foggy city together with a compass and find the way out. Though it might be scary, it is a transformative journey. In our work, this is a safe space for us to let this exquisite alchemical reaction happen. It is simple......but deep…...very deep......
-              </p>
-              
-              <v-img  src="@/assets/perryfish.jpg"
-                      max-width="800"
+              <v-layout row wrap>
+                <v-flex xs12 sm12 md12>
+                  <p class="overline text-capitalize">My Approach
+                  </p>
+                </v-flex>
+                <v-flex xs12 sm12 md6>
+                  <p class="subtitle-1">I trained in psychodynamic and person-centred approach. In fact, I don’t like to categorise. So more accurately speaking, my approach is relational. It is two people sitting together trying to discover who we really are, what is perpepuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. Psychotherapy, in my opinion, is not about fixing something. It’s all about making sense of painful experience, developing self-awareness. As a result, we can have higher capacity to embrace more not-knowing in life and to make better decisions without repeating our unhealthy patterns.
+                  </p>
+                </v-flex>
+                <v-flex sm1 md1>
+                </v-flex>
+                <v-flex xs12 sm12 md5>
+                <v-img class="mx-auto"
+                      src="@/assets/perryfish.jpg"
+                      max-width="520"
                       max-height="400"
-              ></v-img>
-              <v-img  src="@/assets/foggycity.jpg"
-                      max-width="700"
-                      max-height="600"
-              ></v-img>
+                ></v-img>
+                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Encountering our shadow, taken in Tokyo 2018
+                </p>
+              </v-flex>
+              </v-layout>
+              
+              <v-layout row wrap>
+                <v-flex xs12 sm12 md5>
+                <v-img class="mx-auto"
+                      src="@/assets/foggycity.jpg"
+                      max-width="520"
+                      max-height="400"
+                ></v-img>
+                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Foggy Edinburgh, 2020 Spring
+                </p>
+                </v-flex>
+                <v-flex sm1 md1>
+                </v-flex>
+                <v-flex xs12 sm12 md6>
+                  <p class="subtitle-1">We together try to make sense of something painful and unbearable, create meanings out of it, and thus experience psychic transformation. Hmmm.....it might sound vague. To give you an analogy, imagine both of us trying to map a dark foggy city together with a compass and find the way out. Though it might be scary, it is a transformative journey. In our work, this is a safe space for us to let this exquisite alchemical reaction happen. It is simple......but deep…...very deep......
+                  </p>
+                </v-flex>
+                
+                
+              </v-layout>
+
+
               <p>
                 Two tiny eggs in the bird's nest
               </p>
