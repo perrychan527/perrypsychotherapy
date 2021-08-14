@@ -1,2 +1,4 @@
-perrywtchan.com
-www.perrywtchan.com
+cd perrychan527.github.io/perrypsychotherapy/
+
+# ~/perrychan527.github.io/perrypsychotherapy/
+echo "perrywtchan.com" > CNAME
