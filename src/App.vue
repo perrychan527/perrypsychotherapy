@@ -32,73 +32,68 @@
         
           <v-card-text class="text-left">
             <v-container class="px-md-10 px-sm-10 px-xs-5 py-md-10 py-sm-10 py-xs-5"> 
-            <v-layout row wrap>
-              <v-flex xs12 sm4 md3>
-                <v-img class="mx-auto"
-                      src="@/assets/perrybio.jpg"
-                      max-width="220"
-                      max-height="430"
+              <v-layout row wrap>
+                <v-flex xs12 sm4 md3>
+                  <v-img class="mx-auto"
+                        src="@/assets/perrybio.jpg"
+                        max-width="220"
+                        max-height="430"
 
+                  ></v-img>
+                </v-flex>
+                <v-flex sm1 md1>
+                </v-flex>
+                <v-flex xs12 sm7 md8>
+                  <p class="subtitle-1">Hello. Welcome to my page. You can call me Perry.
+                  </p>
+                  <p class="overline text-capitalize pt-md-5 pt-sm-5">my core value
+                  </p>
+                  <p class="subtitle-1">I never like labels such as xx disorder or xx syndrome as I find them pathologising and over-powering. I see each person as an individual with unique stories, experiences, personalities, behavioural patterns, complexes, psyches, souls......which are all meaningful, whether or not they're making sense at this moment. I'm committed to create this safe space for us to explore together on a deeper level. 
+                  </p>
+                  
+                </v-flex>
+              </v-layout>
+              
+              <v-layout row wrap>
+                <v-flex xs12 sm12 md12>
+                  <p class="overline text-capitalize pt-md-5 pt-sm-5">Perry W.T. Chan, MCOSCA, MBACP
+                  </p>
+                  <p class="subtitle-1">•	PGDip in Counselling (The University of Edinburgh)
+                  </p>
+                  <p class="subtitle-1">•	Registered in Counselling and Psychotherapy in Scotland (MCOSCA), membership no. 4804
+                  </p>
+                  <p class="subtitle-1">•	Registered member of British Association for Counselling and Psychotherapy (MBACP), membership no. 00973613
+                  </p>
+                  <p class="subtitle-1">•	Certificate in Focusing Skills (The British Focusing Association)
+                  </p>
+                </v-flex>
+              </v-layout>
+              
+              <v-layout row wrap justify-space-around pt-md-16 pt-sm-5>
+                <v-flex xs6 md3 class="d-flex flex-column-reverse">
+                <v-img  class="mx-auto"
+                src="@/assets/cosca1.jpg"
+                        max-width="150"
+                        max-height="150"
                 ></v-img>
-              </v-flex>
-              <v-flex sm1 md1>
-              </v-flex>
-              <v-flex xs12 sm7 md8>
-                <p class="subtitle-1">Hello. Welcome to my page. You can call me Perry.
-                </p>
-                <p class="overline text-capitalize pt-md-5 pt-sm-5">my core value
-                </p>
-                <p class="subtitle-1">I never like labels such as xx disorder or xx syndrome as I find them pathologising and over-powering. I see each person as an individual with unique stories, experiences, personalities, behavioural patterns, complexes, psyches, souls......which are all meaningful, whether or not they're making sense at this moment. I'm committed to create this safe space for us to explore together on a deeper level. 
-                </p>
-                
-              </v-flex>
-            </v-layout>
-            
-            <v-layout row wrap>
-              <v-flex xs12 sm12 md12>
-                <p class="overline text-capitalize pt-md-5 pt-sm-5">Perry W.T. Chan, MCOSCA, MBACP
-                </p>
-                <p class="subtitle-1">•	PGDip in Counselling (The University of Edinburgh)
-                </p>
-                <p class="subtitle-1">•	Registered in Counselling and Psychotherapy in Scotland (MCOSCA), membership no. 4804
-                </p>
-                <p class="subtitle-1">•	Registered member of British Association for Counselling and Psychotherapy (MBACP), membership no. 00973613
-                </p>
-                <p class="subtitle-1">•	Certificate in Focusing Skills (The British Focusing Association)
-                </p>
-              </v-flex>
-            </v-layout>
-            
-            <v-layout row wrap justify-space-around pt-md-16 pt-sm-5>
-              <v-flex xs6 md3 class="d-flex flex-column-reverse">
-              <v-img  class="mx-auto"
-              src="@/assets/cosca1.jpg"
-                      max-width="150"
-                      max-height="150"
-              ></v-img>
-              </v-flex>
-              <v-flex xs6 md3 class="d-flex flex-column-reverse">
-              <v-img  src="@/assets/cosca2.jpg"
-                      max-width="250"
-                      max-height="150"
-              ></v-img>
-              </v-flex>
-              <v-flex xs6 md4 class="d-flex flex-column-reverse pb-md-6">
-              <v-img  src="@/assets/bacp.jpg"
-                      max-width="230"
-                      max-height="100"
-              ></v-img>
-              </v-flex>
-              <v-flex xs12 md12 class="d-flex flex-column-reverse">
-                <p class="text-center subtitle-2">perrywtchan@gmail.com</p>
-                <p class="text-center overline text-capitalize">Get in Touch</p>
-              </v-flex>
-            </v-layout>
-              
-
-              
-
-
+                </v-flex>
+                <v-flex xs6 md3 class="d-flex flex-column-reverse">
+                <v-img  src="@/assets/cosca2.jpg"
+                        max-width="250"
+                        max-height="150"
+                ></v-img>
+                </v-flex>
+                <v-flex xs6 md4 class="d-flex flex-column-reverse pb-md-6">
+                <v-img  src="@/assets/bacp.jpg"
+                        max-width="230"
+                        max-height="100"
+                ></v-img>
+                </v-flex>
+                <v-flex xs12 md12 class="d-flex flex-column-reverse">
+                  <p class="text-center subtitle-2">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
+                  <p class="text-center subtitle-2">Get in Touch: perrywtchan@gmail.com</p>
+                </v-flex>
+              </v-layout>
             </v-container> 
           </v-card-text>
         </v-card>
@@ -134,6 +129,12 @@
               </v-layout>
               
               <v-layout row wrap>
+                <v-flex xs12 sm12 md6>
+                </v-flex>
+                <v-flex xs12 sm12 md6>
+                  <p class="overline text-capitalize">In Our Work
+                  </p>
+                </v-flex>
                 <v-flex xs12 sm12 md5>
                 <v-img class="mx-auto"
                       src="@/assets/foggycity.jpg"
@@ -152,6 +153,10 @@
               </v-layout>
 
               <v-layout row wrap>
+                <v-flex xs12 sm12 md12>
+                  <p class="overline text-capitalize">Possible Issues
+                  </p>
+                </v-flex>
                 <v-flex xs12 sm12 md6>
                   <p class="subtitle-1">Grounded in this approach, I have experience working with clients with a wide range of issues such as:</p>
                 </v-flex>
@@ -173,10 +178,10 @@
                   <v-list-item-subtitle class="subtitle-1">•	loneliness</v-list-item-subtitle>
                   <v-list-item-subtitle class="subtitle-1">•	self-esteem</v-list-item-subtitle>
                 </v-flex>
-                <v-flex sm1 md2>
+                <v-flex sm0 md2>
                 </v-flex>
-                <v-flex xs12 sm12 md6>
-                <v-container class="white">
+                <v-flex xs8 sm6 md4>
+                  <v-container class="white">
                   <v-list-item-subtitle class="font-italic">Two tiny eggs in the bird's nest</v-list-item-subtitle>
                   <v-list-item-subtitle class="font-italic">Dream the undreamable</v-list-item-subtitle>
                   <v-list-item-subtitle class="font-italic">Speak the unspeakable</v-list-item-subtitle>
@@ -186,26 +191,11 @@
                   <p>(A poem written by myself, 2018)</p>
                   </v-container>
                 </v-flex>
+                <v-flex xs12 md12 class="d-flex flex-column-reverse">
+                  <p class="text-center subtitle-2">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
+                  <p class="text-center subtitle-2">Get in Touch: perrywtchan@gmail.com</p>
+                </v-flex>
               </v-layout>
-                  
-
-
-                
-              
-
-
-              
-              
-              <p>
-              
-              </p>
-
-              <p class="mb-0">
-              </p>
-              <v-img  src="@/assets/perrybird.jpeg"
-                      max-width="500"
-                      max-height="300"
-              ></v-img>
             </v-container>
           </v-card-text>
         </v-card>
