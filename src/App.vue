@@ -60,9 +60,9 @@
                   </p>
                   <p class="subtitle-1">•	PGDip in Counselling (The University of Edinburgh)
                   </p>
-                  <p class="subtitle-1">•	Registered in Counselling and Psychotherapy in Scotland (MCOSCA), membership no. 4804
+                  <p class="subtitle-1">•	Registered in Counselling and Psychotherapy in Scotland (COSCA), membership no. 4804
                   </p>
-                  <p class="subtitle-1">•	Registered member of British Association for Counselling and Psychotherapy (MBACP), membership no. 00973613
+                  <p class="subtitle-1">•	Registered member of British Association for Counselling and Psychotherapy (BACP), membership no. 00973613
                   </p>
                   <p class="subtitle-1">•	Certificate in Focusing Skills (The British Focusing Association)
                   </p>
