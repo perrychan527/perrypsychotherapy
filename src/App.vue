@@ -149,37 +149,55 @@
                   <p class="subtitle-1">We together try to make sense of something painful and unbearable, create meanings out of it, and thus experience psychic transformation. Hmmm.....it might sound vague. To give you an analogy, imagine both of us trying to map a dark foggy city together with a compass and find the way out. Though it might be scary, it is a transformative journey. In our work, this is a safe space for us to let this exquisite alchemical reaction happen. It is simple......but deep…...very deep......
                   </p>
                 </v-flex>
-                
-                
               </v-layout>
 
+              <v-layout row wrap>
+                <v-flex xs12 sm12 md6>
+                  <p class="subtitle-1">Grounded in this approach, I have experience working with clients with a wide range of issues such as:</p>
+                </v-flex>
+                <v-flex xs0 sm0 md6>
+                </v-flex>
+              </v-layout>
+              
+              <v-layout row wrap>
+                <v-flex xs12 sm12 md4>
+                  <v-list-item-subtitle class="subtitle-1">•	depression</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">•	anxiety</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">•	anger</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">•	stress</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">•	relationship difficulties</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">•	sexuality</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">•	sleeping problems</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">•	trauma</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">•	bereavement</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">•	loneliness</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">•	self-esteem</v-list-item-subtitle>
+                </v-flex>
+                <v-flex sm1 md2>
+                </v-flex>
+                <v-flex xs12 sm12 md6>
+                <v-container class="white">
+                  <v-list-item-subtitle class="font-italic">Two tiny eggs in the bird's nest</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic">Dream the undreamable</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic">Speak the unspeakable</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic">Feel the "unfeelable"</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic">Formulate the unformulated</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic">Experience the understandable</v-list-item-subtitle>
+                  <p>(A poem written by myself, 2018)</p>
+                  </v-container>
+                </v-flex>
+              </v-layout>
+                  
 
-              <p>
-                Two tiny eggs in the bird's nest
-              </p>
+
+                
+              
+
+
+              
               
               <p>
-              Dream the undreamable
-              </p>
               
-              <p>
-              Speak the unspeakable
-              </p>
-              
-              <p>
-              Feel the "unfeelable"
-              </p>
-              
-              <p>
-              Formulate the unformulated
-              </p>
-              
-              <p>
-              Experience the understandable
-              </p>
-              
-              <p>
-              (A poem written by myself at the beginning of my training. It basically sums up what is possibly going on in our relational space)
               </p>
 
               <p class="mb-0">
