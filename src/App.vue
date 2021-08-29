@@ -210,8 +210,10 @@
             <v-container class="px-md-10 px-xs-5 py-md-10 py-xs-5">
 
             <p class="mb-0">
-              I offer face to face, online or phone counselling session.
+              I offer face to face, online or phone counselling session
             </p>
+            In our first meeting, we will get to know each other, talk about policies and how we can work together, and most importantly, to see whether it feels right for you to work with me. 
+            The rate of our first meeting (50 mins each session) is £25. If we decide to continue working together, it will be £50 per session. 
             </v-container>
 
           </v-card-text>
