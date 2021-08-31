@@ -58,7 +58,7 @@
                 <v-flex xs12 sm12 md12>
                   <p class="overline text-capitalize pt-md-5 pt-sm-5">Perry W.T. Chan, MCOSCA, MBACP
                   </p>
-                  <p class="subtitle-1">•	PGDip in Counselling (The University of Edinburgh)
+                  <p class="subtitle-1">•	PGDip in Psychotherapy & Counselling (The University of Edinburgh)
                   </p>
                   <p class="subtitle-1">•	Registered in Counselling and Psychotherapy in Scotland (COSCA), membership no. 4804
                   </p>
@@ -69,19 +69,19 @@
                 </v-flex>
               </v-layout>
               <v-layout row wrap>
-                <v-flex xs12 sm12 md5 pt-md-12 pt-sm-5>
+                <v-flex xs12 sm12 md4 pt-md-10 pt-sm-5>
                 <v-img class="mx-auto"
-                      src="@/assets/foggycity.jpg"
-                      max-width="520"
-                      max-height="400"
+                      src="@/assets/fishexplore.jpg"
+                      max-width="320"
+                      max-height="550"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Foggy Edinburgh, 2020 Spring
+                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Lostness, Tokyo 2018 Spring
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
                 </v-flex>
-                <v-flex xs12 sm12 md6>
-                  <p class="overline text-capitalize pt-md-5 pt-sm-5">My Experience
+                <v-flex xs12 sm12 md7>
+                  <p class="overline text-capitalize pt-md-8 pt-sm-5">My Experience
                   </p>
                   <p class="subtitle-1">I have experience working with clients with a wide range of issues such as:</p>
                   <v-list-item-subtitle class="subtitle-1">•	depression</v-list-item-subtitle>
@@ -120,7 +120,7 @@
                         max-height="100"
                 ></v-img>
                 </v-flex>
-                <v-flex xs12 md12 class="d-flex flex-column-reverse">
+                <v-flex xs12 md12 pt-md-10 pt-sm-5 class="d-flex flex-column-reverse">
                   <p class="text-center subtitle-2">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
                   <p class="text-center subtitle-2">Get in Touch: perrywtchan@gmail.com</p>
                 </v-flex>
@@ -143,7 +143,7 @@
                   </p>
                 </v-flex>
                 <v-flex xs12 sm12 md6>
-                  <p class="subtitle-1">I trained in psychodynamic and person-centred approach. In fact, I don’t like to categorise. So more accurately speaking, my approach is relational. It is two people sitting together trying to discover who we really are, what is perpepuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. Psychotherapy, in my opinion, is not about fixing something. It’s all about making sense of painful experience, developing self-awareness. As a result, we can have higher capacity to embrace more not-knowing in life and to make better decisions without repeating our unhealthy patterns.
+                  <p class="subtitle-1">I trained in psychodynamic and person-centred approach. In fact, I don’t like to categorise. So more accurately speaking, my approach is relational. It is two people sitting together trying to discover who we really are, what is perpepuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. Psychotherapy, in my opinion, is not about fixing something. It’s more about making sense of painful experience, developing self-awareness. As a result, we can have higher capacity to embrace more not-knowing in life and to make better decisions without repeating our unhealthy patterns.
                   </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -154,7 +154,7 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Encountering our shadow, taken in Tokyo 2018
+                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Encountering shadows, Tokyo 2018 Spring
                 </p>
               </v-flex>
               </v-layout>
@@ -166,7 +166,7 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Foggy Edinburgh, 2020 Spring
+                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Misty Edinburgh, 2020 Spring
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -174,7 +174,7 @@
                 <v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
                   <p class="overline text-capitalize">In Our Work
                   </p>
-                  <p class="subtitle-1">We together try to make sense of something painful and unbearable, create meanings out of it, and thus experience psychic transformation. Hmmm.....it might sound vague. To give you an analogy, imagine both of us trying to map a dark foggy city together with a compass and find the way out. Though it might be scary, it is a transformative journey. In our work, this is a safe space for us to let this exquisite alchemical reaction happen. It is simple......but deep…...very deep......
+                  <p class="subtitle-1">We together try to make sense of something painful and unbearable, create meanings out of it, and thus experience psychic transformation. Hmmm.....it might sound vague. To give you an analogy, imagine both of us trying to map a dark foggy city together with a compass and find the way out. Though it might be scary, it is a transformative journey. In our work, this is a safe space for us to let this exquisite alchemical reaction happen. It is simple......but deep......
                   </p>
                 </v-flex>
               </v-layout>
@@ -194,7 +194,7 @@
                   </v-container>
                 </v-flex>
               </v-layout>
-              <v-layout row wrap>
+              <v-layout row wrap justify-space-around pt-md-16 pt-sm-5>
                 <v-flex xs12 md12 class="d-flex flex-column-reverse">
                   <p class="text-center subtitle-2">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
                   <p class="text-center subtitle-2">Get in Touch: perrywtchan@gmail.com</p>
@@ -213,30 +213,59 @@
           <v-card-text class="text-left">
             <v-container class="px-md-10 px-xs-5 py-md-10 py-xs-5">
               <v-layout row wrap>
-                <v-flex xs12 sm12 md5>
+                <v-flex xs12 sm12 md5 pt-md-3 pt-sm-5>
                 <v-img class="mx-auto"
-                      src="@/assets/foggycity.jpg"
+                      src="@/assets/fishdiscover.jpg"
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Foggy Edinburgh, 2020 Spring
+                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Self-discovery, making the unconscious conscious, Tokyo 2018 Spring
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md6>
+                  <p class="overline text-capitalize">Fees
+                  </p>
+                  <p class="subtitle-1">I provide service mainly for clients based in the UK and HK. The rate of our first meeting (50 mins each session) is £25 (HK$275). If we decide to continue working together, it will be <bold>£50 (HK$550)</bold> per session.
+                  </p>
                   <p class="overline text-capitalize">First Meeting
                   </p>
-                  <p class="subtitle-1">we will get to know each other, talk about policies and how we can work together, and most importantly, to see whether it feels right for you to work with me.
+                  <p class="subtitle-1">We will get to know each other, talk about policies and how we can work together, and most importantly, to see whether it feels right for you to work with me.
                   </p>
+                  
+                </v-flex>
+                <v-flex xs12 sm12 md6>
+                  <p class="overline text-capitalize">Where?</p>
+                  <p class="subtitle-1">I offer face-to-face, online (Skype) or phone counselling session.
+                  </p>
+                  <p class="subtitle-1">For face-to-face session, I practice at:</p>
+                  <v-list-item-subtitle class="subtitle-1 font-weight-bold">South Side Centre</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">86 Causewayside</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">Edinburgh</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">EH9 1PY</v-list-item-subtitle>
+                </v-flex>
+                <v-flex sm1 md1>
+                </v-flex>
+                <v-flex xs12 sm12 md5 pt-md-3 pt-sm-5>
+                <v-img class="mx-auto"
+                      src="@/assets/fishintegration.jpg"
+                      max-width="520"
+                      max-height="400"
+                ></v-img>
+                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Integration, Tokyo 2018 Spring
+                </p>
+                </v-flex>
+              </v-layout>
+              <v-layout row wrap justify-space-around pt-md-16 pt-sm-5>
+                <v-flex xs12 md12 class="d-flex flex-column-reverse">
+                  <p class="text-center subtitle-2">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
+                  <p class="text-center subtitle-2">Get in Touch: perrywtchan@gmail.com</p>
                 </v-flex>
               </v-layout>
 
-            <p class="mb-0">
-              I offer face to face, online or phone counselling session
-            </p>
              
-            The rate of our first meeting (50 mins each session) is £25. If we decide to continue working together, it will be £50 per session. 
+             
             </v-container>
 
           </v-card-text>
@@ -252,7 +281,7 @@
             <v-container class="px-md-10 px-xs-5 py-md-10 py-xs-5">
 
             <p class="mb-0">
-              Born in Hong Kong, educated in the UK.
+              Born in Hong Kong, trained in the UK.
             </p>
             </v-container>
 
