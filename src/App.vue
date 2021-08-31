@@ -31,7 +31,7 @@
 
         
           <v-card-text class="text-left">
-            <v-container class="px-md-10 px-sm-10 px-xs-5 py-md-10 py-sm-10 py-xs-5"> 
+            <v-container class="px-md-10 px-sm-10 px-5 py-md-10 py-sm-10 py-5"> 
               <v-layout row wrap>
                 <v-flex xs12 sm4 md3>
                   <v-img class="mx-auto"
@@ -44,7 +44,9 @@
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm7 md8>
-                  <p class="subtitle-1">Hello. Welcome to my page. You can call me Perry.
+                  <p class="overline text-capitalize">Hi
+                  </p>
+                  <p class="subtitle-1">Welcome to my page. You can call me Perry.
                   </p>
                   <p class="overline text-capitalize pt-md-5 pt-sm-5">my core value
                   </p>
@@ -75,7 +77,7 @@
                       max-width="320"
                       max-height="550"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Lostness, Tokyo 2018 Spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Lostness, Tokyo 2018 Spring
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -99,8 +101,9 @@
                 <v-flex sm0 md2>
                 </v-flex>
               </v-layout>
-              
-              <v-layout row wrap justify-space-around pt-md-16 pt-sm-5>
+              <p class="text-center subtitle-2 pt-md-10 pt-sm-5 pt-5">Get in Touch</p>
+              <p class="text-center subtitle-2">perrywtchan@gmail.com</p>
+              <v-layout row wrap justify-space-around pt-md-10 pt-sm-5>
                 <v-flex xs6 md3 class="d-flex flex-column-reverse">
                 <v-img  class="mx-auto"
                 src="@/assets/cosca1.jpg"
@@ -120,9 +123,8 @@
                         max-height="100"
                 ></v-img>
                 </v-flex>
-                <v-flex xs12 md12 pt-md-10 pt-sm-5 class="d-flex flex-column-reverse">
+                <v-flex xs12 md12 pt-10 pt-sm-10 pt-md-10 class="d-flex flex-column-reverse">
                   <p class="text-center subtitle-2">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
-                  <p class="text-center subtitle-2">Get in Touch: perrywtchan@gmail.com</p>
                 </v-flex>
               </v-layout>
             </v-container> 
@@ -136,7 +138,7 @@
         background: linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
         ">
           <v-card-text class="text-left">
-            <v-container class="px-md-10 px-xs-5 py-md-10 py-xs-5">
+            <v-container class="px-md-10 px-5 py-md-10 py-5">
               <v-layout row wrap>
                 <v-flex xs12 sm12 md12>
                   <p class="overline text-capitalize">My Approach
@@ -150,11 +152,11 @@
                 </v-flex>
                 <v-flex xs12 sm12 md5>
                 <v-img class="mx-auto"
-                      src="@/assets/perryfish.jpg"
+                      src="@/assets/2people2.jpg"
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Encountering shadows, Tokyo 2018 Spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Two people navigating in the mist, Yellowcraig, 2021 summer
                 </p>
               </v-flex>
               </v-layout>
@@ -166,7 +168,7 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Misty Edinburgh, 2020 Spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Misty Edinburgh, 2020 Spring
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -174,27 +176,38 @@
                 <v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
                   <p class="overline text-capitalize">In Our Work
                   </p>
-                  <p class="subtitle-1">We together try to make sense of something painful and unbearable, create meanings out of it, and thus experience psychic transformation. Hmmm.....it might sound vague. To give you an analogy, imagine both of us trying to map a dark foggy city together with a compass and find the way out. Though it might be scary, it is a transformative journey. In our work, this is a safe space for us to let this exquisite alchemical reaction happen. It is simple......but deep......
+                  <p class="subtitle-1">Instead of someone who solve your problems, I'll be your companion being together in the confusing and chaotic space. We together try to make sense of something painful and unbearable, create meanings out of it, and thus experience psychic transformation. Hmmm.....it might sound vague. To give you an analogy, imagine both of us trying to map a dark misty city together with a compass and find the way out. Though it might be scary, it is a transformative journey. In our work, this is a safe space for us to let this exquisite alchemical reaction happen. It is simple......but deep......
                   </p>
                 </v-flex>
               </v-layout>
-
-              
-              
               <v-layout row wrap>
-                <v-flex xs8 sm6 md4>
-                  <v-container class="white">
-                  <v-list-item-subtitle class="font-italic">Two tiny eggs in the bird's nest</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic">Dream the undreamable</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic">Speak the unspeakable</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic">Feel the "unfeelable"</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic">Formulate the unformulated</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic">Experience the understandable</v-list-item-subtitle>
-                  <p>(A poem written by myself, 2018)</p>
-                  </v-container>
+                <v-flex sm0 xs0 md1>
                 </v-flex>
+                <v-flex xs12 sm12 md4 pt-md-8 pt-sm-5>
+                  <p class="overline text-capitalize">Developmental Process
+                  </p>
+                  <p class="subtitle-1"> This is a poem I wrote at the beginning of my training.</p>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Two tiny eggs in the bird's nest</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Dream the undreamable</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Speak the unspeakable</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Feel the "unfeelable"</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Formulate the unformulated</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Experience the understandable</v-list-item-subtitle>
+                  
+                </v-flex>
+                <v-flex sm1 md1>
+                </v-flex>
+                <v-flex xs12 sm12 md6 pt-md-10 pt-sm-8 pt-7>
+                <v-img
+                      src="@/assets/oldcollege.jpg"
+                      max-width="470"
+                      max-height="350"
+                ></v-img>
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Old College, 2020 winter
+                </p>
+              </v-flex>
               </v-layout>
-              <v-layout row wrap justify-space-around pt-md-16 pt-sm-5>
+              <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
                 <v-flex xs12 md12 class="d-flex flex-column-reverse">
                   <p class="text-center subtitle-2">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
                   <p class="text-center subtitle-2">Get in Touch: perrywtchan@gmail.com</p>
@@ -211,7 +224,7 @@
             background: linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
             ">
           <v-card-text class="text-left">
-            <v-container class="px-md-10 px-xs-5 py-md-10 py-xs-5">
+            <v-container class="px-md-10 px-5 py-md-10 py-5">
               <v-layout row wrap>
                 <v-flex xs12 sm12 md5 pt-md-3 pt-sm-5>
                 <v-img class="mx-auto"
@@ -219,7 +232,7 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Self-discovery, making the unconscious conscious, Tokyo 2018 Spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Self-discovery, making the unconscious conscious, Tokyo 2018 Spring
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -247,17 +260,17 @@
                 </v-flex>
                 <v-flex sm1 md1>
                 </v-flex>
-                <v-flex xs12 sm12 md5 pt-md-3 pt-sm-5>
+                <v-flex xs12 sm12 md5 pt-md-3 pt-sm-5 pt-5>
                 <v-img class="mx-auto"
                       src="@/assets/fishintegration.jpg"
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-xs-3 subtitle-3">Integration, Tokyo 2018 Spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Integration, Tokyo 2018 Spring
                 </p>
                 </v-flex>
               </v-layout>
-              <v-layout row wrap justify-space-around pt-md-16 pt-sm-5>
+              <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
                 <v-flex xs12 md12 class="d-flex flex-column-reverse">
                   <p class="text-center subtitle-2">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
                   <p class="text-center subtitle-2">Get in Touch: perrywtchan@gmail.com</p>
@@ -278,7 +291,7 @@
             background: linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
             ">
           <v-card-text class="text-left">
-            <v-container class="px-md-10 px-xs-5 py-md-10 py-xs-5">
+            <v-container class="px-md-10 px-5 py-md-10 py-5">
 
             <p class="mb-0">
               Born in Hong Kong, trained in the UK.
