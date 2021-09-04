@@ -73,11 +73,11 @@
               <v-layout row wrap>
                 <v-flex xs12 sm12 md4 pt-md-10 pt-sm-5>
                 <v-img class="mx-auto"
-                      src="@/assets/fishexplore.jpg"
+                      src="@/assets/dark.jpg"
                       max-width="320"
                       max-height="550"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Lostness, Tokyo 2018 Spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Edinburgh, 2020 winter
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -102,7 +102,7 @@
                 </v-flex>
               </v-layout>
               <p class="text-center subtitle-2 pt-md-10 pt-sm-5 pt-5">Get in Touch</p>
-              <p class="text-center subtitle-2">perrywtchan@gmail.com</p>
+              <p class="text-center subtitle-2">perrywtchan@protonmail.com</p>
               <v-layout row wrap justify-space-around pt-md-10 pt-sm-5>
                 <v-flex xs6 md3 class="d-flex flex-column-reverse">
                 <v-img  class="mx-auto"
@@ -168,7 +168,7 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Misty Edinburgh, 2020 Spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Misty Edinburgh, 2020 spring
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -200,8 +200,8 @@
                 <v-flex xs12 sm12 md6 pt-md-10 pt-sm-8 pt-7>
                 <v-img
                       src="@/assets/oldcollege.jpg"
-                      max-width="470"
-                      max-height="350"
+                      max-width="570"
+                      max-height="450"
                 ></v-img>
                 <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Old College, 2020 winter
                 </p>
@@ -210,7 +210,7 @@
               <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
                 <v-flex xs12 md12 class="d-flex flex-column-reverse">
                   <p class="text-center subtitle-2">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
-                  <p class="text-center subtitle-2">Get in Touch: perrywtchan@gmail.com</p>
+                  <p class="text-center subtitle-2">Get in Touch: perrywtchan@protonmail.com</p>
                 </v-flex>
               </v-layout>
             </v-container>
@@ -232,7 +232,7 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Self-discovery, making the unconscious conscious, Tokyo 2018 Spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Self-discovery, making the unconscious conscious, Tokyo 2018 spring
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -266,14 +266,14 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Integration, Tokyo 2018 Spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Integration, Tokyo 2018 spring
                 </p>
                 </v-flex>
               </v-layout>
               <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
                 <v-flex xs12 md12 class="d-flex flex-column-reverse">
                   <p class="text-center subtitle-2">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
-                  <p class="text-center subtitle-2">Get in Touch: perrywtchan@gmail.com</p>
+                  <p class="text-center subtitle-2">Get in Touch: perrywtchan@protonmail.com</p>
                 </v-flex>
               </v-layout>
 
@@ -294,7 +294,7 @@
             <v-container class="px-md-10 px-5 py-md-10 py-5">
 
             <p class="mb-0">
-              Born in Hong Kong, trained in the UK.
+              Born in Hong Kong, trained in the UK (typing......)
             </p>
             </v-container>
 
