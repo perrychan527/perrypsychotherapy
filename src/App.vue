@@ -3,14 +3,15 @@
   <v-card>
     <v-card>
       <v-card-title class="justify-center font-weight-light display-1 pt-10"> Perry W.T. Chan</v-card-title>
-      <v-card-subtitle class="overline text-capitalize text-center">Psychotherapist / Counsellor</v-card-subtitle>
+      <v-card-subtitle class="overline text-capitalize text-center font-weight-regular">Psychotherapist / Counsellor</v-card-subtitle>
     </v-card>
-   
+    
     <v-tabs 
     centered
     center-active
+    show-arrows
     >
-      <v-tab class="overline text-capitalize">
+      <v-tab class="overline text-capitalize fixed">
         hi
       </v-tab>
       <v-tab class="overline text-capitalize">
@@ -22,14 +23,13 @@
       <v-tab class="overline text-capitalize">
         bio
       </v-tab>
-        <v-tab-item align="center" class="px-10 py-3">
+        
+      <v-tab-item align="center" class="px-10 py-3">
         <v-card flat max-width="1100" elevation="0" style="
         background: #FFFFFF;
         background: -webkit-linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
         background: linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
         ">
-
-        
           <v-card-text class="text-left">
             <v-container class="px-md-10 px-sm-10 px-5 py-md-10 py-sm-10 py-5"> 
               <v-layout row wrap>
@@ -44,13 +44,13 @@
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm7 md8>
-                  <p class="overline text-capitalize">Hi
+                  <p class="overline text-capitalize light-blue--text text--darken-4">Hi
                   </p>
-                  <p class="subtitle-1">Welcome to my page. You can call me Perry.
+                  <p class="subtitle-1">Welcome to my page. You can call me Perry. I'm based in Edinburgh, Scotland. I provide professional service mainly for clients based in the UK and HK. I work with clients in English, Cantonese or Mandarin.
                   </p>
-                  <p class="overline text-capitalize pt-md-5 pt-sm-5">my core value
+                  <p class="overline text-capitalize light-blue--text text--darken-4">my core value
                   </p>
-                  <p class="subtitle-1">I never like labels such as xx disorder or xx syndrome as I find them pathologising and over-powering. I see each person as an individual with unique stories, experiences, personalities, behavioural patterns, complexes, psyches, souls......which are all meaningful, whether or not they're making sense at this moment. I'm committed to create this safe space for us to explore together on a deeper level. 
+                  <p class="subtitle-1">As I find labels such as xx disorder or xx syndrome pathologising and over-powering, I see each person as an individual with unique stories, experiences, personalities, behavioural patterns, complexes, psyches, souls......which are all meaningful, whether or not they're making sense at this moment. I'm committed to create this safe space for us to explore together on a deeper level. 
                   </p>
                   
                 </v-flex>
@@ -58,7 +58,7 @@
               
               <v-layout row wrap>
                 <v-flex xs12 sm12 md12>
-                  <p class="overline text-capitalize pt-md-5 pt-sm-5">Perry W.T. Chan, MCOSCA, MBACP
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-md-5 pt-sm-5">Perry W.T. Chan, MCOSCA, MBACP
                   </p>
                   <p class="subtitle-1">•	PGDip in Psychotherapy & Counselling (The University of Edinburgh)
                   </p>
@@ -83,7 +83,7 @@
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md7>
-                  <p class="overline text-capitalize pt-md-8 pt-sm-5">My Experience
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-md-8 pt-sm-5">My Experience
                   </p>
                   <p class="subtitle-1">I have experience working with clients with a wide range of issues such as:</p>
                   <v-list-item-subtitle class="subtitle-1">•	depression</v-list-item-subtitle>
@@ -101,8 +101,8 @@
                 <v-flex sm0 md2>
                 </v-flex>
               </v-layout>
-              <p class="text-center subtitle-2 pt-md-10 pt-sm-5 pt-5">Get in Touch</p>
-              <p class="text-center subtitle-2">perrywtchan@protonmail.com</p>
+              <p class="text-center subtitle-2 font-weight-regular pt-md-10 pt-sm-5 pt-5">Get in Touch</p>
+              <p class="text-center subtitle-2 font-weight-regular">perrywtchan@protonmail.com</p>
               <v-layout row wrap justify-space-around pt-md-10 pt-sm-5>
                 <v-flex xs6 md3 class="d-flex flex-column-reverse">
                 <v-img  class="mx-auto"
@@ -124,7 +124,7 @@
                 ></v-img>
                 </v-flex>
                 <v-flex xs12 md12 pt-10 pt-sm-10 pt-md-10 class="d-flex flex-column-reverse">
-                  <p class="text-center subtitle-2">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
+                  <p class="text-center subtitle-2 font-weight-regular">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
                 </v-flex>
               </v-layout>
             </v-container> 
@@ -141,11 +141,13 @@
             <v-container class="px-md-10 px-5 py-md-10 py-5">
               <v-layout row wrap>
                 <v-flex xs12 sm12 md12>
-                  <p class="overline text-capitalize">My Approach
+                  <p class="overline text-capitalize light-blue--text text--darken-4">My Approach
                   </p>
                 </v-flex>
                 <v-flex xs12 sm12 md6>
-                  <p class="subtitle-1">I trained in psychodynamic and person-centred approach. In fact, I don’t like to categorise. So more accurately speaking, my approach is relational. It is two people sitting together trying to discover who we really are, what is perpepuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. Psychotherapy, in my opinion, is not about fixing something. It’s more about making sense of painful experience, developing self-awareness. As a result, we can have higher capacity to embrace more not-knowing in life and to make better decisions without repeating our unhealthy patterns.
+                  <p class="subtitle-1">I trained in psychodynamic and person-centred approach. In fact, I don’t like to categorise. So more accurately speaking, my approach is relational. It is two people sitting together trying to discover who we really are, what is perpepuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled.
+                  </p>
+                  <p class="subtitle-1">Psychotherapy, in my opinion, is not about fixing something. It’s more about making sense of painful experience, developing self-awareness. As a result, we can have higher capacity to embrace more not-knowing in life and to make better decisions without repeating our unhealthy patterns.
                   </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -174,7 +176,7 @@
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
-                  <p class="overline text-capitalize">In Our Work
+                  <p class="overline text-capitalize light-blue--text text--darken-4">In Our Work
                   </p>
                   <p class="subtitle-1">Instead of someone who solve your problems, I'll be your companion being together in the confusing and chaotic space. We together try to make sense of something painful and unbearable, create meanings out of it, and thus experience psychic transformation. Hmmm.....it might sound vague. To give you an analogy, imagine both of us trying to map a dark misty city together with a compass and find the way out. Though it might be scary, it is a transformative journey. In our work, this is a safe space for us to let this exquisite alchemical reaction happen. It is simple......but deep......
                   </p>
@@ -184,7 +186,7 @@
                 <v-flex sm0 xs0 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md4 pt-md-8 pt-sm-5>
-                  <p class="overline text-capitalize">Developmental Process
+                  <p class="overline text-capitalize light-blue--text text--darken-4">Therapeutic Process
                   </p>
                   <p class="subtitle-1"> This is a poem I wrote at the beginning of my training.</p>
                   <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Two tiny eggs in the bird's nest</v-list-item-subtitle>
@@ -209,8 +211,8 @@
               </v-layout>
               <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
                 <v-flex xs12 md12 class="d-flex flex-column-reverse">
-                  <p class="text-center subtitle-2">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
-                  <p class="text-center subtitle-2">Get in Touch: perrywtchan@protonmail.com</p>
+                  <p class="text-center subtitle-2 font-weight-regular">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
+                  <p class="text-center subtitle-2 font-weight-regular">Get in Touch: perrywtchan@protonmail.com</p>
                 </v-flex>
               </v-layout>
             </v-container>
@@ -238,18 +240,18 @@
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md6>
-                  <p class="overline text-capitalize">Fees
+                  <p class="overline text-capitalize light-blue--text text--darken-4">Fees
                   </p>
                   <p class="subtitle-1">I provide service mainly for clients based in the UK and HK. The rate of our first meeting (50 mins each session) is £25 (HK$275). If we decide to continue working together, it will be <bold>£50 (HK$550)</bold> per session.
                   </p>
-                  <p class="overline text-capitalize">First Meeting
+                  <p class="overline text-capitalize light-blue--text text--darken-4">First Meeting
                   </p>
                   <p class="subtitle-1">We will get to know each other, talk about policies and how we can work together, and most importantly, to see whether it feels right for you to work with me.
                   </p>
                   
                 </v-flex>
                 <v-flex xs12 sm12 md6>
-                  <p class="overline text-capitalize">Where?</p>
+                  <p class="overline text-capitalize light-blue--text text--darken-4">Where?</p>
                   <p class="subtitle-1">I offer face-to-face, online (Skype) or phone counselling session.
                   </p>
                   <p class="subtitle-1">For face-to-face session, I practice at:</p>
@@ -272,8 +274,8 @@
               </v-layout>
               <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
                 <v-flex xs12 md12 class="d-flex flex-column-reverse">
-                  <p class="text-center subtitle-2">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
-                  <p class="text-center subtitle-2">Get in Touch: perrywtchan@protonmail.com</p>
+                  <p class="text-center subtitle-2 font-weight-regular">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
+                  <p class="text-center subtitle-2 font-weight-regular">Get in Touch: perrywtchan@protonmail.com</p>
                 </v-flex>
               </v-layout>
 
@@ -302,9 +304,39 @@
         </v-card>
       </v-tab-item>
 
+      
     </v-tabs>
     
   </v-card>
  </v-app> 
  
 </template>
+
+
+
+
+
+
+<script>
+export default {
+  name: 'HomePage'
+}
+</script>
+
+<style>
+ul {
+  list-style-type: square;
+}
+.v-card__title {
+  font-style: italicc;
+}
+.v-card__text {
+  color: greenn!important;
+}
+
+.sticky {
+
+    position: fixed;
+
+}
+</style>
