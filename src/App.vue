@@ -15,7 +15,7 @@
         hi
       </v-tab>
       <v-tab class="overline text-capitalize">
-        Work Together
+        How We Work
       </v-tab>
       <v-tab class="overline text-capitalize">
         practicalities
@@ -186,7 +186,7 @@
                 <v-flex sm0 xs0 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md4 pt-md-8 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">Therapeutic Process
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">Therapeutic Process
                   </p>
                   <p class="subtitle-1"> This is a poem I wrote at the beginning of my training.</p>
                   <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Two tiny eggs in the bird's nest</v-list-item-subtitle>
@@ -240,25 +240,25 @@
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md6>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">Fees
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-1">Fees
                   </p>
-                  <p class="subtitle-1">I provide service mainly for clients based in the UK and HK. The rate of our first meeting (50 mins each session) is £25 (HK$275). If we decide to continue working together, it will be <bold>£50 (HK$550)</bold> per session.
+                  <p class="subtitle-1">I provide service mainly for clients based in the UK (in-person/online/phone) and in Hong Kong (online only) at the rate as follows:
                   </p>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">First Meeting
-                  </p>
-                  <p class="subtitle-1">We will get to know each other, talk about policies and how we can work together, and most importantly, to see whether it feels right for you to work with me.
-                  </p>
-                  
+                  <v-data-table
+                    :headers="headers"
+                    :items="desserts"
+                    :items-per-page="2"
+                    hide-default-footer
+                    class="elevation-1"
+                  ></v-data-table>
                 </v-flex>
+                
                 <v-flex xs12 sm12 md6>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">Where?</p>
-                  <p class="subtitle-1">I offer face-to-face, online (Skype) or phone counselling session.
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-7">First & Following Sessions</p>
+                  <p class="subtitle-1">In our first meeting, we will get to know each other, talk about policies and how we can work together, and most importantly, to see whether it feels right for you to work with me.
                   </p>
-                  <p class="subtitle-1">For face-to-face session, I practice at:</p>
-                  <v-list-item-subtitle class="subtitle-1 font-weight-bold">South Side Centre</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">86 Causewayside</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">Edinburgh</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">EH9 1PY</v-list-item-subtitle>
+                  <p class="subtitle-1">When we agree to work together and on a mutually suitable time to meet, I undertake our work by providing regular sessions, usually weekly.
+                  </p>
                 </v-flex>
                 <v-flex sm1 md1>
                 </v-flex>
@@ -270,6 +270,28 @@
                 ></v-img>
                 <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Integration, Tokyo 2018 spring
                 </p>
+                </v-flex>
+                
+                <v-flex xs12 sm12 md5 pt-md-3 pt-sm-5 pt-5>
+                <v-img class="mx-auto"
+                      src="@/assets/fishintegration.jpg"
+                      max-width="520"
+                      max-height="400"
+                ></v-img>
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Integration, Tokyo 2018 spring
+                </p>
+                </v-flex>
+                <v-flex sm1 md1>
+                </v-flex>
+                <v-flex xs12 sm12 md6>
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">Where?</p>
+                  <p class="subtitle-1">I offer face-to-face, online (Skype) or phone counselling session.
+                  </p>
+                  <p class="subtitle-1">For face-to-face session, I practice at:</p>
+                  <v-list-item-subtitle class="subtitle-1 font-weight-bold">South Side Centre</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">86 Causewayside</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">Edinburgh</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">EH9 1PY</v-list-item-subtitle>
                 </v-flex>
               </v-layout>
               <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
@@ -319,8 +341,34 @@
 
 <script>
 export default {
-  name: 'HomePage'
-}
+    data () {
+      return {
+        headers: [
+          {
+            text: '',
+            align: 'start',
+            sortable: false,
+            value: 'name',
+          },
+          { text: 'First session (50-min)', value: 'calories', sortable: false},
+          { text: 'Following sessions (50-min)', value: 'fat', sortable: false},
+        ],
+        desserts: [
+          {
+            name: 'Clients based in the UK (£)',
+            calories: 25,
+            fat: 50,
+          },
+          {
+            name: 'Clients based in HK (HK$)',
+            calories: 375,
+            fat: 750,
+          },
+
+        ],
+      }
+    },
+  }
 </script>
 
 <style>
