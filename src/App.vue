@@ -15,7 +15,7 @@
         hi
       </v-tab>
       <v-tab class="overline text-capitalize">
-        How We Work
+        Approach
       </v-tab>
       <v-tab class="overline text-capitalize">
         practicalities
@@ -23,7 +23,6 @@
       <v-tab class="overline text-capitalize">
         bio
       </v-tab>
-        
       <v-tab-item align="center" class="px-10 py-3">
         <v-card flat max-width="1100" elevation="0" style="
         background: #FFFFFF;
@@ -85,18 +84,18 @@
                 <v-flex xs12 sm12 md7>
                   <p class="overline text-capitalize light-blue--text text--darken-4 pt-md-8 pt-sm-5">My Experience
                   </p>
-                  <p class="subtitle-1">I have experience working with clients with a wide range of issues such as:</p>
+                  <p class="subtitle-1">I specialise in early relational trauma (i.e. childhood abuse, neglect, and suffering). I work extensively with clients who had a difficult childhood, especially in relation to their family. Besides, I also have experience working with clients with a wide range of issues such as:</p>
                   <v-list-item-subtitle class="subtitle-1">•	depression</v-list-item-subtitle>
                   <v-list-item-subtitle class="subtitle-1">•	anxiety</v-list-item-subtitle>
                   <v-list-item-subtitle class="subtitle-1">•	anger</v-list-item-subtitle>
                   <v-list-item-subtitle class="subtitle-1">•	stress</v-list-item-subtitle>
                   <v-list-item-subtitle class="subtitle-1">•	relationship difficulties</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">•	sexuality</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">•	LGBT+ issues</v-list-item-subtitle>
                   <v-list-item-subtitle class="subtitle-1">•	sleeping problems</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">•	trauma</v-list-item-subtitle>
                   <v-list-item-subtitle class="subtitle-1">•	bereavement</v-list-item-subtitle>
                   <v-list-item-subtitle class="subtitle-1">•	loneliness</v-list-item-subtitle>
                   <v-list-item-subtitle class="subtitle-1">•	self-esteem</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">•	cross-cultural issues</v-list-item-subtitle>
                 </v-flex>
                 <v-flex sm0 md2>
                 </v-flex>
@@ -145,9 +144,9 @@
                   </p>
                 </v-flex>
                 <v-flex xs12 sm12 md6>
-                  <p class="subtitle-1">I trained in psychodynamic and person-centred approach. In fact, I don’t like to categorise. So more accurately speaking, my approach is relational. It is two people sitting together trying to discover who we really are, what is perpepuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled.
+                  <p class="subtitle-1">My appraoch is relational, grounded in psychodynamic and person-centred theories. It's a process of identifying early/primitive conflicts and defences, which hinder us from developing a fuller sense of self. This happens through intersubjective communication (at times unconscious) in a safe, empathic and relational space between you and I.
                   </p>
-                  <p class="subtitle-1">Psychotherapy, in my opinion, is not about fixing something. It’s more about making sense of painful experience, developing self-awareness. As a result, we can have higher capacity to embrace more not-knowing in life and to make better decisions without repeating our unhealthy patterns.
+                  <p class="subtitle-1">Therefore, psychotherapy, in my opinion, isn't about fixing something. It's two people sitting together in dialogue trying to discover who we really are, what is perpetuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. It is simple......but deep......
                   </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -164,26 +163,63 @@
               </v-layout>
               
               <v-layout row wrap>
-                <v-flex xs12 sm12 md5 pt-md-7 pt-sm-5>
+                <v-flex xs12 sm12 md5 pt-md-16 pt-sm-5>
                 <v-img class="mx-auto"
-                      src="@/assets/foggycity.jpg"
+                      src="@/assets/oldcollege.jpg"
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Misty Edinburgh, 2020 spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Old College, 2020 winter 
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">In Our Work
+                  <p class="overline text-capitalize light-blue--text text--darken-4">How it works
                   </p>
-                  <p class="subtitle-1">Instead of someone who solve your problems, I'll be your companion being together in the confusing and chaotic space. We together try to make sense of something painful and unbearable, create meanings out of it, and thus experience psychic transformation. Hmmm.....it might sound vague. To give you an analogy, imagine both of us trying to map a dark misty city together with a compass and find the way out. Though it might be scary, it is a transformative journey. In our work, this is a safe space for us to let this exquisite alchemical reaction happen. It is simple......but deep......
+                  <p class="subtitle-1">Instead of someone who solves your problems, I'll be your companion being together in the chaotic and overwhelming space, indwelling ourselves in the experiences. We together try to process and hopefully come to terms with something painful and unbearable.</p>
+                  <p class="subtitle-1">My years of meditation practice and my training of focusing skills have allowed me and my clients to dwell in the experiences on a deeper level. When things start making sense and becoming meaningful, psychic transformation will be experienced. What might potentially happen are having higher self-awareness, bigger capacity to embrace the not-knowing in life and more ability to make better decisions without repeating unhealthy patterns.
                   </p>
                 </v-flex>
               </v-layout>
               <v-layout row wrap>
                 <v-flex sm0 xs0 md1>
+                </v-flex>
+                <v-flex xs12 sm12 md4 pt-md-8 pt-sm-5>
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">The Not-knowing
+                  </p>
+                  <p class="subtitle-1">Imagine both of us trying to map a dark misty city together with a compass and find the way out. Though it might be scary, it is a transformative journey. In our work, this is a safe space for us to let this alchemical reaction happen.</p>
+
+                  
+                </v-flex>
+                <v-flex sm1 md2>
+                </v-flex>
+                <v-flex xs12 sm12 md5 pt-md-10 pt-sm-8 pt-7>
+                <v-img
+                      src="@/assets/foggycity.jpg"
+                      max-width="570"
+                      max-height="450"
+                ></v-img>
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Misty Edinburgh, 2020 spring 
+                </p>
+              </v-flex>
+
+              </v-layout>
+
+              <v-layout row wrap>
+              <v-flex sm0 xs0 md1>
+                </v-flex>
+                <v-flex xs12 sm12 md5 pt-md-16 pt-sm-8 pt-7>
+                <v-img
+                      src="@/assets/2birds.jpg"
+                      max-width="570"
+                      max-height="450"
+                ></v-img>
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Bird
+                </p>
+              </v-flex>
+                
+                <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md4 pt-md-8 pt-sm-5>
                   <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">Therapeutic Process
@@ -195,19 +231,10 @@
                   <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Feel the "unfeelable"</v-list-item-subtitle>
                   <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Formulate the unformulated</v-list-item-subtitle>
                   <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Experience the understandable</v-list-item-subtitle>
-                  
                 </v-flex>
-                <v-flex sm1 md1>
+                <v-flex sm0 xs0 md1>
                 </v-flex>
-                <v-flex xs12 sm12 md6 pt-md-10 pt-sm-8 pt-7>
-                <v-img
-                      src="@/assets/oldcollege.jpg"
-                      max-width="570"
-                      max-height="450"
-                ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Old College, 2020 winter
-                </p>
-              </v-flex>
+                
               </v-layout>
               <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
                 <v-flex xs12 md12 class="d-flex flex-column-reverse">
@@ -230,11 +257,11 @@
               <v-layout row wrap>
                 <v-flex xs12 sm12 md5 pt-md-3 pt-sm-5>
                 <v-img class="mx-auto"
-                      src="@/assets/fishdiscover.jpg"
+                      src="@/assets/mistyforest.jpg"
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Self-discovery, making the unconscious conscious, Tokyo 2018 spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">A misty forest
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -257,28 +284,28 @@
                   <p class="overline text-capitalize light-blue--text text--darken-4 pt-7">First & Following Sessions</p>
                   <p class="subtitle-1">In our first meeting, we will get to know each other, talk about policies and how we can work together, and most importantly, to see whether it feels right for you to work with me.
                   </p>
-                  <p class="subtitle-1">When we agree to work together and on a mutually suitable time to meet, I undertake our work by providing regular sessions, usually weekly.
+                  <p class="subtitle-1">When we agree to work together and on a mutually suitable time to meet, I undertake our work by providing regular weekly sessions.
                   </p>
                 </v-flex>
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md5 pt-md-3 pt-sm-5 pt-5>
                 <v-img class="mx-auto"
-                      src="@/assets/fishintegration.jpg"
+                      src="@/assets/lighthouse2.jpg"
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Integration, Tokyo 2018 spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">A floating lighthouse
                 </p>
                 </v-flex>
                 
                 <v-flex xs12 sm12 md5 pt-md-3 pt-sm-5 pt-5>
                 <v-img class="mx-auto"
-                      src="@/assets/fishintegration.jpg"
+                      src="@/assets/map.jpg"
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Integration, Tokyo 2018 spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Google Map: https://goo.gl/maps/ontWZEiHSm22P3Cc6
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -300,28 +327,126 @@
                   <p class="text-center subtitle-2 font-weight-regular">Get in Touch: perrywtchan@protonmail.com</p>
                 </v-flex>
               </v-layout>
-
-             
-             
             </v-container>
-
           </v-card-text>
         </v-card>
       </v-tab-item>
+      
       <v-tab-item align="center" class="px-10 py-3">
         <v-card flat max-width="1100" elevation="0" style="
-            background: #FFFFFF;
-            background: -webkit-linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
-            background: linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
-            ">
+        background: #FFFFFF;
+        background: -webkit-linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+        background: linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+        ">
           <v-card-text class="text-left">
             <v-container class="px-md-10 px-5 py-md-10 py-5">
-
-            <p class="mb-0">
-              Born in Hong Kong, trained in the UK (typing......)
-            </p>
+              <v-layout row wrap>
+                <v-flex xs12 sm12 md6>
+                  <p class="overline text-capitalize light-blue--text text--darken-4">Lost
+                  </p>
+                  <p class="subtitle-1">Born and grew up in Hong Kong, I later moved to the UK for higher education in my teenage year. Done my undergrad, done my master’s, feeling lost and disturbed, hit the road, spent several years working and travelling around the world, looked for my soul, started personal therapy…….my journey started from here…
+                  </p>
+                  <p class="subtitle-1">“Perhaps one day you don’t need to go anywhere because you have the whole world in you?” A Jungian analyst spoke to me.
+                  </p>
+                  </p>
+                  <p class="subtitle-1">“What do you mean?”
+                  </p>
+                  </p>
+                  <p class="subtitle-1">“Like a monk meditating on a Mandala which encapsulates the whole universe.”
+                  </p>
+                  </p>
+                  <p class="subtitle-1">"......I think I’m escaping from something......”
+                  </p>
+                </v-flex>
+                <v-flex sm1 md1>
+                </v-flex>
+                <v-flex xs12 sm12 md4 pt-md-4>
+                <v-img class="mx-auto"
+                      src="@/assets/fishexplore.jpg"
+                      max-width="300"
+                      max-height="800"
+                ></v-img>
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Koi fish, Tokyo 2018 spring
+                </p>
+              </v-flex>
+              <v-flex sm1 md1>
+                </v-flex>
+              </v-layout>
+              
+              <v-layout row wrap>
+                <v-flex xs12 sm12 md5 pt-md-7 pt-sm-5>
+                <v-img class="mx-auto"
+                      src="@/assets/perryfish.jpg"
+                      max-width="520"
+                      max-height="400"
+                ></v-img>
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">When you brush past your dark side it goes so quickly yet enlightens you
+                </p>
+                </v-flex>
+                <v-flex sm1 md1>
+                </v-flex>
+                <v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
+                  <p class="overline text-capitalize light-blue--text text--darken-4">Encountering
+                  </p>
+                  <p class="subtitle-1">This exchange occurred years ago.
+                  </p>
+                  <p class="subtitle-1">It was the time I started looking into myself, my inner process.
+                  </p>
+                  <p class="subtitle-1">Encountering my shadows, the dark sides of myself, my vulnerabilities…painful yet insightful.
+                  </p>
+                  <p class="subtitle-1">Digging deep, peeling off my wound, layer by layer…excoriating, excruciating</p>
+                </v-flex>
+              </v-layout>
+              <v-layout row wrap>
+                <v-flex xs12 sm12 md6 pt-md-3 pt-sm-5>
+                  <p class="overline text-capitalize light-blue--text text--darken-4">Koans
+                  </p>
+                  <p class="subtitle-1">“Yea I know I'm disturbed. What can I do?”</p>
+                  <p class="subtitle-1">“I don’t know” the analyst answered immediately.</p>
+                  <p class="subtitle-1">“…can you tell me what to do?”</p>
+                  <p class="subtitle-1">“Stop asking this question. When the right time has come, you will know what to do. Now stay reflective and curious.”</p>
+                  <p class="subtitle-1">Like a koan, solving it in our head is pointless. Indwelling ourself in it is the way to understand it. This was the time when I learnt to indwell in my painful experience and started this life-long commitment to looking into my psyche and developing my self-awareness, as well as staying reflective on the tensions with any other beings.</p>
+                  <p class="subtitle-1"></p>
+                  
+                </v-flex>
+                <v-flex sm1 md1>
+                </v-flex>
+                <v-flex xs12 sm12 md5 pt-md-16 pt-sm-8 pt-7>
+                <v-img
+                      src="@/assets/fishdiscover.jpg"
+                      max-width="520"
+                      max-height="400"
+                ></v-img>
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Self-discovery, making the unconscious conscious
+                </p>
+              </v-flex>
+              </v-layout>
+              <v-layout row wrap>
+                <v-flex xs12 sm12 md5 pt-md-7 pt-sm-5>
+                <v-img class="mx-auto"
+                      src="@/assets/mindfulness.jpg"
+                      max-width="520"
+                      max-height="400"
+                ></v-img>
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Meditation has become my daily practice. (Meditation in Japan, 2018)
+                </p>
+                </v-flex>
+                <v-flex sm1 md1>
+                </v-flex>
+                <v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
+                  <p class="overline text-capitalize light-blue--text text--darken-4">My Ways of Being
+                  </p>
+                  <p class="subtitle-1">Personal therapy and meditation are practices which keep me alive, reflective, creative and grounded and thus shapes my ways of being. This has thus allowed me to work with my clients ethically and professionally.
+                  </p>
+                </v-flex>
+              </v-layout>
+              <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
+                <v-flex xs12 md12 class="d-flex flex-column-reverse">
+                  <p class="text-center subtitle-2 font-weight-regular">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
+                  <p class="text-center subtitle-2 font-weight-regular">Get in Touch: perrywtchan@protonmail.com</p>
+                </v-flex>
+              </v-layout>
             </v-container>
-
           </v-card-text>
         </v-card>
       </v-tab-item>
