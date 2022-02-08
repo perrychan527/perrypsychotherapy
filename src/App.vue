@@ -9,7 +9,6 @@
     <v-tabs 
     centered
     center-active
-    show-arrows
     >
       <v-tab class="overline text-capitalize fixed">
         hi
@@ -32,9 +31,9 @@
           <v-card-text class="text-left">
             <v-container class="px-md-10 px-sm-10 px-5 py-md-10 py-sm-10 py-5"> 
               <v-layout row wrap>
-                <v-flex xs12 sm4 md3>
+                <v-flex xs12 sm4 md3 pt-md-4>
                   <v-img class="mx-auto"
-                        src="@/assets/perrybio.jpg"
+                        src="@/assets/perrybio2.jpg"
                         max-width="240"
                         max-height="450"
 
@@ -49,7 +48,7 @@
                   </p>
                   <p class="overline text-capitalize light-blue--text text--darken-4">my core value
                   </p>
-                  <p class="subtitle-1">As I find labels such as xx disorder or xx syndrome pathologising and over-powering, I see each person as an individual with unique stories, experiences, personalities, behavioural patterns, complexes, psyches, souls......which are all meaningful, whether or not they're making sense at this moment. I'm committed to create this safe space for us to explore together on a deeper level. 
+                  <p class="subtitle-1">As I find labels such as xx disorder or xx syndrome pathologising and over-powering, I see each person as an individual with unique stories, experiences, personalities, behavioural patterns, complexes, psyches, souls......which are all meaningful, whether or not they're making sense at this moment. I'm committed to creating this safe space for us to explore together on a deeper level. 
                   </p>
                   
                 </v-flex>
@@ -59,13 +58,15 @@
                 <v-flex xs12 sm12 md12>
                   <p class="overline text-capitalize light-blue--text text--darken-4 pt-md-5 pt-sm-5">Perry W.T. Chan, MCOSCA, MBACP
                   </p>
-                  <p class="subtitle-1">•	PGDip in Psychotherapy & Counselling (The University of Edinburgh)
+                  <p class="body-2">•	Doctorate in Psychotherapy & Counselling (DPsych; The University of Edinburgh) (In progress)
                   </p>
-                  <p class="subtitle-1">•	Registered in Counselling and Psychotherapy in Scotland (COSCA), membership no. 4804
+                  <p class="body-2">•	Postgraduate Diploma in Psychotherapy & Counselling (PGDip; The University of Edinburgh)
                   </p>
-                  <p class="subtitle-1">•	Registered member of British Association for Counselling and Psychotherapy (BACP), membership no. 00973613
+                  <p class="body-2">•	Registered in Counselling and Psychotherapy in Scotland (COSCA; Registration no. 4804)
                   </p>
-                  <p class="subtitle-1">•	Certificate in Focusing Skills (The British Focusing Association)
+                  <p class="body-2">•	Registered member of British Association for Counselling and Psychotherapy (BACP; Registration no. 388438)
+                  </p>
+                  <p class="body-2">•	Certificate in Focusing Skills (The British Focusing Association)
                   </p>
                 </v-flex>
               </v-layout>
@@ -144,7 +145,7 @@
                   </p>
                 </v-flex>
                 <v-flex xs12 sm12 md6>
-                  <p class="subtitle-1">My appraoch is relational, grounded in psychodynamic and person-centred theories. It's a process of identifying early/primitive conflicts and defences, which hinder us from developing a fuller sense of self. This happens through intersubjective communication (at times unconscious) in a safe, empathic and relational space between you and I.
+                  <p class="subtitle-1">My approach is relational, grounded in psychodynamic and person-centred theories. It's a process of identifying early/primitive conflicts and defences, which hinder us from developing a fuller sense of self. This happens through intersubjective communication (at times unconscious) in a confidential, safe, empathic and relational space between you and me.
                   </p>
                   <p class="subtitle-1">Therefore, psychotherapy, in my opinion, isn't about fixing something. It's two people sitting together in dialogue trying to discover who we really are, what is perpetuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. It is simple......but deep......
                   </p>
@@ -185,16 +186,19 @@
               <v-layout row wrap>
                 <v-flex sm0 xs0 md1>
                 </v-flex>
-                <v-flex xs12 sm12 md4 pt-md-8 pt-sm-5>
+                <v-flex xs12 sm12 md5 pt-md-2 pt-sm-5>
                   <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">The Not-knowing
                   </p>
-                  <p class="subtitle-1">Imagine both of us trying to map a dark misty city together with a compass and find the way out. Though it might be scary, it is a transformative journey. In our work, this is a safe space for us to let this alchemical reaction happen.</p>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap"> . . . if you gaze for long into an abyss, the abyss gazes back into you.</v-list-item-subtitle>
+                  <v-list-item-subtitle class="text-right font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-12 pr-sm-8 pr-8 pb-md-3 pb-3 pb-sm-3 text-wrap">Nietzsche</v-list-item-subtitle>
+                  <p class="subtitle-1">Imagine both of us trying to map a dark misty city together with a compass and find the way out. It could be an abyss of darkness, a fathomless realm, way beyond our capacity to understand.</p>
+                  <p class="subtitle-1">Yet, if we together explore long enough, our psyche will respond and it could end up a transformative journey. In our work, this is a safe space for us to let this alchemical reaction happen.</p>
 
                   
                 </v-flex>
-                <v-flex sm1 md2>
+                <v-flex sm1 md1>
                 </v-flex>
-                <v-flex xs12 sm12 md5 pt-md-10 pt-sm-8 pt-7>
+                <v-flex xs12 sm12 md5 pt-md-16 pt-sm-8 pt-7>
                 <v-img
                       src="@/assets/foggycity.jpg"
                       max-width="570"
@@ -215,7 +219,7 @@
                       max-width="570"
                       max-height="450"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Bird
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Bird, Tokyo 2018 spring
                 </p>
               </v-flex>
                 
@@ -261,7 +265,7 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">A misty forest
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">A misty forest, Yellowcraig 2021 summer
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -282,7 +286,7 @@
                 
                 <v-flex xs12 sm12 md6>
                   <p class="overline text-capitalize light-blue--text text--darken-4 pt-7">First & Following Sessions</p>
-                  <p class="subtitle-1">In our first meeting, we will get to know each other, talk about policies and how we can work together, and most importantly, to see whether it feels right for you to work with me.
+                  <p class="subtitle-1">In our first meeting, we will get to know each other, talk about policies and how we can work together, and most importantly, see whether it feels right for you to work with me.
                   </p>
                   <p class="subtitle-1">When we agree to work together and on a mutually suitable time to meet, I undertake our work by providing regular weekly sessions.
                   </p>
@@ -295,7 +299,7 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">A floating lighthouse
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">A floating lighthouse, Yellowcraig 2021 summer
                 </p>
                 </v-flex>
                 
@@ -344,7 +348,7 @@
                 <v-flex xs12 sm12 md6>
                   <p class="overline text-capitalize light-blue--text text--darken-4">Lost
                   </p>
-                  <p class="subtitle-1">Born and grew up in Hong Kong, I later moved to the UK for higher education in my teenage year. Done my undergrad, done my master’s, feeling lost and disturbed, hit the road, spent several years working and travelling around the world, looked for my soul, started personal therapy…….my journey started from here…
+                  <p class="subtitle-1">Born and grew up in Hong Kong, I later moved to the UK for higher education in my teenage years. Done my undergrad, done my master’s, feeling lost and disturbed, hit the road, spent several years working and travelling around the world, looked for my soul, started personal therapy…….my journey started from here…
                   </p>
                   <p class="subtitle-1">“Perhaps one day you don’t need to go anywhere because you have the whole world in you?” A Jungian analyst spoke to me.
                   </p>
@@ -394,7 +398,7 @@
                   </p>
                   <p class="subtitle-1">Encountering my shadows, the dark sides of myself, my vulnerabilities…painful yet insightful.
                   </p>
-                  <p class="subtitle-1">Digging deep, peeling off my wound, layer by layer…excoriating, excruciating</p>
+                  <p class="subtitle-1">Digging deep, peeling off my wound, layer by layer......excoriating and excruciating......</p>
                 </v-flex>
               </v-layout>
               <v-layout row wrap>
@@ -405,7 +409,7 @@
                   <p class="subtitle-1">“I don’t know” the analyst answered immediately.</p>
                   <p class="subtitle-1">“…can you tell me what to do?”</p>
                   <p class="subtitle-1">“Stop asking this question. When the right time has come, you will know what to do. Now stay reflective and curious.”</p>
-                  <p class="subtitle-1">Like a koan, solving it in our head is pointless. Indwelling ourself in it is the way to understand it. This was the time when I learnt to indwell in my painful experience and started this life-long commitment to looking into my psyche and developing my self-awareness, as well as staying reflective on the tensions with any other beings.</p>
+                  <p class="subtitle-1">Like a koan, solving it in our head is pointless. Indwelling ourselves in it is the way to understand it. This was the time when I learnt to indwell in my painful experience and started this life-long commitment to looking into my psyche and developing my self-awareness, as well as staying reflective on the tensions with any other beings.</p>
                   <p class="subtitle-1"></p>
                   
                 </v-flex>
@@ -486,8 +490,8 @@ export default {
           },
           {
             name: 'Clients based in HK (HK$)',
-            calories: 375,
-            fat: 750,
+            calories: 400,
+            fat: 800,
           },
 
         ],
