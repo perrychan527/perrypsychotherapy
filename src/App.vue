@@ -36,15 +36,16 @@
                         src="@/assets/perrybio2.jpg"
                         max-width="240"
                         max-height="450"
-
                   ></v-img>
+                  <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">When I was working in Malaysia
+                </p>
                 </v-flex>
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm7 md8>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">Hi
+                  <p class="overline text-capitalize light-blue--text text--darken-4">Welcome
                   </p>
-                  <p class="subtitle-1">Welcome to my page. You can call me Perry. I'm based in Edinburgh, Scotland. I provide professional service mainly for clients based in the UK and HK. I work with clients in English, Cantonese or Mandarin.
+                  <p class="subtitle-1">Hi, you can call me Perry. I'm based in Edinburgh, Scotland. I provide counselling & psychotherapy in English, Cantonese or Mandarin mainly for clients based in the UK and HK. I'm also a counselling tutor and a researcher (writing up my doctoral thesis at this moment) at the University of Edinburgh.
                   </p>
                   <p class="overline text-capitalize light-blue--text text--darken-4">my core value
                   </p>
@@ -485,12 +486,12 @@ export default {
         desserts: [
           {
             name: 'Clients based in the UK (£)',
-            calories: 25,
+            calories: 30,
             fat: 50,
           },
           {
             name: 'Clients based in HK (HK$)',
-            calories: 400,
+            calories: 500,
             fat: 800,
           },
 
