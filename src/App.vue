@@ -2,8 +2,29 @@
  <v-app>
   <v-card>
     <v-card>
-      <v-card-title class="justify-center font-weight-light display-1 pt-10"> Perry W.T. Chan</v-card-title>
-      <v-card-subtitle class="overline text-capitalize text-center font-weight-regular">Psychotherapist / Counsellor</v-card-subtitle>
+      <v-btn
+          :disabled="loading"
+          class="ma-0"
+          color="black"
+          padding="0"
+          min-width="0"
+          plain
+          disabled
+        >
+          EN
+        </v-btn>
+        <v-btn
+          :disabled="loading"
+          class="ma-0"
+          color="black"
+          padding="0"
+          min-width="0"
+          plain
+        >
+          中
+        </v-btn>
+      <v-card-title class="justify-center font-weight-light display-1 pt-1"> Perry W.T. Chan</v-card-title>
+      <v-card-subtitle class="overline text-capitalize text-center font-weight-regular">Psychotherapist & Counsellor</v-card-subtitle>
     </v-card>
     
     <v-tabs 
