@@ -2,28 +2,24 @@
  <v-app>
   <v-card>
     <v-card>
-      <v-btn
-          :disabled="loading"
-          class="ma-0"
-          color="black"
-          padding="0"
-          min-width="0"
-          plain
-          disabled
-        >
-          EN
-        </v-btn>
-        <v-btn
-          :disabled="loading"
-          class="ma-0"
-          color="black"
-          padding="0"
-          min-width="0"
-          plain
-        >
-          中
-        </v-btn>
-      <v-card-title class="justify-center font-weight-light display-1 pt-1"> Perry W.T. Chan</v-card-title>
+      <v-container fluid>
+        <v-row align="center">
+          <v-col cols="8" sm="9" md="10">
+          </v-col>
+          <v-col cols="4" sm="3" md="2">
+            <v-select
+              v-model="e1"
+              :items="languages"
+              menu-props="auto"
+              label="Language"
+              hide-details
+              prepend-icon="mdi-earth"
+              single-line
+            ></v-select>
+          </v-col>
+        </v-row>
+      </v-container>
+      <v-card-title class="justify-center font-weight-light display-1 pt-0"> Perry W.T. Chan</v-card-title>
       <v-card-subtitle class="overline text-capitalize text-center font-weight-regular">Psychotherapist & Counsellor</v-card-subtitle>
     </v-card>
     
@@ -299,7 +295,7 @@
                   </p>
                   <v-data-table
                     :headers="headers"
-                    :items="desserts"
+                    :items="fees"
                     :items-per-page="2"
                     hide-default-footer
                     class="elevation-1"
@@ -487,13 +483,30 @@
 
 
 
-
+<script>
+  export default {
+    data () {
+      return {
+        e1: 'English',
+        languages: [
+          'English', '中文', '日本語',
+        ],
+      }
+    },
+  }
+</script>
 
 
 <script>
 export default {
     data () {
       return {
+      
+              e1: 'Eng',
+        languages: [
+          'Eng', '中 (繁)', '中 (简)', '日',
+        ],
+      
         headers: [
           {
             text: '',
@@ -501,26 +514,27 @@ export default {
             sortable: false,
             value: 'name',
           },
-          { text: 'First session (50-min)', value: 'calories', sortable: false},
-          { text: 'Following sessions (50-min)', value: 'fat', sortable: false},
+          { text: 'First session (50-min)', value: 'first', sortable: false},
+          { text: 'Following sessions (50-min)', value: 'following', sortable: false},
         ],
-        desserts: [
+        fees: [
           {
             name: 'Clients based in the UK (£)',
-            calories: 30,
-            fat: 50,
+            first: 30,
+            following: 50,
           },
           {
             name: 'Clients based in HK (HK$)',
-            calories: 500,
-            fat: 800,
+            first: 500,
+            following: 800,
           },
-
         ],
+
       }
     },
   }
 </script>
+
 
 <style>
 ul {
