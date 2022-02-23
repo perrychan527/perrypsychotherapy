@@ -8,8 +8,11 @@
           </v-col>
           <v-col cols="4" sm="3" md="2">
             <v-select
-              v-model="e1"
+              v-model="languageSelected"
               :items="languages"
+              item-text="text"
+              item-value="locale"
+              @change="changeLocale" 
               menu-props="auto"
               label="Language"
               hide-details
@@ -22,7 +25,7 @@
       <v-card-title class="justify-center font-weight-light display-1 pt-0"> Perry W.T. Chan</v-card-title>
       <v-card-subtitle class="overline text-capitalize text-center font-weight-regular">Psychotherapist & Counsellor</v-card-subtitle>
     </v-card>
-    
+
     <v-tabs 
     centered
     center-active
@@ -60,7 +63,7 @@
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm7 md8>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">Welcome
+                  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('WELCOME') }}
                   </p>
                   <p class="subtitle-1">Hi, you can call me Perry. I'm based in Edinburgh, Scotland. I provide counselling & psychotherapy in English, Cantonese or Mandarin mainly for clients based in the UK and HK. I'm also a counselling tutor and a researcher (writing up my doctoral thesis at this moment) at the University of Edinburgh.
                   </p>
@@ -481,32 +484,32 @@
  
 </template>
 
-
-
-<script>
-  export default {
-    data () {
-      return {
-        e1: 'English',
-        languages: [
-          'English', '中文', '日本語',
-        ],
-      }
-    },
-  }
-</script>
-
-
 <script>
 export default {
     data () {
       return {
-      
-              e1: 'Eng',
+        languageSelected: {
+          text: 'Eng',
+          locale: 'en'
+        },
         languages: [
-          'Eng', '中 (繁)', '中 (简)', '日',
+          {
+            text: 'Eng',
+            locale: 'en'
+          },
+          {
+            text: '中 (繁)',
+            locale: 'tc'
+          },
+          {
+            text: '中 (简)',
+            locale: 'sc'
+          },
+          {
+            text: '日',
+            locale: 'ja'
+          },
         ],
-      
         headers: [
           {
             text: '',
@@ -529,12 +532,15 @@ export default {
             following: 800,
           },
         ],
-
+      }
+    },
+    methods : {
+      changeLocale: function(locale){
+          this.$i18n.locale = locale
       }
     },
   }
 </script>
-
 
 <style>
 ul {
