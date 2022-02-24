@@ -22,8 +22,8 @@
           </v-col>
         </v-row>
       </v-container>
-      <v-card-title class="justify-center font-weight-light display-1 pt-0"> Perry W.T. Chan</v-card-title>
-      <v-card-subtitle class="overline text-capitalize text-center font-weight-regular">Psychotherapist & Counsellor</v-card-subtitle>
+      <v-card-title class="justify-center font-weight-light display-1 pt-0">{{ $t('HEADING') }}</v-card-title>
+      <v-card-subtitle class="overline text-capitalize text-center font-weight-regular">{{ $t('SUBHEADING') }}</v-card-subtitle>
     </v-card>
 
     <v-tabs 
@@ -31,16 +31,16 @@
     center-active
     >
       <v-tab class="overline text-capitalize fixed">
-        hi
+        {{ $t('TAB1') }}
       </v-tab>
       <v-tab class="overline text-capitalize">
-        Approach
+        {{ $t('TAB2') }}
       </v-tab>
       <v-tab class="overline text-capitalize">
-        practicalities
+        {{ $t('TAB3') }}
       </v-tab>
       <v-tab class="overline text-capitalize">
-        bio
+        {{ $t('TAB4') }}
       </v-tab>
       <v-tab-item align="center" class="px-10 py-3">
         <v-card flat max-width="1100" elevation="0" style="
@@ -57,19 +57,19 @@
                         max-width="240"
                         max-height="450"
                   ></v-img>
-                  <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">When I was working in Malaysia
+                  <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PROPIC') }}
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm7 md8>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('WELCOME') }}
+                  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('WELCOMETITLE') }}
                   </p>
-                  <p class="subtitle-1">Hi, you can call me Perry. I'm based in Edinburgh, Scotland. I provide counselling & psychotherapy in English, Cantonese or Mandarin mainly for clients based in the UK and HK. I'm also a counselling tutor and a researcher (writing up my doctoral thesis at this moment) at the University of Edinburgh.
+                  <p class="subtitle-1">{{ $t('WELCOME') }}
                   </p>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">my core value
+                  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('CORETITLE') }}
                   </p>
-                  <p class="subtitle-1">As I find labels such as xx disorder or xx syndrome pathologising and over-powering, I see each person as an individual with unique stories, experiences, personalities, behavioural patterns, complexes, psyches, souls......which are all meaningful, whether or not they're making sense at this moment. I'm committed to creating this safe space for us to explore together on a deeper level. 
+                  <p class="subtitle-1">{{ $t('CORE') }}
                   </p>
                   
                 </v-flex>
@@ -77,17 +77,17 @@
               
               <v-layout row wrap>
                 <v-flex xs12 sm12 md12>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-md-5 pt-sm-5">Perry W.T. Chan, MCOSCA, MBACP
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-md-5 pt-sm-5">{{ $t('NAME') }}
                   </p>
-                  <p class="body-2">•	Doctorate in Psychotherapy & Counselling (DPsych; The University of Edinburgh) (In progress)
+                  <p class="body-2">{{ $t('QUALI1') }}
                   </p>
-                  <p class="body-2">•	Postgraduate Diploma in Psychotherapy & Counselling (PGDip; The University of Edinburgh)
+                  <p class="body-2">{{ $t('QUALI2') }}
                   </p>
-                  <p class="body-2">•	Registered in Counselling and Psychotherapy in Scotland (COSCA; Registration no. 4804)
+                  <p class="body-2">{{ $t('QUALI3') }}
                   </p>
-                  <p class="body-2">•	Registered member of British Association for Counselling and Psychotherapy (BACP; Registration no. 388438)
+                  <p class="body-2">{{ $t('QUALI4') }}
                   </p>
-                  <p class="body-2">•	Certificate in Focusing Skills (The British Focusing Association)
+                  <p class="body-2">{{ $t('QUALI5') }}
                   </p>
                 </v-flex>
               </v-layout>
@@ -98,32 +98,32 @@
                       max-width="320"
                       max-height="550"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Edinburgh, 2020 winter
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PIC2') }}
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md7>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-md-8 pt-sm-5">My Experience
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-md-8 pt-sm-5">{{ $t('EXPTITLE') }}
                   </p>
-                  <p class="subtitle-1">I specialise in early relational trauma (i.e. childhood abuse, neglect, and suffering). I work extensively with clients who had a difficult childhood, especially in relation to their family. Besides, I also have experience working with clients with a wide range of issues such as:</p>
-                  <v-list-item-subtitle class="subtitle-1">•	depression</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">•	anxiety</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">•	anger</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">•	stress</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">•	relationship difficulties</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">•	LGBT+ issues</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">•	sleeping problems</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">•	bereavement</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">•	loneliness</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">•	self-esteem</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">•	cross-cultural issues</v-list-item-subtitle>
+                  <p class="subtitle-1">{{ $t('EXP') }}</p>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP1') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP2') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP3') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP4') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP5') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP6') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP7') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP8') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP9') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP10') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP11') }}s</v-list-item-subtitle>
                 </v-flex>
                 <v-flex sm0 md2>
                 </v-flex>
               </v-layout>
-              <p class="text-center subtitle-2 font-weight-regular pt-md-10 pt-sm-5 pt-5">Get in Touch</p>
-              <p class="text-center subtitle-2 font-weight-regular">perrywtchan@protonmail.com</p>
+              <p class="text-center subtitle-2 font-weight-regular pt-md-10 pt-sm-5 pt-5">{{ $t('GET1') }}</p>
+              <p class="text-center subtitle-2 font-weight-regular">{{ $t('E1') }}</p>
               <v-layout row wrap justify-space-around pt-md-10 pt-sm-5>
                 <v-flex xs6 md3 class="d-flex flex-column-reverse">
                 <v-img  class="mx-auto"
@@ -145,7 +145,7 @@
                 ></v-img>
                 </v-flex>
                 <v-flex xs12 md12 pt-10 pt-sm-10 pt-md-10 class="d-flex flex-column-reverse">
-                  <p class="text-center subtitle-2 font-weight-regular">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
+                  <p class="text-center subtitle-2 font-weight-regular">{{ $t('COPY1') }}</p>
                 </v-flex>
               </v-layout>
             </v-container> 

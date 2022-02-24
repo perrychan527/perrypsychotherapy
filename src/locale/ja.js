@@ -1,3 +1,6 @@
 export const locale = {
-  WELCOME: "ようこそ"
+  HEADING: "ペリー・チャン",
+  SUBHEADING: "心理カウンセラー",
+  WELCOMETITLE: "ようこそ",
+  PROPIC: "マレーシアで働いていたとき"
 }
