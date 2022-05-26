@@ -1,6 +1,11 @@
 export const locale = {
-  HEADING: "陈渭东",
-  SUBHEADING: "心理治疗师, 咨商心理师",
-  WELCOMETITLE: "欢迎",
-  PROPIC: "当我还在马来西亚工作的时候"
+  HEADING: "陳 渭東",
+  SUBHEADING: "心理治療・心理輔導",
+  TAB1: "關於",
+  TAB2: "療法",
+  TAB3: "約見需知",
+  TAB4: "我是誰",
+  WELCOMETITLE: "歡迎",
+  PROPIC: "當我還在馬來西亞工作的時候",
+  WELCOME: "Hi, you can call me Perry. I'm based in Edinburgh, Scotland. I provide counselling & psychotherapy in English, Cantonese or Mandarin mainly for clients based in the UK and HK. I'm also a counselling tutor and a researcher (writing up my doctoral thesis at this moment) at the University of Edinburgh."
 }

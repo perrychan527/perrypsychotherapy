@@ -162,13 +162,13 @@
             <v-container class="px-md-10 px-5 py-md-10 py-5">
               <v-layout row wrap>
                 <v-flex xs12 sm12 md12>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">My Approach
+                  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('APPTITLE1') }}
                   </p>
                 </v-flex>
                 <v-flex xs12 sm12 md6>
-                  <p class="subtitle-1">My approach is relational, grounded in psychodynamic and person-centred theories. It's a process of identifying early/primitive conflicts and defences, which hinder us from developing a fuller sense of self. This happens through intersubjective communication (at times unconscious) in a confidential, safe, empathic and relational space between you and me.
+                  <p class="subtitle-1">{{ $t('APP1') }}
                   </p>
-                  <p class="subtitle-1">Therefore, psychotherapy, in my opinion, isn't about fixing something. It's two people sitting together in dialogue trying to discover who we really are, what is perpetuating our dysfunctional thoughts or behaviours, and what is hindering us from self-actualisation and feeling fulfilled. It is simple......but deep......
+                  <p class="subtitle-1">{{ $t('APP2') }}
                   </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -179,7 +179,7 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Two people navigating in the mist, Yellowcraig, 2021 summer
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PIC3') }}
                 </p>
               </v-flex>
               </v-layout>
@@ -191,16 +191,16 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Old College, 2020 winter 
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PIC4') }}
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">How it works
+                  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('APPTITLE2') }}
                   </p>
-                  <p class="subtitle-1">Instead of someone who solves your problems, I'll be your companion being together in the chaotic and overwhelming space, indwelling ourselves in the experiences. We together try to process and hopefully come to terms with something painful and unbearable.</p>
-                  <p class="subtitle-1">My years of meditation practice and my training of focusing skills have allowed me and my clients to dwell in the experiences on a deeper level. When things start making sense and becoming meaningful, psychic transformation will be experienced. What might potentially happen are having higher self-awareness, bigger capacity to embrace the not-knowing in life and more ability to make better decisions without repeating unhealthy patterns.
+                  <p class="subtitle-1">{{ $t('APP3') }}</p>
+                  <p class="subtitle-1">{{ $t('APP4') }}
                   </p>
                 </v-flex>
               </v-layout>
@@ -208,12 +208,12 @@
                 <v-flex sm0 xs0 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md5 pt-md-2 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">The Not-knowing
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">{{ $t('APPTITLE3') }}
                   </p>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap"> . . . if you gaze for long into an abyss, the abyss gazes back into you.</v-list-item-subtitle>
-                  <v-list-item-subtitle class="text-right font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-12 pr-sm-8 pr-8 pb-md-3 pb-3 pb-sm-3 text-wrap">Nietzsche</v-list-item-subtitle>
-                  <p class="subtitle-1">Imagine both of us trying to map a dark misty city together with a compass and find the way out. It could be an abyss of darkness, a fathomless realm, way beyond our capacity to understand.</p>
-                  <p class="subtitle-1">Yet, if we together explore long enough, our psyche will respond and it could end up a transformative journey. In our work, this is a safe space for us to let this alchemical reaction happen.</p>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="text-right font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-12 pr-sm-8 pr-8 pb-md-3 pb-3 pb-sm-3 text-wrap">{{ $t('APP6') }}</v-list-item-subtitle>
+                  <p class="subtitle-1">{{ $t('APP7') }}</p>
+                  <p class="subtitle-1">{{ $t('APP8') }}</p>
 
                   
                 </v-flex>
@@ -225,7 +225,7 @@
                       max-width="570"
                       max-height="450"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Misty Edinburgh, 2020 spring 
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PIC5') }}
                 </p>
               </v-flex>
 
@@ -240,22 +240,22 @@
                       max-width="570"
                       max-height="450"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Bird, Tokyo 2018 spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PIC6') }}
                 </p>
               </v-flex>
                 
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md4 pt-md-8 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">Therapeutic Process
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">{{ $t('APPTITLE4') }}
                   </p>
-                  <p class="subtitle-1"> This is a poem I wrote at the beginning of my training.</p>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Two tiny eggs in the bird's nest</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Dream the undreamable</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Speak the unspeakable</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Feel the "unfeelable"</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Formulate the unformulated</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">Experience the understandable</v-list-item-subtitle>
+                  <p class="subtitle-1">{{ $t('APP9') }}</p>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">{{ $t('APP10') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">{{ $t('APP11') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">{{ $t('APP12') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">{{ $t('APP13') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">{{ $t('APP14') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">{{ $t('APP15') }}</v-list-item-subtitle>
                 </v-flex>
                 <v-flex sm0 xs0 md1>
                 </v-flex>
@@ -263,8 +263,8 @@
               </v-layout>
               <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
                 <v-flex xs12 md12 class="d-flex flex-column-reverse">
-                  <p class="text-center subtitle-2 font-weight-regular">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
-                  <p class="text-center subtitle-2 font-weight-regular">Get in Touch: perrywtchan@protonmail.com</p>
+                  <p class="text-center subtitle-2 font-weight-regular">{{ $t('COPY2') }}</p>
+                  <p class="text-center subtitle-2 font-weight-regular">{{ $t('E2') }}</p>
                 </v-flex>
               </v-layout>
             </v-container>
@@ -286,15 +286,15 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">A misty forest, Yellowcraig 2021 summer
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PIC7') }}
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md6>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-1">Fees
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-1">{{ $t('PRACTITLE1') }}
                   </p>
-                  <p class="subtitle-1">I provide service mainly for clients based in the UK (in-person/online/phone) and in Hong Kong (online only) at the rate as follows:
+                  <p class="subtitle-1">{{ $t('PRAC1') }}
                   </p>
                   <v-data-table
                     :headers="headers"
@@ -306,10 +306,10 @@
                 </v-flex>
                 
                 <v-flex xs12 sm12 md6>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-7">First & Following Sessions</p>
-                  <p class="subtitle-1">In our first meeting, we will get to know each other, talk about policies and how we can work together, and most importantly, see whether it feels right for you to work with me.
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-7">{{ $t('PRACTITLE2') }}</p>
+                  <p class="subtitle-1">{{ $t('PRAC2') }}
                   </p>
-                  <p class="subtitle-1">When we agree to work together and on a mutually suitable time to meet, I undertake our work by providing regular weekly sessions.
+                  <p class="subtitle-1">{{ $t('PRAC3') }}
                   </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -320,7 +320,7 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">A floating lighthouse, Yellowcraig 2021 summer
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PIC8') }}
                 </p>
                 </v-flex>
                 
@@ -330,26 +330,26 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Google Map: https://goo.gl/maps/ontWZEiHSm22P3Cc6
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PIC9') }}
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md6>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">Where?</p>
-                  <p class="subtitle-1">I offer face-to-face, online (Skype) or phone counselling session.
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">{{ $t('PRACTITLE3') }}</p>
+                  <p class="subtitle-1">{{ $t('PRAC4') }}
                   </p>
-                  <p class="subtitle-1">For face-to-face session, I practice at:</p>
-                  <v-list-item-subtitle class="subtitle-1 font-weight-bold">South Side Centre</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">86 Causewayside</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">Edinburgh</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">EH9 1PY</v-list-item-subtitle>
+                  <p class="subtitle-1">{{ $t('PRAC5') }}</p>
+                  <v-list-item-subtitle class="subtitle-1 font-weight-bold">{{ $t('PRAC6') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('PRAC7') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('PRAC8') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('PRAC9') }}</v-list-item-subtitle>
                 </v-flex>
               </v-layout>
               <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
                 <v-flex xs12 md12 class="d-flex flex-column-reverse">
-                  <p class="text-center subtitle-2 font-weight-regular">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
-                  <p class="text-center subtitle-2 font-weight-regular">Get in Touch: perrywtchan@protonmail.com</p>
+                  <p class="text-center subtitle-2 font-weight-regular">{{ $t('COPY3') }}</p>
+                  <p class="text-center subtitle-2 font-weight-regular">{{ $t('E3') }}</p>
                 </v-flex>
               </v-layout>
             </v-container>
@@ -367,20 +367,20 @@
             <v-container class="px-md-10 px-5 py-md-10 py-5">
               <v-layout row wrap>
                 <v-flex xs12 sm12 md6>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">Lost
+                  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('METITLE1') }}
                   </p>
-                  <p class="subtitle-1">Born and grew up in Hong Kong, I later moved to the UK for higher education in my teenage years. Done my undergrad, done my master’s, feeling lost and disturbed, hit the road, spent several years working and travelling around the world, looked for my soul, started personal therapy…….my journey started from here…
+                  <p class="subtitle-1">{{ $t('ME1') }}
                   </p>
-                  <p class="subtitle-1">“Perhaps one day you don’t need to go anywhere because you have the whole world in you?” A Jungian analyst spoke to me.
-                  </p>
-                  </p>
-                  <p class="subtitle-1">“What do you mean?”
+                  <p class="subtitle-1">{{ $t('ME2') }}
                   </p>
                   </p>
-                  <p class="subtitle-1">“Like a monk meditating on a Mandala which encapsulates the whole universe.”
+                  <p class="subtitle-1">{{ $t('ME3') }}
                   </p>
                   </p>
-                  <p class="subtitle-1">"......I think I’m escaping from something......”
+                  <p class="subtitle-1">“{{ $t('ME4') }}
+                  </p>
+                  </p>
+                  <p class="subtitle-1">{{ $t('ME5') }}
                   </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -391,7 +391,7 @@
                       max-width="300"
                       max-height="800"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Koi fish, Tokyo 2018 spring
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PIC10') }}
                 </p>
               </v-flex>
               <v-flex sm1 md1>
@@ -405,32 +405,32 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">When you brush past your dark side it goes so quickly yet enlightens you
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PIC11') }}
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">Encountering
+                  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('METITLE2') }}
                   </p>
-                  <p class="subtitle-1">This exchange occurred years ago.
+                  <p class="subtitle-1">{{ $t('ME6') }}
                   </p>
-                  <p class="subtitle-1">It was the time I started looking into myself, my inner process.
+                  <p class="subtitle-1">{{ $t('ME7') }}
                   </p>
-                  <p class="subtitle-1">Encountering my shadows, the dark sides of myself, my vulnerabilities…painful yet insightful.
+                  <p class="subtitle-1">{{ $t('ME8') }}
                   </p>
-                  <p class="subtitle-1">Digging deep, peeling off my wound, layer by layer......excoriating and excruciating......</p>
+                  <p class="subtitle-1">{{ $t('ME9') }}</p>
                 </v-flex>
               </v-layout>
               <v-layout row wrap>
                 <v-flex xs12 sm12 md6 pt-md-3 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">Koans
+                  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('METITLE3') }}
                   </p>
-                  <p class="subtitle-1">“Yea I know I'm disturbed. What can I do?”</p>
-                  <p class="subtitle-1">“I don’t know” the analyst answered immediately.</p>
-                  <p class="subtitle-1">“…can you tell me what to do?”</p>
-                  <p class="subtitle-1">“Stop asking this question. When the right time has come, you will know what to do. Now stay reflective and curious.”</p>
-                  <p class="subtitle-1">Like a koan, solving it in our head is pointless. Indwelling ourselves in it is the way to understand it. This was the time when I learnt to indwell in my painful experience and started this life-long commitment to looking into my psyche and developing my self-awareness, as well as staying reflective on the tensions with any other beings.</p>
+                  <p class="subtitle-1">{{ $t('ME10') }}</p>
+                  <p class="subtitle-1">{{ $t('ME11') }}</p>
+                  <p class="subtitle-1">{{ $t('ME12') }}</p>
+                  <p class="subtitle-1">{{ $t('ME13') }}</p>
+                  <p class="subtitle-1">{{ $t('ME14') }}</p>
                   <p class="subtitle-1"></p>
                   
                 </v-flex>
@@ -442,7 +442,7 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Self-discovery, making the unconscious conscious
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PIC12') }}
                 </p>
               </v-flex>
               </v-layout>
@@ -453,22 +453,22 @@
                       max-width="520"
                       max-height="400"
                 ></v-img>
-                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Meditation has become my daily practice. (Meditation in Japan, 2018)
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PIC13') }}
                 </p>
                 </v-flex>
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">My Ways of Being
+                  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('METITLE4') }}
                   </p>
-                  <p class="subtitle-1">Personal therapy and meditation are practices which keep me alive, reflective, creative and grounded and thus shapes my ways of being. This has thus allowed me to work with my clients ethically and professionally.
+                  <p class="subtitle-1">{{ $t('ME15') }}
                   </p>
                 </v-flex>
               </v-layout>
               <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
                 <v-flex xs12 md12 class="d-flex flex-column-reverse">
-                  <p class="text-center subtitle-2 font-weight-regular">© 2021, Perry W.T. Chan. All Rights Reserved.</p>
-                  <p class="text-center subtitle-2 font-weight-regular">Get in Touch: perrywtchan@protonmail.com</p>
+                  <p class="text-center subtitle-2 font-weight-regular">{{ $t('COPY4') }}</p>
+                  <p class="text-center subtitle-2 font-weight-regular">{{ $t('E4') }}</p>
                 </v-flex>
               </v-layout>
             </v-container>
@@ -498,12 +498,8 @@ export default {
             locale: 'en'
           },
           {
-            text: '中 (繁)',
+            text: '中',
             locale: 'tc'
-          },
-          {
-            text: '中 (简)',
-            locale: 'sc'
           },
           {
             text: '日',
