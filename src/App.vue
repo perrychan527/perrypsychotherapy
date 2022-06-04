@@ -42,6 +42,9 @@
       <v-tab class="overline text-capitalize">
         {{ $t('TAB4') }}
       </v-tab>
+	  <v-tab class="overline text-capitalize">
+        {{ $t('TAB5') }}
+      </v-tab>
       <v-tab-item align="center" class="px-10 py-3">
         <v-card flat max-width="1100" elevation="0" style="
         background: #FFFFFF;
@@ -465,6 +468,46 @@
                   </p>
                 </v-flex>
               </v-layout>
+              <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
+                <v-flex xs12 md12 class="d-flex flex-column-reverse">
+                  <p class="text-center subtitle-2 font-weight-regular">{{ $t('COPY4') }}</p>
+                  <p class="text-center subtitle-2 font-weight-regular">{{ $t('E4') }}</p>
+                </v-flex>
+              </v-layout>
+            </v-container>
+          </v-card-text>
+        </v-card>
+      </v-tab-item>
+	  <v-tab-item align="center" class="px-10 py-3">
+        <v-card flat max-width="1100" elevation="0" style="
+        background: #FFFFFF;
+        background: -webkit-linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+        background: linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
+        ">
+          <v-card-text class="text-left">
+            <v-container class="px-md-10 px-5 py-md-10 py-5">
+              <v-layout row wrap>
+                <v-flex xs12 sm12 md6>
+                  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('SDTITLE1') }}
+                  </p>
+                  <p class="subtitle-1">{{ $t('SD1') }}
+                  </p>
+                </v-flex>
+                <v-flex sm1 md1>
+                </v-flex>
+                <v-flex xs12 sm12 md4 pt-md-4>
+                <v-img class="mx-auto"
+                      src="@/assets/fishexplore.jpg"
+                      max-width="300"
+                      max-height="800"
+                ></v-img>
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PIC10') }}
+                </p>
+              </v-flex>
+              <v-flex sm1 md1>
+                </v-flex>
+              </v-layout>
+              
               <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
                 <v-flex xs12 md12 class="d-flex flex-column-reverse">
                   <p class="text-center subtitle-2 font-weight-regular">{{ $t('COPY4') }}</p>
