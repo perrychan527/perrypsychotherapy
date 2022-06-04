@@ -35,7 +35,7 @@ export const locale = {
   E1: "perrywtchan@protonmail.com",
   COPY1: "© 2021, Perry W.T. Chan. All Rights Reserved.",
   APPTITLE1: "Therapy",
-  APP1: "Originally trained in psychodynamic and person-centred paradigms, I aim to create a confidential, empathic and containing space between you and me, to explore and make sense of what is happening in life. I however do not want to be bound by any particular school of thought. I would describe our therapeutic work as relational because speaking from my experience, I have found it fundamentally an authentic soul-to-soul encounter.",
+  APP1: "Having trained in psychodynamic and person-centred approaches to counselling, I aim to create a confidential, empathic and containing space between you and me, to explore and make sense of what is happening in life. I would describe therapeutic work as relational because speaking from my experience, I have found it fundamentally an authentic soul-to-soul encounter.",
   APP2: "Psychotherapy, in my opinion, isn't about fixing something. It's two people sitting together in dialogue trying to discover who we really are, what is perpetuating our dysfunctional thoughts or behaviours, and what is hindering us from developing a fuller sense of Self and feeling fulfilled. It is simple......but deep......",
   PIC3: "Two people navigating in the mist, Yellowcraig, 2021 summer",
   PIC4: "Old College, 2020 winter",

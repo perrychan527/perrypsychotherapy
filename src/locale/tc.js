@@ -1,8 +1,8 @@
 export const locale = {
   HEADING: "陳 渭東",
-  SUBHEADING: "心理治療・心理輔導",
+  SUBHEADING: "心理治療・心理輔導・Social Dreaming",
   TAB1: "關於",
-  TAB2: "療法",
+  TAB2: "治療",
   TAB3: "約見需知",
   TAB4: "我是誰",
   WELCOMETITLE: "歡迎",
