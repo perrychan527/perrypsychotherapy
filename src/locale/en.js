@@ -8,7 +8,7 @@ export const locale = {
   TAB5: "social dreaming",
   WELCOMETITLE: "welcome",
   PROPIC: "When I was working in Malaysia",
-  WELCOME: "Hi, you can call me Perry. I'm based in Edinburgh, Scotland. I provide in-person/online counselling & psychotherapy in English, Cantonese or Mandarin mainly for clients based in the UK and HK. I'm also a counselling tutor and a researcher (writing up my doctoral thesis at this moment) at the University of Edinburgh, as well as a Social Dreaming host.",
+  WELCOME: "Hi, you can call me Perry. I'm based in Edinburgh, Scotland. I provide in-person/online counselling & psychotherapy in English, Cantonese or Mandarin mainly for clients based in the UK and HK. I'm also a counselling tutor and a researcher (writing up my doctoral thesis at the moment) at the University of Edinburgh, as well as a Social Dreaming host.",
   CORETITLE: "my core value",
   CORE: "As I find labels such as xx disorder or xx syndrome pathologising and over-powering, I see each person as an individual with unique stories, experiences, personalities, behavioural patterns, complexes, psyches, souls......which are all meaningful, whether or not they're making sense at this moment. I'm committed to creating this safe space for us to explore together on a deeper level.",
   NAME: "Perry W.T. Chan, MCOSCA, MBACP",
