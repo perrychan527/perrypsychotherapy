@@ -654,7 +654,7 @@
 							  </p>
 							  <p class="subtitle-1">We are inviting 10 people to join this Matrix. You are invited if you:</p>
 							  <v-list-item-subtitle class="subtitle-1 text-wrap">•	are interested in exploring the Hong Kong’s collective trauma</v-list-item-subtitle>
-							  <v-list-item-subtitle class="subtitle-1 text-wrap">•	are perceived yourself as a Hongkonger</v-list-item-subtitle>
+							  <v-list-item-subtitle class="subtitle-1 text-wrap">•	perceive yourself as a Hongkonger</v-list-item-subtitle>
 							  <v-list-item-subtitle class="subtitle-1 text-wrap">•	are over 18 years old</v-list-item-subtitle>
 							  <v-list-item-subtitle class="subtitle-1 text-wrap">•	can communicate in English</v-list-item-subtitle>
 							  <v-list-item-subtitle class="subtitle-1 text-wrap">•	are willing to share and engage with dreams or associations to whatever emerges in the Matrix to all participants</v-list-item-subtitle>
