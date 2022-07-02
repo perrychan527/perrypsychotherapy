@@ -58,6 +58,7 @@
                 <v-flex xs12 sm4 md3 pt-md-4>
                   <v-img class="mx-auto"
                         src="@/assets/perrybio2.jpg"
+						alt="an image of Perry WT Chan, counsellor, psychotherapist and Social Dreaming host. He provides in-person/online counselling & psychotherapy in English, Cantonese or Mandarin mainly for clients based in the UK and HK."
                         max-width="240"
                         max-height="450"
                   ></v-img>
@@ -99,6 +100,7 @@
                 <v-flex xs12 sm12 md4 pt-md-10 pt-sm-5>
                 <v-img class="mx-auto"
                       src="@/assets/dark.jpg"
+					  alt="depression, anxiety, anger, stress, relationship difficulties, LGBT+ issues, sleeping problems, bereavement, loneliness, self-esteem, cross-cultural issuess"
                       max-width="320"
                       max-height="550"
                 ></v-img>
@@ -131,19 +133,22 @@
               <v-layout row wrap justify-space-around pt-md-10 pt-sm-5>
                 <v-flex xs6 md3 class="d-flex flex-column-reverse">
                 <v-img  class="mx-auto"
-                src="@/assets/cosca1.jpg"
+						src="@/assets/cosca1.jpg"
+						alt="COSCA registered counsellor/psychotherapist"
                         max-width="150"
                         max-height="150"
                 ></v-img>
                 </v-flex>
                 <v-flex xs6 md3 class="d-flex flex-column-reverse">
                 <v-img  src="@/assets/cosca2.jpg"
+						alt="COSCA registered counsellor/psychotherapist"
                         max-width="250"
                         max-height="150"
                 ></v-img>
                 </v-flex>
                 <v-flex xs6 md4 class="d-flex flex-column-reverse pb-md-6">
                 <v-img  src="@/assets/bacp.jpg"
+						alt="BACP registered counsellor/psychotherapist"
                         max-width="230"
                         max-height="100"
                 ></v-img>
@@ -180,6 +185,7 @@
                 <v-flex xs12 sm12 md5>
                 <v-img class="mx-auto"
                       src="@/assets/2people2.jpg"
+					  alt="Two people navigating in the mist, exploring the not-knowing, like what happens in a therapy session"
                       max-width="520"
                       max-height="400"
                 ></v-img>
@@ -241,6 +247,7 @@
                 <v-flex xs12 sm12 md5 pt-md-16 pt-sm-8 pt-7>
                 <v-img
                       src="@/assets/2birds.jpg"
+					  alt="Therapeutic Process"
                       max-width="570"
                       max-height="450"
                 ></v-img>
@@ -287,6 +294,7 @@
                 <v-flex xs12 sm12 md5 pt-md-3 pt-sm-5>
                 <v-img class="mx-auto"
                       src="@/assets/mistyforest.jpg"
+					  alt="psychotherapy and counselling service mainly for clients based in Edinburgh, in the UK (in-person/online/phone) and in Hong Kong (online only), in English, Cantonese and Mandarin Chinese"
                       max-width="520"
                       max-height="400"
                 ></v-img>
@@ -331,6 +339,7 @@
                 <v-flex xs12 sm12 md5 pt-md-3 pt-sm-5 pt-5>
                 <v-img class="mx-auto"
                       src="@/assets/map.jpg"
+					  alt="I offer counselling/psychotherapy face-to-face (South Side Centre), online (Skype) or phone counselling session, in Edinburgh, UK, Hong Kong"
                       max-width="520"
                       max-height="400"
                 ></v-img>
@@ -529,6 +538,7 @@
 							<v-flex xs12 sm12 md6>
 							<v-img class="mx-auto"
 								  src="@/assets/mushroom2.png"
+								  alt="an image of dreaming mushrooms. Social Dreaming in the UK"
 								  max-width="520"
 								  max-height="400"
 							></v-img>
@@ -541,6 +551,7 @@
 							<v-flex xs12 sm12 md6 pt-md-8 pt-sm-5>
 							<v-img class="mx-auto"
 								  src="@/assets/dreamingfish.png"
+								  alt="an image of dreaming fishes. Social Dreaming in the UK"
 								  max-width="600"
 								  max-height="800"
 							></v-img>
@@ -615,9 +626,10 @@
 						  </v-layout>
 						  
 						  <v-layout row wrap>
-							<v-flex xs12 sm12 md5 pt-md-2 pt-sm-5>
+							<v-flex xs12 sm12 md5 pt-md-7 pt-sm-5>
 							<v-img class="mx-auto"
 								  src="@/assets/mushroom.png"
+								  alt="an image of dreaming mushrooms. Social Dreaming in London for Hong Kong people Hongkongers, to explore the Hong Kong's collective trauma. Welcome to join us."
 								  max-width="520"
 								  max-height="400"
 							></v-img>
@@ -630,7 +642,7 @@
 							  <p class="overline text-capitalize light-blue--text text--darken-4"> What is a Social Dreaming Matrix (SDM)?
 							  </p>
 							  <p class="subtitle-1">To learn more about SDM, please refer to About SDM.</p>
-							  <p class="subtitle-1">In this SDM, no previous experience and knowledge of SD is required.  We are hosting this weekend of 4 Social Dreaming Matrices in a comfortable setting, and near cafes where we will be able to take our lunch break.
+							  <p class="subtitle-1">In this SDM, no previous experience and knowledge of SD is required.  In the introductory session, we will briefly introduce SD, e.g., the meaning of dream sharing, collective unconscious, the way we connect to each other on a deep level, etc. We are hosting this weekend of 4 Social Dreaming Matrices in a comfortable setting, and near cafes where we will be able to take our lunch break. The hosts are not paid for hosting this SDM.
 							  </p>
 							</v-flex>
 						  </v-layout>
