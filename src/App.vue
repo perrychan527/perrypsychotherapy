@@ -642,7 +642,7 @@
 							  <p class="overline text-capitalize light-blue--text text--darken-4"> What is a Social Dreaming Matrix (SDM)?
 							  </p>
 							  <p class="subtitle-1">To learn more about SDM, please refer to About SDM.</p>
-							  <p class="subtitle-1">In this SDM, no previous experience and knowledge of SD is required.  In the introductory session, we will briefly introduce SD, e.g., the meaning of dream sharing, collective unconscious, the way we connect to each other on a deep level, etc. We are hosting this weekend of 4 Social Dreaming Matrices in a comfortable setting, and near cafes where we will be able to take our lunch break. The hosts are not paid for hosting this SDM.
+							  <p class="subtitle-1">In this SDM, no previous experience and knowledge of SD is required.  In the introductory session, we will briefly introduce SD, e.g., the meaning of dream sharing, collective unconscious, the way we connect to each other on a deep level, etc. We are hosting this weekend of 4 Social Dreaming Matrices in a comfortable setting, and near cafes where we will be able to take our lunch break.
 							  </p>
 							</v-flex>
 						  </v-layout>
