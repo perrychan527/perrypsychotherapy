@@ -526,30 +526,26 @@
 							  <p class="subtitle-1">A Matrix is usually followed by a Dream Reflection Dialogue (DRD) where we explore and identify emotions, thoughts and themes that emerged in the Matrix, and thus underlying issues of social systems can be explored.
 							  </p>
 							</v-flex>
-							<v-flex sm1 md1>
-							</v-flex>
-							<v-flex xs12 sm12 md5>
+							<v-flex xs12 sm12 md6>
 							<v-img class="mx-auto"
 								  src="@/assets/mushroom2.png"
 								  max-width="520"
 								  max-height="400"
 							></v-img>
-							<p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">Dreaming Mushrooms (Perry Chan 2022)
+							<p class="pt-md-0 pt-sm-3 pt- subtitle-3">Dreaming Mushrooms (Perry Chan 2022)
 							</p>
 						  </v-flex>
 						  </v-layout>
 						  
 						  <v-layout row wrap>
-							<v-flex xs12 sm12 md5 pt-md-8 pt-sm-5>
+							<v-flex xs12 sm12 md6 pt-md-8 pt-sm-5>
 							<v-img class="mx-auto"
 								  src="@/assets/dreamingfish.png"
-								  max-width="400"
-								  max-height="570"
+								  max-width="600"
+								  max-height="800"
 							></v-img>
 							<p class="pt-md-3 pt-sm-3 pt-3 pl-md-12 pl-12 pl-sm-12 subtitle-3">Dreaming fishes (Perry Chan 2022)
 							</p>
-							</v-flex>
-							<v-flex sm1 md1>
 							</v-flex>
 							<v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
 							  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('APPTITLE2') }}
@@ -924,7 +920,6 @@
 						  <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
 							<v-flex xs12 md12 class="d-flex flex-column-reverse">
 							  <p class="text-center subtitle-2 font-weight-regular">{{ $t('COPY2') }}</p>
-							  <p class="text-center subtitle-2 font-weight-regular">{{ $t('E2') }}</p>
 							</v-flex>
 						  </v-layout>
 						</v-container>
