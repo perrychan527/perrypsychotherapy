@@ -525,6 +525,14 @@
 					  <v-card-text class="text-left">
 						<v-container class="px-md-10 px-5 py-md-10 py-5">
 						  <v-layout row wrap>
+						  <v-flex xs1 sm2 md3>
+							</v-flex>
+							<v-flex xs10 sm8 md6>
+							<v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">Our dreaming self is more concerned with the nature of our connections with all others . . . is connected with the basic truth that we're all members of a single species . . . </v-list-item-subtitle>
+							<v-list-item-subtitle class="text-right font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-12 pr-sm-8 pr-8 pb-md-3 pb-3 pb-sm-3 text-wrap">Ullman, 1981</v-list-item-subtitle>
+							</v-flex>
+							<v-flex xs1 sm2 md3>
+							</v-flex>
 							<v-flex xs12 sm12 md12>
 							  <p class="overline text-capitalize light-blue--text text--darken-4">What is a Social Dreaming Matrix (SDM)?
 							  </p>
@@ -571,6 +579,7 @@
 							  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">Reference
 							  </p>
 							  <p class="caption">Lawrence, W. Gordon. "The contribution of social dreaming to socio-analysis." Socio-Analysis 1, no. 1 (1999): 18-33.</p>
+							  <p class="caption">Ullman, Montague. "Psi communication through dream sharing." Parapsychology Review 12, no. 2 (1981): 1-8.</p>
 							</v-flex>
 						  </v-layout>
 						  <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
@@ -599,10 +608,22 @@
 							  </p>
 							</v-flex>
 							<v-flex xs12 sm12 md6>
-							  <p class="overline font-italic font-weight-regular text-capitalize light-blue--text text--darken-4">Intro: July 23, 2022, 11am-noon, Online
+							<p class="overline font-italic font-weight-regular text-capitalize light-blue--text text--darken-4">Intro: July 23, 2022, 11am-noon, Online
 							  </p>
 							  <p class="overline font-italic font-weight-regular text-capitalize light-blue--text text--darken-4">SDM: July 30 & 31, 2022, 11am-3pm, London (TBA)
 							  </p>
+							</v-flex>
+							<v-flex md6>
+							</v-flex>
+							<v-flex xs1 sm2 md3>
+							</v-flex>
+							<v-flex xs10 sm8 md6>
+							<v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">Our dreaming self is more concerned with the nature of our connections with all others . . . is connected with the basic truth that we're all members of a single species . . . </v-list-item-subtitle>
+							<v-list-item-subtitle class="text-right font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-12 pr-sm-8 pr-8 pb-md-3 pb-3 pb-sm-3 text-wrap">Montague Ullman</v-list-item-subtitle>
+							</v-flex>
+							<v-flex xs1 sm2 md3>
+							</v-flex>
+							<v-flex xs12 sm12 md6>
 							  <p class="subtitle-1">Are you from Hong Kong? What does it mean to be a Hongkonger today? Hong Kong is experiencing an unprecedented level of unrest. How has this ongoing collective trauma been impacting on, threatening and shaping Hongkongers’ sense of identity, psyche, social and cultural complex, and so on? Are you interested in exploring the recent collective trauma on a deeper level, unconsciously and collectively? And curious to experience a different kind of thinking space? 
 							  </p>
 							</v-flex>
