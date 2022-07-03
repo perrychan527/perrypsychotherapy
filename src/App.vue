@@ -937,7 +937,7 @@
 							  <v-flex sm1 md1>
 							  </v-flex>
 							  <v-flex xs12 sm12 md4 pt-sm-5>
-							  <p class="subtitle-1">Perry WT Chan has worked as a relational psychotherapist in NGOs and privately, in the UK and remotely in HK. He is also a counselling tutor and a researcher at the University of Edinburgh. He is particularly interested in early relational (childhood) trauma, and societal collective trauma.</p>
+							  <p class="subtitle-1">Perry WT Chan has worked as a relational psychotherapist in NGOs and privately, in the UK and remotely in HK. He is particularly interested in early relational (childhood) trauma, and societal collective trauma. He is also a counselling tutor and a researcher (writing his doctoral thesis at the moment) at the University of Edinburgh.</p>
 							</v-flex>
 							<v-flex sm1 md1>
 							</v-flex>
