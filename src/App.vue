@@ -1,8 +1,13 @@
 <template>
   <v-app>
     <p>
-      <router-link to="/">Home</router-link>
+	  <v-card>
+      <v-btn>
+	  <router-link to="/">Home</router-link>
+	  </v-btn>
       <router-link to="/test">Test</router-link>
+	  <router-link to="/test2">Test2</router-link>
+      </v-card>
     </p>
 
     <v-card>
