@@ -1,12 +1,14 @@
 <template>
   <v-app>
     <p>
-	  <v-card>
-      <v-btn>
-	  <router-link to="/en/">Home</router-link>
-	  </v-btn>
-      <router-link to="/en/test">Test</router-link>
-	  <router-link to="/en/test2">Test2</router-link>
+      <v-card>
+
+        <router-link :to="{ name: 'default', params: { locale: $route.params.locale }}">Home</router-link>
+
+        <router-link :to="{ name: 'test', params: { locale: $route.params.locale || 'en' }}">Test</router-link>
+
+        <router-link :to="{ name: 'test2', params: { locale: $route.params.locale || 'en' }}">Test 2</router-link>
+
       </v-card>
     </p>
 
@@ -74,7 +76,7 @@ export default {
             var newPath = "/" + locale + this.$route.fullPath.slice(3)
             this.$router.push({ path: newPath })
           }
-      }
+      },
     },
     watch:{
         $route (to, from){

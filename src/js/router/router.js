@@ -11,10 +11,10 @@ const test2 = () => import("../../page/test2.vue")
 const router = new VueRouter({
   mode: 'history',
   routes: [
-    { path: '/', component: home },
-    { path: '/:locale', component: home },
-    { path: '/:locale/test', component: test },
-    { path: '/:locale/test2', component: test2 }
+    { path: '/', component: home, name: 'default' },
+    { path: '/:locale', component: home, name: 'home' },
+    { path: '/:locale/test', component: test, name: 'test' },
+    { path: '/:locale/test2', component: test2, name: 'test2' }
 
   ]
 })
