@@ -3,10 +3,10 @@
     <p>
 	  <v-card>
       <v-btn>
-	  <router-link to="/">Home</router-link>
+	  <router-link to="/en/">Home</router-link>
 	  </v-btn>
-      <router-link to="/test">Test</router-link>
-	  <router-link to="/test2">Test2</router-link>
+      <router-link to="/en/test">Test</router-link>
+	  <router-link to="/en/test2">Test2</router-link>
       </v-card>
     </p>
 
@@ -67,20 +67,30 @@ export default {
     },
     methods : {
       changeLocale: function(locale){
-          utility.setCookie("locale", locale, 365)
           this.$i18n.locale = locale
+          
+          var routeLocale = this.$route.params.locale
+          if (routeLocale != "" && routeLocale != locale){
+            var newPath = "/" + locale + this.$route.fullPath.slice(3)
+            this.$router.push({ path: newPath })
+          }
       }
     },
-    created: function () {
-      var cookieLocale = utility.getCookie("locale")
-      if (cookieLocale != ""){
-        for(var i = 0; i <this.languages.length; i++) {
-          if (this.languages[i].locale == cookieLocale){
-            this.languageSelected = this.languages[i]
-            break
+    watch:{
+        $route (to, from){
+          
+          var locale = this.$route.params.locale
+
+          if (locale != ""){
+            for(var i = 0; i <this.languages.length; i++) {
+              if (this.languages[i].locale == locale){
+                this.languageSelected = this.languages[i]
+                this.$i18n.locale = locale
+                break
+              }
+            }
           }
         }
-      }
     }
   }
 </script>

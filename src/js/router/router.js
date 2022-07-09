@@ -12,8 +12,9 @@ const router = new VueRouter({
   mode: 'history',
   routes: [
     { path: '/', component: home },
-    { path: '/test', component: test },
-	{ path: '/test2', component: test2 }
+    { path: '/:locale', component: home },
+    { path: '/:locale/test', component: test },
+    { path: '/:locale/test2', component: test2 }
 
   ]
 })

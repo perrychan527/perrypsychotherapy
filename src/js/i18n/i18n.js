@@ -9,17 +9,11 @@ import { locale as ja } from './locale/ja.js'
 
 Vue.use(VueI18n)
 
-var cookieLocale = utility.getCookie("locale")
-if (cookieLocale == ""){
-  cookieLocale = "en"
-  utility.setCookie("locale", cookieLocale, 365)
-}
-
 let messages = {}
 messages = { ...messages, en, tc, sc, ja }
 
 const i18n = new VueI18n({
-  locale: cookieLocale,
+  locale: "en",
   messages
 })
 
