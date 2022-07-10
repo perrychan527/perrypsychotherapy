@@ -7,7 +7,7 @@
 				  <v-tab class="overline text-capitalize fixed">
 					<router-link 
 					style="text-decoration: none; color: inherit;"
-					:to="{ name: 'sd', params: { locale: $route.params.locale }}">About SD</router-link>
+					:to="{ name: 'socialDreaming', params: { locale: $route.params.locale || 'en' }}">About SD</router-link>
 				  </v-tab>
 				  <v-tab disabled class="overline text-capitalize fixed light-blue--text text--darken-4">
 					-2022-
@@ -15,7 +15,7 @@
 				  <v-tab class="overline text-capitalize fixed">
 					<router-link 
 					style="text-decoration: none; color: inherit;"
-					:to="{ name: 'london', params: { locale: $route.params.locale }}">July, London</router-link>
+					:to="{ name: 'london', params: { locale: $route.params.locale || 'en' }}">July, London</router-link>
 				  </v-tab>
 				  <v-tab class="overline text-capitalize fixed">
 					Aug, Online

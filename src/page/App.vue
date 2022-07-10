@@ -38,7 +38,7 @@
         </router-link>
         <router-link 
         style="text-decoration: none; color: inherit;"
-        :to="{ name: 'therapy', params: { locale: $route.params.locale }}">
+        :to="{ name: 'therapy', params: { locale: $route.params.locale || 'en' }}">
           <v-btn
           class="overline text-capitalize"
           color="grey darken-4"
@@ -49,7 +49,7 @@
         </router-link>
         <router-link 
         style="text-decoration: none; color: inherit;"
-        :to="{ name: 'sessioninfo', params: { locale: $route.params.locale }}">
+        :to="{ name: 'sessioninfo', params: { locale: $route.params.locale || 'en' }}">
           <v-btn
           class="overline text-capitalize"
           color="grey darken-4"
@@ -60,7 +60,7 @@
         </router-link>
         <router-link 
         style="text-decoration: none; color: inherit;"
-        :to="{ name: 'memories', params: { locale: $route.params.locale }}">
+        :to="{ name: 'memories', params: { locale: $route.params.locale || 'en' }}">
           <v-btn
           class="overline text-capitalize"
           color="grey darken-4"
@@ -71,7 +71,7 @@
         </router-link>
         <router-link 
         style="text-decoration: none; color: inherit;"
-        :to="{ name: 'sd', params: { locale: $route.params.locale }}">
+        :to="{ name: 'socialDreaming', params: { locale: $route.params.locale || 'en' }}">
           <v-btn
           class="overline text-capitalize"
           color="grey darken-4"
@@ -88,7 +88,7 @@
 </template>
 
 <script>
-import utility from './js/utility/utility'
+import utility from '../js/utility/utility'
 
 export default {
     data () {

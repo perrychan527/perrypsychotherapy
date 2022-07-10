@@ -3,12 +3,12 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-const about = () => import("../../page/about.vue")
-const therapy = () => import("../../page/therapy.vue")
-const sessioninfo = () => import("../../page/sessioninfo.vue")
-const memories = () => import("../../page/memories.vue")
-const sd = () => import("../../page/sd.vue")
-const london = () => import("../../page/london.vue")
+const about = () => import("../../page/about/about.vue")
+const therapy = () => import("../../page/therapy/therapy.vue")
+const sessioninfo = () => import("../../page/sessionInfo/sessioninfo.vue")
+const memories = () => import("../../page/memories/memories.vue")
+const socialDreaming = () => import("../../page/socialDreaming/socialDreaming.vue")
+const london = () => import("../../page/socialDreaming/london/london.vue")
 
 
 const router = new VueRouter({
@@ -19,8 +19,11 @@ const router = new VueRouter({
     { path: '/:locale/therapy', component: therapy, name: 'therapy' },
     { path: '/:locale/sessioninfo', component: sessioninfo, name: 'sessioninfo' },
     { path: '/:locale/memories', component: memories, name: 'memories' },
-    { path: '/:locale/sd', component: sd, name: 'sd' },
-    { path: '/:locale/sd/london', component: sd, name: 'london' }
+    { path: '/:locale/sd', component: socialDreaming, name: 'socialDreaming', children: [
+      { path: 'london', component: london, name: 'london' }
+
+    ]},
+    
 
 
   ]
