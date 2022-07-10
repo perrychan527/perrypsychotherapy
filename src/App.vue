@@ -1,18 +1,6 @@
 <template>
   <v-app>
-    <p>
-      <v-card>
-
-        <router-link :to="{ name: 'default', params: { locale: $route.params.locale }}">Home</router-link>
-
-        <router-link :to="{ name: 'test', params: { locale: $route.params.locale || 'en' }}">Test</router-link>
-
-        <router-link :to="{ name: 'test2', params: { locale: $route.params.locale || 'en' }}">Test 2</router-link>
-
-      </v-card>
-    </p>
-
-    <v-card>
+    <v-card flat>
       <v-container fluid>
         <v-row align="center">
           <v-col cols="8" sm="9" md="10">
@@ -35,6 +23,64 @@
       </v-container>
       <v-card-title class="justify-center font-weight-light display-1 pt-0">{{ $t('HEADING') }}</v-card-title>
       <v-card-subtitle class="overline text-capitalize text-center font-weight-regular">{{ $t('SUBHEADING') }}</v-card-subtitle>
+      
+      <div class="text-center">
+        <router-link 
+        style="text-decoration: none; color: inherit;"
+        :to="{ name: 'default', params: { locale: $route.params.locale }}">
+          <v-btn
+          class="overline text-capitalize"
+          color="grey darken-4"
+          plain
+        >
+          About
+          </v-btn>
+        </router-link>
+        <router-link 
+        style="text-decoration: none; color: inherit;"
+        :to="{ name: 'therapy', params: { locale: $route.params.locale }}">
+          <v-btn
+          class="overline text-capitalize"
+          color="grey darken-4"
+          plain
+        >
+          Therapy
+          </v-btn>
+        </router-link>
+        <router-link 
+        style="text-decoration: none; color: inherit;"
+        :to="{ name: 'sessioninfo', params: { locale: $route.params.locale }}">
+          <v-btn
+          class="overline text-capitalize"
+          color="grey darken-4"
+          plain
+        >
+          Session Info
+          </v-btn>
+        </router-link>
+        <router-link 
+        style="text-decoration: none; color: inherit;"
+        :to="{ name: 'memories', params: { locale: $route.params.locale }}">
+          <v-btn
+          class="overline text-capitalize"
+          color="grey darken-4"
+          plain
+        >
+          Memories
+          </v-btn>
+        </router-link>
+        <router-link 
+        style="text-decoration: none; color: inherit;"
+        :to="{ name: 'sd', params: { locale: $route.params.locale }}">
+          <v-btn
+          class="overline text-capitalize"
+          color="grey darken-4"
+          plain
+        >
+          Social Dreaming
+          </v-btn>
+        </router-link>
+      </div>
     </v-card>
 
     <router-view></router-view>

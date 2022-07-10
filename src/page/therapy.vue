@@ -1,7 +1,6 @@
 <template>
-  <div>
-    <h1>second test</h1>
-	<v-card flat max-width="1100" elevation="0" style="
+  <div align="center" class="pt-md-8 pt-sm-8 pt-4 px-md-10 px-sm-9 px-4">
+    <v-card flat max-width="1100" elevation="0" style="
         background: #FFFFFF;
         background: -webkit-linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);
         background: linear-gradient(to bottom, #ECEFF1, #F5F5F5, #FFFFFF);

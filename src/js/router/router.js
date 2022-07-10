@@ -3,18 +3,25 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-const home = () => import("../../page/home.vue")
-const test = () => import("../../page/test.vue")
-const test2 = () => import("../../page/test2.vue")
+const about = () => import("../../page/about.vue")
+const therapy = () => import("../../page/therapy.vue")
+const sessioninfo = () => import("../../page/sessioninfo.vue")
+const memories = () => import("../../page/memories.vue")
+const sd = () => import("../../page/sd.vue")
+const london = () => import("../../page/london.vue")
 
 
 const router = new VueRouter({
   mode: 'history',
   routes: [
-    { path: '/', component: home, name: 'default' },
-    { path: '/:locale', component: home, name: 'home' },
-    { path: '/:locale/test', component: test, name: 'test' },
-    { path: '/:locale/test2', component: test2, name: 'test2' }
+    { path: '/', component: about, name: 'default' },
+    { path: '/:locale', component: about, name: 'about' },
+    { path: '/:locale/therapy', component: therapy, name: 'therapy' },
+    { path: '/:locale/sessioninfo', component: sessioninfo, name: 'sessioninfo' },
+    { path: '/:locale/memories', component: memories, name: 'memories' },
+    { path: '/:locale/sd', component: sd, name: 'sd' },
+    { path: '/:locale/sd/london', component: sd, name: 'london' }
+
 
   ]
 })
