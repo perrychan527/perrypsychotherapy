@@ -21,7 +21,12 @@
           </v-col>
         </v-row>
       </v-container>
-      <v-card-title class="justify-center font-weight-light display-1 pt-0">{{ $t('HEADING') }}</v-card-title>
+      
+      <v-card-title class="justify-center font-weight-light display-1 pt-0">
+        <router-link 
+         style="text-decoration: none; color: inherit;"
+         :to="{ name: 'about', params: { locale: $route.params.locale || 'en' }}">{{ $t('HEADING') }}</router-link>
+      </v-card-title>
       <v-card-subtitle class="overline text-capitalize text-center font-weight-regular">{{ $t('SUBHEADING') }}</v-card-subtitle>
       
       <div class="text-center">
@@ -71,7 +76,7 @@
         </router-link>
         <router-link 
         style="text-decoration: none; color: inherit;"
-        :to="{ name: 'socialDreaming', params: { locale: $route.params.locale || 'en' }}">
+        :to="{ name: 'socialDreamingAbout', params: { locale: $route.params.locale || 'en' }}">
           <v-btn
           class="overline text-capitalize"
           color="grey darken-4"
@@ -142,3 +147,15 @@ export default {
     }
   }
 </script>
+
+
+
+
+<style>
+.v-ripple__container {
+  opacity: 0 !important;
+}
+</style>
+
+
+

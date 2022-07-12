@@ -8,7 +8,9 @@ const therapy = () => import("../../page/therapy/therapy.vue")
 const sessioninfo = () => import("../../page/sessionInfo/sessioninfo.vue")
 const memories = () => import("../../page/memories/memories.vue")
 const socialDreaming = () => import("../../page/socialDreaming/socialDreaming.vue")
-const london = () => import("../../page/socialDreaming/london/london.vue")
+const socialDreamingAbout = () => import("../../page/socialDreaming/about/socialDreamingAbout.vue")
+const londonJuly = () => import("../../page/socialDreaming/londonJuly/londonJuly.vue")
+const londonSeptember = () => import("../../page/socialDreaming/londonSeptember/londonSeptember.vue")
 
 
 const router = new VueRouter({
@@ -20,7 +22,10 @@ const router = new VueRouter({
     { path: '/:locale/sessioninfo', component: sessioninfo, name: 'sessioninfo' },
     { path: '/:locale/memories', component: memories, name: 'memories' },
     { path: '/:locale/sd', component: socialDreaming, name: 'socialDreaming', children: [
-      { path: 'london', component: london, name: 'london' }
+      { path: '', component: socialDreamingAbout, name: 'default' },
+      { path: 'about', component: socialDreamingAbout, name: 'socialDreamingAbout' },
+      { path: 'london_july', component: londonJuly, name: 'londonJuly' },
+      { path: 'london_sept', component: londonSeptember, name: 'londonSeptember' }
 
     ]},
     
