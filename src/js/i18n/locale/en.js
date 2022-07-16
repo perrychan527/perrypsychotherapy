@@ -104,5 +104,61 @@ export const locale = {
   SDTITLE1: "What is Social Dreaming?",
   SD1: "COMING SOON",
 
+//SocialDreamingAbout//
+tabAboutSdm: "About SDM",
+tabLondonJuly: "July, London",
+tabLondonSept: "Sept, London",
+
+//SocialDreamingAbout//
+  ullmanQuote: "Our dreaming self is more concerned with the nature of our connections with all others . . . is connected with the basic truth that we're all members of a single species . . . ",
+  ullmanName: "Ullman, 1981",
+  whatIsSDM: "What is a Social Dreaming Matrix (SDM)?",
+  whatIsSDM_P1:"Lawrence (1999) pioneered the use of dream materials to illuminate social processes. Participants in a dream Matrix are invited to share their night dreams and to associate to the dreams through free associations, e.g, images, feelings, gut reactions, memories, thoughts, another dream, fragments of dreams, books, films, poems, etc.  Through the dreams and associations, we find links, make connections and discover new thoughts. In a Matrix, it’s about the dream, not the dreamer. And no dream is more important than any other.",
+  whatIsSDM_P2: "A Matrix is usually followed by a Dream Reflection Dialogue (DRD) where we explore and identify emotions, thoughts and themes that emerged in the Matrix, and thus underlying issues of social systems can be explored.",
+  dreamingMushrooms2: "Dreaming Mushrooms (Perry Chan 2022)",
+  dreamingFishes: "Dreaming fishes (Perry Chan 2022)",
+  SocialDreamingAbout_ref: "Reference",
+
+//SocialDreaming/LondonJuly//
+  londonJuly_EventName: "‘Giving Voice to Haunting Ghosts’: The Hong Kong Turmoil in Social Dreaming Matrix (SDM)",
+  londonJuly_intoDate: "Intro: July 23 (Sat), 2022, 11am-noon, Online",
+  londonJuly_sdDate: "SDM: July 30 & Aug 6 (Sat), 2022, 11am-3pm, London",
+  ullmanFullName: "Montague Ullman",
+  londonJuly_eventIntro: "Are you from Hong Kong? What does it mean to be a Hongkonger today? Hong Kong is experiencing an unprecedented level of turmoil. How has this ongoing turmoil been impacting on, threatening and shaping Hongkongers’ sense of identity, psyche, social and cultural complex, and so on? Are you interested in exploring this on a deeper – unconscious and collective level? And curious to experience a different kind of thinking space?",
+  londonJuly_freeEvent: "This is a FREE event, and the hosts are not paid for hosting this SDM.",
+  londonJuly_contact: "To join us, or for any inquiries, please contact:",
+  londonJuly_email: "perrywtchan@protonmail.com",
+  dreamingMushrooms: "Dreaming Mushrooms (Perry Chan 2022)",
+  refer: "Please refer to",
+  learnMore: "to learn more.",
+  whatIsSDM_intro: "In this SDM, no previous experience and knowledge of SD is required.  In the introductory session, we will briefly introduce SD, e.g., the meaning of dream sharing, collective unconscious, the way we connect to each other on a deep level, etc. We are hosting these 2 weekends of 4 Social Dreaming Matrices in a comfortable setting, and near cafes where we will be able to take our lunch break.",
+  CanIParticipate: "Can I participate?",
+  londonJuly_participate_invite: "We are inviting 10 people to join this Matrix. You are invited if you:",
+  londonJuly_Participate_c1: "•	are interested in exploring the Hong Kong turmoil",
+  londonJuly_Participate_c2: "•	perceive yourself as a Hongkonger",
+  londonJuly_Participate_c3: "•	are over 18 years old",
+  londonJuly_Participate_c4: "•	can communicate in English",
+  londonJuly_Participate_c5: "•	are willing to share and engage with dreams or associations to whatever emerges in the Matrix to all participants",
+  sdmNotTherapy: "SDM is NOT therapy. It is a safe and non-confrontational space for us to share dreams and other associated thoughts. Participants need to take responsibility for their level of participation and well-being.",
+  londonJuly_venue: "Venue",
+  londonJuly_venueDistance: "(6-min walk from Tube station Swiss Cottage)",
+  londonJuly_agenda: "Agenda",
+  londonJuly_agendaNote: "Note: DRD refers to Dream Reflection Dialogue. To learn more, please refer to About SDM; Participants should arrive at 10:45am so that the SDM can begin promptly at 11am.",
+  londonJuly_confidentiality: "Confidentiality",
+  londonJuly_confidentiality_p1: "No personal information will be collected and stored. The introductory session and the SD sessions will NOT be audio- or video- recorded. The hosts will take notes or draw during the sessions and this process will be digitally recorded in the device (only the screen).",
+  londonJuly_confidentiality_p2: "However, any personal details and any elements which can be associated to the identity of any participants will be omitted. It is every participant’s responsibility, including the hosts, if speaking of thoughts and idea from within the Matrix, to anonymous them, and have respect for confidentiality.",
+  londonJuly_AboutHost: "About the Hosts",
+  londonJuly_AboutHost_perry: "Perry WT Chan has worked as a relational psychotherapist in NGOs and privately, in the UK and remotely in HK. He is particularly interested in early relational (childhood) trauma, and societal collective trauma. He is also a counselling tutor and a researcher (writing his doctoral thesis at the moment) at the University of Edinburgh.",
+  londonJuly_AboutHost_claire: "Claire Manson, an artist and art psychotherapist has worked in the NHS and independent sector for over 40 years. She co-founded 'Studio Upstairs', a working arts studio and therapeutic space and has also worked, and volunteered, and continues to do so as a psychotherapist for human rights organisations.",
   
+
+
+
+
+  
+
+
+
+
+
 }

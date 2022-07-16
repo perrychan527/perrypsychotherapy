@@ -38,7 +38,7 @@
           color="grey darken-4"
           plain
         >
-          About
+          {{ $t('TAB1') }}
           </v-btn>
         </router-link>
         <router-link 
@@ -49,7 +49,7 @@
           color="grey darken-4"
           plain
         >
-          Therapy
+          {{ $t('TAB2') }}
           </v-btn>
         </router-link>
         <router-link 
@@ -60,7 +60,7 @@
           color="grey darken-4"
           plain
         >
-          Session Info
+          {{ $t('TAB3') }}
           </v-btn>
         </router-link>
         <router-link 
@@ -71,7 +71,7 @@
           color="grey darken-4"
           plain
         >
-          Memories
+          {{ $t('TAB4') }}
           </v-btn>
         </router-link>
         <router-link 
@@ -82,7 +82,7 @@
           color="grey darken-4"
           plain
         >
-          Social Dreaming
+          {{ $t('TAB5') }}
           </v-btn>
         </router-link>
       </div>
