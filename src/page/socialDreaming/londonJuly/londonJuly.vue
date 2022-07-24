@@ -13,8 +13,6 @@
 							  </p>
 							</v-flex>
 							<v-flex xs12 sm12 md6>
-							<p class="overline font-italic font-weight-regular text-capitalize light-blue--text text--darken-4">{{ $t('londonJuly_intoDate') }}
-							  </p>
 							  <p class="overline font-italic font-weight-regular text-capitalize light-blue--text text--darken-4">{{ $t('londonJuly_sdDate') }}
 							  </p>
 							</v-flex>
@@ -34,7 +32,7 @@
 							</v-flex>
 							<v-flex sm1 md1>
 							</v-flex>
-							<v-flex xs12 sm12 md5 pt-md-12>
+							<v-flex xs12 sm12 md5 pt-md-1>
 								<v-card
 								class="mx-auto"
 								max-width="280"
@@ -84,7 +82,6 @@
 							  </p>
 							  <p class="subtitle-1">{{ $t('londonJuly_participate_invite') }}</p>
 							  <v-list-item-subtitle class="subtitle-1 text-wrap">{{ $t('londonJuly_Participate_c1') }}</v-list-item-subtitle>
-							  <v-list-item-subtitle class="subtitle-1 text-wrap">{{ $t('londonJuly_Participate_c2') }}</v-list-item-subtitle>
 							  <v-list-item-subtitle class="subtitle-1 text-wrap">{{ $t('londonJuly_Participate_c3') }}</v-list-item-subtitle>
 							  <v-list-item-subtitle class="subtitle-1 text-wrap">{{ $t('londonJuly_Participate_c4') }}</v-list-item-subtitle>
 							  <v-list-item-subtitle class="subtitle-1 text-wrap">{{ $t('londonJuly_Participate_c5') }}</v-list-item-subtitle>
@@ -109,7 +106,7 @@
 										  outlined
 										  tile
 										>
-										  July 23 (Sat) (Online)
+										  July 30 (Sat) & Aug 6 (Sat)
 										</v-card>
 										<v-row no-gutters>
 										  <v-col
@@ -122,7 +119,7 @@
 											  style="background-color: #FFECB3;"
 											  tile
 											>
-											  11:00-noon
+											  11:00-11:20
 											</v-card>
 										  </v-col>
 										  <v-col
@@ -135,42 +132,7 @@
 											  style="background-color: #FFECB3;"
 											  tile
 											>
-											  Introduction
-											</v-card>
-										  </v-col>
-										</v-row>
-										<v-card
-										  class="pa-2"
-										  outlined
-										  tile
-										>
-										  July 30 (Sat) & Aug 6 (Sat) (In-person)
-										</v-card>
-										<v-row no-gutters>
-										  <v-col
-											cols="8"
-											sm="6"
-										  >
-											<v-card
-											  class="pa-2"
-											  outlined
-											  style="background-color: #FFECB3;"
-											  tile
-											>
-											  11:00-11:10
-											</v-card>
-										  </v-col>
-										  <v-col
-											cols="4"
-											sm="6"
-										  >
-											<v-card
-											  class="pa-2"
-											  outlined
-											  style="background-color: #FFECB3;"
-											  tile
-											>
-											  Check-in
+											  Intro
 											</v-card>
 										  </v-col>
 										</v-row>
@@ -185,7 +147,7 @@
 											  style="background-color: #FFECB3;"
 											  tile
 											>
-											  11:10-11:50
+											  11:20-12:05
 											</v-card>
 										  </v-col>
 										  <v-col
@@ -213,7 +175,35 @@
 											  style="background-color: #FFECB3;"
 											  tile
 											>
-											  11:50-12:10
+											  12:05-12:15
+											</v-card>
+										  </v-col>
+										  <v-col
+											cols="4"
+											sm="6"
+										  >
+											<v-card
+											  class="pa-2"
+											  outlined
+											  style="background-color: #FFECB3;"
+											  tile
+											>
+											  Break
+											</v-card>
+										  </v-col>
+										</v-row>
+										<v-row no-gutters>
+										  <v-col
+											cols="8"
+											sm="6"
+										  >
+											<v-card
+											  class="pa-2"
+											  outlined
+											  style="background-color: #FFECB3;"
+											  tile
+											>
+											  12:15-12:40
 											</v-card>
 										  </v-col>
 										  <v-col
@@ -241,7 +231,7 @@
 											  style="background-color: #FFECB3;"
 											  tile
 											>
-											  12:10-13:00
+											  12:40-13:40
 											</v-card>
 										  </v-col>
 										  <v-col
@@ -269,7 +259,7 @@
 											  style="background-color: #FFECB3;"
 											  tile
 											>
-											  13:00-14:40
+											  13:40-14:25
 											</v-card>
 										  </v-col>
 										  <v-col
@@ -297,7 +287,35 @@
 											  style="background-color: #FFECB3;"
 											  tile
 											>
-											  14:40-15:00
+											  14:25-14:35
+											</v-card>
+										  </v-col>
+										  <v-col
+											cols="4"
+											sm="6"
+										  >
+											<v-card
+											  class="pa-2"
+											  outlined
+											  style="background-color: #FFECB3;"
+											  tile
+											>
+											  Break
+											</v-card>
+										  </v-col>
+										</v-row>
+										<v-row no-gutters>
+										  <v-col
+											cols="8"
+											sm="6"
+										  >
+											<v-card
+											  class="pa-2"
+											  outlined
+											  style="background-color: #FFECB3;"
+											  tile
+											>
+											  14:35-15:00
 											</v-card>
 										  </v-col>
 										  <v-col
@@ -316,7 +334,12 @@
 										</v-row>
 									  </v-col>
 									</v-row>
-									<p class="pt-md-3 pt-sm-3 pt-3 caption">{{ $t('londonJuly_agendaNote') }}
+									<p class="pt-md-3 pt-sm-3 pt-3 caption">
+									{{ $t('londonJuly_agendaNote1') }}
+										<router-link style="color: inherit;"
+										:to="{ name: 'socialDreamingAbout', params: { locale: $route.params.locale || 'en' }}"> 
+										{{ $t('tabAboutSdm') }}</router-link>
+									{{ $t('londonJuly_agendaNote2') }}
 									</p>
 						    </v-flex>
 
