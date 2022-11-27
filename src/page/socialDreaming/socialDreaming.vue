@@ -52,7 +52,7 @@
                     color="grey darken-4"
                     plain
                   >
-                    {{ $t('tabLondonSept') }}
+                    {{ $t('tabLondonDec') }}
                     </v-btn>
                   </router-link>
                 </div>

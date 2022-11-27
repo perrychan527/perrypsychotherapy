@@ -1,6 +1,6 @@
 export const locale = {
   HEADING: "陳　ペリー",
-  SUBHEADING: "心理相談・カウンセリング・Social Dreaming",
+  SUBHEADING: "心理相談・カウンセリング・Social Dreaming - イギリス、香港",
   TAB1: "自己紹介",
   TAB2: "療法",
   TAB3: "相談の案内",

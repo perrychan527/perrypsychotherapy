@@ -37,15 +37,15 @@
                 <v-flex xs12 sm12 md12>
                   <p class="overline text-capitalize light-blue--text text--darken-4 pt-md-5 pt-sm-5">{{ $t('NAME') }}
                   </p>
-                  <p class="body-2">{{ $t('QUALI1') }}
+                  <p class="body-2">{{ $t('QUALI4') }}
                   </p>
                   <p class="body-2">{{ $t('QUALI2') }}
                   </p>
-                  <p class="body-2">{{ $t('QUALI3') }}
-                  </p>
-                  <p class="body-2">{{ $t('QUALI4') }}
-                  </p>
                   <p class="body-2">{{ $t('QUALI5') }}
+                  </p>
+                  <p class="body-2">{{ $t('QUALI1') }}
+                  </p>
+                  <p class="body-2">{{ $t('QUALI3') }}
                   </p>
                 </v-flex>
               </v-layout>
@@ -84,26 +84,12 @@
               <p class="text-center subtitle-2 font-weight-regular pt-md-10 pt-sm-5 pt-5">{{ $t('GET1') }}</p>
               <p class="text-center subtitle-2 font-weight-regular">{{ $t('E1') }}</p>
               <v-layout row wrap justify-space-around pt-md-10 pt-sm-5>
-                <v-flex xs6 md3 class="d-flex flex-column-reverse">
-                <v-img  class="mx-auto"
-						src="@/assets/cosca1.jpg"
-						alt="COSCA registered counsellor/psychotherapist"
-                        max-width="150"
-                        max-height="150"
-                ></v-img>
-                </v-flex>
-                <v-flex xs6 md3 class="d-flex flex-column-reverse">
-                <v-img  src="@/assets/cosca2.jpg"
-						alt="COSCA registered counsellor/psychotherapist"
-                        max-width="250"
-                        max-height="150"
-                ></v-img>
-                </v-flex>
                 <v-flex xs6 md4 class="d-flex flex-column-reverse pb-md-6">
                 <v-img  src="@/assets/bacp.jpg"
 						alt="BACP registered counsellor/psychotherapist"
                         max-width="230"
                         max-height="100"
+                        class="mx-auto"
                 ></v-img>
                 </v-flex>
                 <v-flex xs12 md12 pt-10 pt-sm-10 pt-md-10 class="d-flex flex-column-reverse">

@@ -1,6 +1,6 @@
 export const locale = {
   HEADING: "陳 渭東",
-  SUBHEADING: "心理治療・心理輔導・Social Dreaming",
+  SUBHEADING: "心理治療・心理輔導・Social Dreaming - 英國, 香港",
   TAB1: "關於",
   TAB2: "治療",
   TAB3: "約見需知",
@@ -19,7 +19,7 @@ export const locale = {
 //SocialDreamingAbout//
 tabAboutSdm: "關於SDM",
 tabLondonJuly: "July, London",
-tabLondonSept: "Sept, London",
+tabLondonDec: "Dec, London",
 
 //SocialDreamingAbout//
 ullmanQuote: "Our dreaming self is more concerned with the nature of our connections with all others . . . is connected with the basic truth that we're all members of a single species . . . ",
