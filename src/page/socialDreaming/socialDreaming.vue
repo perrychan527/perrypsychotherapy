@@ -55,6 +55,25 @@
                     {{ $t('tabLondonDec') }}
                     </v-btn>
                   </router-link>
+                  <v-btn
+                    disabled
+                    class="overline text-capitalize"
+                    color="grey darken-4"
+                    plain
+                  >
+                    -2023-
+                  </v-btn>
+                  <router-link 
+                  style="text-decoration: none; color: inherit;"
+                  :to="{ name: 'hkMay', params: { locale: $route.params.locale || 'en' }}">
+                    <v-btn
+                    class="overline text-capitalize"
+                    color="grey darken-4"
+                    plain
+                  >
+                    {{ $t('tabHkMay') }}
+                    </v-btn>
+                  </router-link>
                 </div>
               </v-flex>
               <v-flex xs10 sm10 md10>

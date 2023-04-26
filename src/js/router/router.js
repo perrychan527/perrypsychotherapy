@@ -11,6 +11,7 @@ const socialDreaming = () => import("../../page/socialDreaming/socialDreaming.vu
 const socialDreamingAbout = () => import("../../page/socialDreaming/about/socialDreamingAbout.vue")
 const londonJuly = () => import("../../page/socialDreaming/londonJuly/londonJuly.vue")
 const londonSeptember = () => import("../../page/socialDreaming/londonSeptember/londonSeptember.vue")
+const hkMay = () => import("../../page/socialDreaming/hkMay/hkMay.vue")
 
 
 const router = new VueRouter({
@@ -25,7 +26,8 @@ const router = new VueRouter({
       { path: '', component: socialDreamingAbout, name: 'default' },
       { path: 'about', component: socialDreamingAbout, name: 'socialDreamingAbout' },
       { path: 'london_july', component: londonJuly, name: 'londonJuly' },
-      { path: 'london_sept', component: londonSeptember, name: 'londonSeptember' }
+      { path: 'london_sept', component: londonSeptember, name: 'londonSeptember' },
+      { path: 'hk_may', component: hkMay, name: 'hkMay' }
 
     ]},
     
