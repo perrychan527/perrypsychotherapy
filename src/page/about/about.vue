@@ -41,11 +41,11 @@
                   </p>
                   <p class="body-2">{{ $t('QUALI2') }}
                   </p>
-                  <p class="body-2">{{ $t('QUALI5') }}
-                  </p>
                   <p class="body-2">{{ $t('QUALI1') }}
                   </p>
                   <p class="body-2">{{ $t('QUALI3') }}
+                  </p>
+                  <p class="body-2">{{ $t('QUALI5') }}
                   </p>
                 </v-flex>
               </v-layout>
