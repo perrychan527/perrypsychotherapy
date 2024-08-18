@@ -105,13 +105,13 @@ export default {
         fees: [
           {
             name: 'Clients based in the UK (£)',
-            first: 30,
-            following: 50,
+            first: 40,
+            following: 60,
           },
           {
             name: 'Clients based in HK (HK$)',
             first: 500,
-            following: 800,
+            following: 900,
           },
         ],
       }
