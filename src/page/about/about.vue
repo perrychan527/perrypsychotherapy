@@ -9,14 +9,12 @@
             <v-container class="px-md-10 px-sm-10 px-5 py-md-10 py-sm-10 py-5"> 
               <v-layout row wrap>
                 <v-flex xs12 sm4 md3 pt-md-4>
-                  <v-img class="mx-auto"
+                  <v-img class="mx-auto mt-md-6 mt-sm-4 mt-3"
                         src="@/assets/perrybio2.jpg"
 						alt="an image of Perry WT Chan, counsellor, psychotherapist and Social Dreaming host. He provides in-person/online counselling & psychotherapy in English, Cantonese or Mandarin mainly for clients based in the UK and HK."
-                        max-width="240"
+                        max-width="265"
                         max-height="450"
                   ></v-img>
-                  <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PROPIC') }}
-                </p>
                 </v-flex>
 				
                 <v-flex sm1 md1>
@@ -29,7 +27,9 @@
                   </p>
 				  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('CORETITLE') }}
                   </p>
-				  <p class="subtitle-1">{{ $t('CORE') }}
+				  <p class="subtitle-1">{{ $t('CORE1') }}
+                  </p>
+				  <p class="subtitle-1" v-html="$t('CORE2')">
                   </p>  
                 </v-flex>
               </v-layout>

@@ -9,13 +9,15 @@
             <v-container class="px-md-10 px-5 py-md-10 py-5">
               <v-layout row wrap>
                 <v-flex xs12 sm12 md12>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('APPTITLE1') }}
+                  <p class="overline text-capitalize light-blue--text text--darken-4"><span class="handwritten-strike">{{ $t('APPTITLE1') }}</span>
                   </p>
                 </v-flex>
                 <v-flex xs12 sm12 md6>
                   <p class="subtitle-1">{{ $t('APP1') }}
                   </p>
                   <p class="subtitle-1">{{ $t('APP2') }}
+                  </p>
+				  <p class="subtitle-1">{{ $t('APP2_1') }}
                   </p>
                 </v-flex>
                 <v-flex sm1 md1>
@@ -58,11 +60,15 @@
                 <v-flex xs12 sm12 md5 pt-md-2 pt-sm-5>
                   <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">{{ $t('APPTITLE3') }}
                   </p>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_1') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_2') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_3') }}</v-list-item-subtitle>
+				  <p></p>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_4') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_5') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_6') }}</v-list-item-subtitle>
                   <v-list-item-subtitle class="text-right font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-12 pr-sm-8 pr-8 pb-md-3 pb-3 pb-sm-3 text-wrap">{{ $t('APP6') }}</v-list-item-subtitle>
                   <p class="subtitle-1">{{ $t('APP7') }}</p>
-                  <p class="subtitle-1">{{ $t('APP8') }}</p>
-
                   
                 </v-flex>
                 <v-flex sm1 md1>
@@ -147,3 +153,41 @@
         </v-card>
   </div>
 </template>
+
+<style scoped>
+.handwritten-strike {
+  position: relative;
+  display: inline-block;
+  padding: 0 4px;
+}
+
+.handwritten-strike::before,
+.handwritten-strike::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* primary rough strike group: multiple uneven straight-ish strokes */
+.handwritten-strike::before {
+  left: -24%;
+  right: -10%;
+  top: 50%;
+  height: 22px;
+  transform: translateY(-62%) rotate(-8deg);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 310 24'%3E%3Cpath d='M2 22 L24 8' stroke='%23131313' stroke-opacity='0.72' stroke-width='2.7' fill='none' stroke-linecap='round'/%3E%3Cpath d='M16 16 L306 8' stroke='%23131313' stroke-opacity='0.78' stroke-width='2.8' fill='none' stroke-linecap='round'/%3E%3Cpath d='M14 13 L300 11' stroke='%23131313' stroke-opacity='0.56' stroke-width='1.9' fill='none' stroke-linecap='round'/%3E%3Cpath d='M20 18 L296 10' stroke='%23131313' stroke-opacity='0.40' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+/* secondary pass for messy hand-written layering */
+.handwritten-strike::after {
+  left: -16%;
+  right: -14%;
+  top: calc(50% + 1px);
+  height: 20px;
+  transform: translateY(-60%) rotate(-6deg);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 20'%3E%3Cpath d='M8 14 L274 9' stroke='%23131313' stroke-opacity='0.36' stroke-width='1.7' fill='none' stroke-linecap='round'/%3E%3Cpath d='M10 16 L270 11' stroke='%23131313' stroke-opacity='0.24' stroke-width='1.2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+</style>
