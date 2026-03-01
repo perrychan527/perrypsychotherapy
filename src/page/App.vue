@@ -21,12 +21,16 @@
           </v-col>
         </v-row>
       </v-container>
-      
-      <v-card-title class="justify-center font-weight-light display-1 pt-0">
+	  
+	  <v-card-title class="justify-center font-weight-light pt-0">
         <router-link 
-         style="text-decoration: none; color: inherit;"
-         :to="{ name: 'about', params: { locale: $route.params.locale || 'en' }}">{{ $t('HEADING') }}</router-link>
+         style="text-decoration: none; color: inherit;" 
+         :to="{ name: 'about', params: { locale: $route.params.locale || 'en' } }">
+           <span class="text-h4 font-weight-light">{{ $t('HEADING_NAME') }}</span>
+           <span class="ml-1 align-self-end font-weight-light">{{ $t('HEADING_TITLE') }}</span>
+        </router-link>
       </v-card-title>
+	  
       <v-card-subtitle class="overline text-capitalize text-center font-weight-regular">{{ $t('SUBHEADING') }}</v-card-subtitle>
       
       <div class="text-center">
@@ -41,6 +45,7 @@
           {{ $t('TAB1') }}
           </v-btn>
         </router-link>
+		
         <router-link 
         style="text-decoration: none; color: inherit;"
         :to="{ name: 'therapy', params: { locale: $route.params.locale || 'en' }}">
@@ -52,6 +57,7 @@
           {{ $t('TAB2') }}
           </v-btn>
         </router-link>
+		
         <router-link 
         style="text-decoration: none; color: inherit;"
         :to="{ name: 'sessioninfo', params: { locale: $route.params.locale || 'en' }}">
@@ -63,6 +69,7 @@
           {{ $t('TAB3') }}
           </v-btn>
         </router-link>
+		
         <router-link 
         style="text-decoration: none; color: inherit;"
         :to="{ name: 'memories', params: { locale: $route.params.locale || 'en' }}">
@@ -74,6 +81,7 @@
           {{ $t('TAB4') }}
           </v-btn>
         </router-link>
+		
         <router-link 
         style="text-decoration: none; color: inherit;"
         :to="{ name: 'socialDreamingAbout', params: { locale: $route.params.locale || 'en' }}">
@@ -85,6 +93,7 @@
           {{ $t('TAB5') }}
           </v-btn>
         </router-link>
+		
       </div>
     </v-card>
 
@@ -108,12 +117,8 @@ export default {
             locale: 'en'
           },
           {
-            text: '中',
-            locale: 'tc'
-          },
-          {
-            text: '日',
-            locale: 'ja'
+            text: '香港',
+            locale: 'hk'
           },
         ],
       }
@@ -144,8 +149,32 @@ export default {
             }
           }
         }
-    }
+    },
+	mounted() {
+  const hasRedirected = localStorage.getItem('geoRedirected')
+  const currentLocale = this.$route.params.locale
+
+  if (!hasRedirected && (!currentLocale || currentLocale === 'en')) {
+    fetch('https://ipapi.co/json/')
+      .then(res => res.json())
+      .then(data => {
+        if (data.country === 'HK') {
+          localStorage.setItem('geoRedirected', 'true')
+
+          let path = this.$route.fullPath
+          if (!path.match(/^\/(en|hk)/)) {
+            path = '/hk' + path
+          } else {
+            path = path.replace(/^\/en/, '/hk')
+          }
+
+          this.$router.replace(path)
+        }
+      })
+      .catch(() => {})
   }
+}
+}
 </script>
 
 

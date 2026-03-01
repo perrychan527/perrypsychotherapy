@@ -108,14 +108,40 @@
                 </v-flex>
                 <v-flex sm0 xs0 md1>
                 </v-flex>
-                
               </v-layout>
+			  
+              <v-layout row wrap>
+                <v-flex sm0 xs0 md1>
+                </v-flex>
+                <v-flex xs12 sm12 md5 pt-md-2 pt-sm-5>
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">{{ $t('APPTITLE5') }}
+                  </p>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="text-right font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-12 pr-sm-8 pr-8 pb-md-3 pb-3 pb-sm-3 text-wrap">{{ $t('APP6') }}</v-list-item-subtitle>
+                  <p class="subtitle-1">{{ $t('APP7') }}</p>
+                  <p class="subtitle-1">{{ $t('APP8') }}</p>
+                  
+                </v-flex>
+                <v-flex sm1 md1>
+                </v-flex>
+                <v-flex xs12 sm12 md5 pt-md-16 pt-sm-8 pt-7>
+                <v-img
+                      src="@/assets/foggycity.jpg"
+                      max-width="570"
+                      max-height="450"
+                ></v-img>
+                <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PIC5') }}
+                </p>
+              </v-flex>
+              </v-layout>
+			  
               <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
                 <v-flex xs12 md12 class="d-flex flex-column-reverse">
                   <p class="text-center subtitle-2 font-weight-regular">{{ $t('COPY2') }}</p>
                   <p class="text-center subtitle-2 font-weight-regular">{{ $t('E2') }}</p>
                 </v-flex>
               </v-layout>
+			  
             </v-container>
           </v-card-text>
         </v-card>

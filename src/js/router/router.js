@@ -17,6 +17,13 @@ const hkMay = () => import("../../page/socialDreaming/hkMay/hkMay.vue")
 const router = new VueRouter({
   mode: 'history',
   routes: [
+  
+  
+    // Redirect old tc URLs to hk
+	{ path: '/tc', redirect: '/hk' },
+	{ path: '/tc/', redirect: '/hk' },
+	{ path: '/tc/*', redirect: to => to.path.replace(/^\/tc(\/|$)/, '/hk$1') },
+  
     { path: '/', component: about, name: 'default' },
     { path: '/:locale', component: about, name: 'about' },
     { path: '/:locale/therapy', component: therapy, name: 'therapy' },

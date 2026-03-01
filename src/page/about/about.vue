@@ -18,30 +18,59 @@
                   <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('PROPIC') }}
                 </p>
                 </v-flex>
+				
                 <v-flex sm1 md1>
                 </v-flex>
+				
                 <v-flex xs12 sm7 md8>
                   <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('WELCOMETITLE') }}
                   </p>
                   <p class="subtitle-1">{{ $t('WELCOME') }}
                   </p>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('CORETITLE') }}
+				  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('CORETITLE') }}
                   </p>
-                  <p class="subtitle-1">{{ $t('CORE') }}
-                  </p>
-                  
+				  <p class="subtitle-1">{{ $t('CORE') }}
+                  </p>  
                 </v-flex>
               </v-layout>
               
+			  <v-layout row wrap>
+                <v-flex xs12 sm7 md7>
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-7">{{ $t('JOURNEYTITLE') }}
+                  </p>
+                  <p class="subtitle-1">{{ $t('JOURNEY1') }}
+                  </p>
+				  <p class="subtitle-1">{{ $t('JOURNEY2') }}
+                  </p>
+                </v-flex>
+				
+				<v-flex sm1 md1>
+                </v-flex>
+				
+				<v-flex xs12 sm4 md4 pt-md-4>
+                  <v-img class="mx-auto"
+                        src="@/assets/mountfuji.jpg"
+						alt="an image of Perry WT Chan, counsellor, psychotherapist and Social Dreaming host. He provides in-person/online counselling & psychotherapy in English, Cantonese or Mandarin mainly for clients based in the UK and HK."
+                        max-width="300"
+                        max-height="500"
+                  ></v-img>
+                  <p class="pt-md-3 pt-sm-3 pt-3 subtitle-3">{{ $t('JOURNEYPIC') }}
+                </p>
+                </v-flex>
+				
+              </v-layout>
+			  
               <v-layout row wrap>
                 <v-flex xs12 sm12 md12>
                   <p class="overline text-capitalize light-blue--text text--darken-4 pt-md-5 pt-sm-5">{{ $t('NAME') }}
+                  </p>
+                  <p class="body-2">{{ $t('QUALI1') }}
                   </p>
                   <p class="body-2">{{ $t('QUALI4') }}
                   </p>
                   <p class="body-2">{{ $t('QUALI2') }}
                   </p>
-                  <p class="body-2">{{ $t('QUALI1') }}
+                  <p class="body-2">{{ $t('QUALI6') }}
                   </p>
                   <p class="body-2">{{ $t('QUALI3') }}
                   </p>
@@ -49,6 +78,7 @@
                   </p>
                 </v-flex>
               </v-layout>
+			  
               <v-layout row wrap>
                 <v-flex xs12 sm12 md4 pt-md-10 pt-sm-5>
                 <v-img class="mx-auto"

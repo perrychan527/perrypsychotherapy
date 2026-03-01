@@ -99,19 +99,19 @@ export default {
             sortable: false,
             value: 'name',
           },
-          { text: 'First session (50-min)', value: 'first', sortable: false},
+          { text: 'First session (20-min)', value: 'first', sortable: false},
           { text: 'Following sessions (50-min)', value: 'following', sortable: false},
         ],
         fees: [
           {
             name: 'Clients based in the UK (£)',
-            first: 40,
-            following: 60,
+            first: 0,
+            following: 75,
           },
           {
             name: 'Clients based in HK (HK$)',
-            first: 500,
-            following: 900,
+            first: 0,
+            following: 1100,
           },
         ],
       }
