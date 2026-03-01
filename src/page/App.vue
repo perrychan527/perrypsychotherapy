@@ -117,7 +117,7 @@ export default {
             locale: 'en'
           },
           {
-            text: '香港',
+            text: '繁中',
             locale: 'hk'
           },
         ],

@@ -1,7 +1,7 @@
 export const locale = {
   HEADING_NAME: "陳 渭東",
   HEADING_TITLE: ", DPsych",
-  SUBHEADING: "心理治療・榮格沙遊・Social Dreaming - 英國, 香港及其他",
+  SUBHEADING: "心理治療・榮格沙遊・Social Dreaming - 香港, 英國及其他",
   TAB1: "關於",
   TAB2: "治療",
   TAB3: "約見需知",

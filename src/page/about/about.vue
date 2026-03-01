@@ -48,7 +48,7 @@
                 </v-flex>
 				
 				<v-flex xs12 sm4 md4 pt-md-4>
-                  <v-img class="mx-auto"
+                  <v-img class="mr-auto"
                         src="@/assets/mountfuji.jpg"
 						alt="an image of Perry WT Chan, counsellor, psychotherapist and Social Dreaming host. He provides in-person/online counselling & psychotherapy in English, Cantonese or Mandarin mainly for clients based in the UK and HK."
                         max-width="300"

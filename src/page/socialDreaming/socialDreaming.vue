@@ -89,7 +89,7 @@
 
 
 
-<style>
+<style scoped>
 .v-ripple__container {
   opacity: 0 !important;
 }
