@@ -54,20 +54,20 @@
                   </p>
                 </v-flex>
               </v-layout>
+			  
+			  
               <v-layout row wrap>
-                <v-flex sm0 xs0 md1>
-                </v-flex>
-                <v-flex xs12 sm12 md5 pt-md-2 pt-sm-5>
+                <v-flex xs12 sm12 md6 pt-md-2 pt-sm-5>
                   <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">{{ $t('APPTITLE3') }}
                   </p>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_1') }}</v-list-item-subtitle>
-				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_2') }}</v-list-item-subtitle>
-				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_3') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-9 pl-sm-8 pl-9 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_1') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-9 pl-sm-8 pl-9 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_2') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-9 pl-sm-8 pl-9 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_3') }}</v-list-item-subtitle>
 				  <p></p>
-				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_4') }}</v-list-item-subtitle>
-				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_5') }}</v-list-item-subtitle>
-				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_6') }}</v-list-item-subtitle>
-                  <v-list-item-subtitle class="text-right font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-12 pr-sm-8 pr-8 pb-md-3 pb-3 pb-sm-3 text-wrap">{{ $t('APP6') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-15 pl-sm-14 pl-15 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_4') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-15 pl-sm-14 pl-15 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_5') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-15 pl-sm-14 pl-15 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5_6') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="text-right subtitle-1 pb-md-3 pb-3 pb-sm-3 pt-md-2 pt-2 pt-sm-2 text-wrap">{{ $t('APP6') }}</v-list-item-subtitle>
                   <p class="subtitle-1">{{ $t('APP7') }}</p>
                   
                 </v-flex>
@@ -86,8 +86,6 @@
               </v-layout>
 
               <v-layout row wrap>
-              <v-flex sm0 xs0 md1>
-                </v-flex>
                 <v-flex xs12 sm12 md5 pt-md-16 pt-sm-8 pt-7>
                 <v-img
                       src="@/assets/2birds.jpg"
@@ -101,19 +99,21 @@
                 
                 <v-flex sm1 md1>
                 </v-flex>
-                <v-flex xs12 sm12 md4 pt-md-8 pt-sm-5>
+                <v-flex xs12 sm12 md6 pt-md-8 pt-sm-5>
                   <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">{{ $t('APPTITLE4') }}
                   </p>
-                  <p class="subtitle-1">{{ $t('APP9') }}</p>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">{{ $t('APP10') }}</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">{{ $t('APP11') }}</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">{{ $t('APP12') }}</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">{{ $t('APP13') }}</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">{{ $t('APP14') }}</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8">{{ $t('APP15') }}</v-list-item-subtitle>
-                </v-flex>
-                <v-flex sm0 xs0 md1>
-                </v-flex>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pb-md-2 pb-sm-2 pb-2">{{ $t('APP9') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-8">{{ $t('APP10') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-8">{{ $t('APP11') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-8">{{ $t('APP12') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-8">{{ $t('APP13') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-8 pb-md-2 pb-sm-2 pb-2">{{ $t('APP14') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-16 pl-sm-8 pl-8">{{ $t('APP15') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-16 pl-sm-8 pl-8">{{ $t('APP16') }}</v-list-item-subtitle>
+                  <p></p>
+				  <p class="subtitle-1">{{ $t('APP17') }}</p>
+				</v-flex>
+
               </v-layout>
 			  
               <v-layout row wrap>
@@ -122,10 +122,8 @@
                 <v-flex xs12 sm12 md5 pt-md-2 pt-sm-5>
                   <p class="overline text-capitalize light-blue--text text--darken-4 pt-5">{{ $t('APPTITLE5') }}
                   </p>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-8 pr-sm-8 pr-8 text-wrap">{{ $t('APP5') }}</v-list-item-subtitle>
-                  <v-list-item-subtitle class="text-right font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pr-md-12 pr-sm-8 pr-8 pb-md-3 pb-3 pb-sm-3 text-wrap">{{ $t('APP6') }}</v-list-item-subtitle>
-                  <p class="subtitle-1">{{ $t('APP7') }}</p>
-                  <p class="subtitle-1">{{ $t('APP8') }}</p>
+                  <p class="subtitle-1">{{ $t('APP18') }}</p>
+                  <p class="subtitle-1">{{ $t('APP19') }}</p>
                   
                 </v-flex>
                 <v-flex sm1 md1>
