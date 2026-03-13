@@ -79,7 +79,7 @@
                 <v-flex xs12 sm12 md4 pt-md-10 pt-sm-5>
                 <v-img class="mx-auto"
                       src="@/assets/dark.jpg"
-					  alt="depression, anxiety, anger, stress, relationship difficulties, LGBT+ issues, sleeping problems, bereavement, loneliness, self-esteem, cross-cultural issuess"
+					  alt="depression, anxiety, anger, stress, relationship difficulties, LGBT+ issues, sleeping problems, bereavement, loneliness, self-esteem, cross-cultural issues"
                       max-width="320"
                       max-height="550"
                 ></v-img>
@@ -102,7 +102,9 @@
                   <v-list-item-subtitle class="subtitle-1">{{ $t('EXP8') }}</v-list-item-subtitle>
                   <v-list-item-subtitle class="subtitle-1">{{ $t('EXP9') }}</v-list-item-subtitle>
                   <v-list-item-subtitle class="subtitle-1">{{ $t('EXP10') }}</v-list-item-subtitle>
-                  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP11') }}s</v-list-item-subtitle>
+                  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP11') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP12') }}</v-list-item-subtitle>
+				  <p class="subtitle-1 pt-md-5 pt-sm-4">{{ $t('EXP_01') }}</p>
                 </v-flex>
                 <v-flex sm0 md2>
                 </v-flex>

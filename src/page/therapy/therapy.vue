@@ -15,11 +15,45 @@
                 <v-flex xs12 sm12 md6>
                   <p class="subtitle-1">{{ $t('APP1') }}
                   </p>
-                  <p class="subtitle-1">{{ $t('APP2') }}
+                  <p class="subtitle-1">{{ $t('APP2_1') }}
+				  <v-tooltip bottom max-width="320" open-on-hover open-on-focus open-on-click>
+                      <template v-slot:activator="{ on, attrs }">
+                        <span
+                          class="term-tooltip"
+                          v-bind="attrs"
+                          v-on="on"
+                          tabindex="0"
+                        >{{ $t('APP2_2') }}</span>
+					  </template>
+                      <span>
+                        {{ $t('JUNGINTRO') }}
+                      </span>
+					</v-tooltip>
+					
+					{{ $t('APP2_3') }}
+					
+				    <v-tooltip bottom max-width="320" open-on-hover open-on-focus open-on-click>
+                      <template v-slot:activator="{ on, attrs }">
+                        <span
+                          class="term-tooltip"
+                          v-bind="attrs"
+                          v-on="on"
+                          tabindex="0"
+                        >{{ $t('APP2_4') }}</span>
+                      </template>
+                      <span>
+                        {{ $t('DELEUZEINTRO') }}
+                      </span>
+                    </v-tooltip>
+					
+					{{ $t('APP2_5') }}
+					
                   </p>
-				  <p class="subtitle-1">{{ $t('APP2_1') }}
+				  <p class="subtitle-1">{{ $t('APP2_6') }}
                   </p>
                 </v-flex>
+				
+				
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md5>
@@ -188,4 +222,11 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 280 20'%3E%3Cpath d='M8 14 L274 9' stroke='%23131313' stroke-opacity='0.36' stroke-width='1.7' fill='none' stroke-linecap='round'/%3E%3Cpath d='M10 16 L270 11' stroke='%23131313' stroke-opacity='0.24' stroke-width='1.2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
 }
 
+
+.term-tooltip {
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+  cursor: help;
+  font-weight: 500;
+}
 </style>
