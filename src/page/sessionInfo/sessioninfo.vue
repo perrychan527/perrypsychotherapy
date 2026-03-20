@@ -77,7 +77,7 @@
                 </v-layout>
                 <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
                   <v-flex xs12 md12 class="d-flex flex-column-reverse">
-                    <p class="text-center subtitle-2 font-weight-regular">{{ $t('COPY3') }}</p>
+                    <p class="text-center subtitle-2 font-weight-regular">{{ $t('COPY1') }}</p>
                     <p class="text-center subtitle-2 font-weight-regular">{{ $t('E3') }}</p>
                   </v-flex>
                 </v-layout>
