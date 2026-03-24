@@ -8,7 +8,7 @@
           <v-card-text class="text-left">
             <v-container class="px-md-10 px-sm-10 px-5 py-md-10 py-sm-10 py-5"> 
               <v-layout row wrap>
-                <v-flex xs12 sm4 md4 >
+                <v-flex xs12 sm4 md4 class="fade-up" style="transition-delay: 0.4s">
                   <v-img class="mx-auto mt-md-3 mt-sm-4 mt-3 mr-md-10"
                         src="@/assets/forestshell.jpeg"
 						alt="an image of Perry WT Chan, counsellor, psychotherapist and Social Dreaming host. He provides in-person/online counselling & psychotherapy in English, Cantonese or Mandarin mainly for clients based in the UK and HK."
@@ -19,25 +19,25 @@
 				
 				
                 <v-flex xs12 sm7 md8>
-                  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('WELCOMETITLE') }}
+                  <p class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.45s">{{ $t('WELCOMETITLE') }}
                   </p>
-                  <p class="subtitle-1">{{ $t('WELCOME') }}
+                  <p class="subtitle-1 fade-up" style="transition-delay: 0.5s">{{ $t('WELCOME') }}
                   </p>
-				  <p class="overline text-capitalize light-blue--text text--darken-4">{{ $t('CORETITLE') }}
+				  <p class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.55s">{{ $t('CORETITLE') }}
                   </p>
-				  <p class="subtitle-1">{{ $t('CORE1') }}
+				  <p class="subtitle-1 fade-up" style="transition-delay: 0.6s">{{ $t('CORE1') }}
                   </p>
-				  <p class="subtitle-1" v-html="$t('CORE2')">
+				  <p class="subtitle-1 fade-up" style="transition-delay: 0.65s" v-html="$t('CORE2')">
                   </p>  
                 </v-flex>
               </v-layout>
               
 			  <v-layout row wrap>
                 <v-flex xs12 sm12 md7>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-md-8 pt-sm-5">{{ $t('EXPTITLE') }}
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-md-8 pt-sm-5 fade-up" style="transition-delay: 0.1s">{{ $t('EXPTITLE') }}
                   </p>
-                  <p class="subtitle-1">{{ $t('EXP') }}</p>
-                    <v-layout row wrap ml-md-5>
+                  <p class="subtitle-1 fade-up" style="transition-delay: 0.15s">{{ $t('EXP') }}</p>
+                    <v-layout row wrap ml-md-5 class="fade-up" style="transition-delay: 0.2s">
 						<v-flex xs12 sm6 md5>
 						  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP1') }}</v-list-item-subtitle>
 						  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP2') }}</v-list-item-subtitle>
@@ -55,13 +55,13 @@
 						  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP12') }}</v-list-item-subtitle>
 						</v-flex>
 					</v-layout>
-				  <p class="subtitle-1 pt-md-5 pt-sm-4">{{ $t('EXP_01') }}</p>
+				  <p class="subtitle-1 pt-md-5 pt-sm-4 fade-up" style="transition-delay: 0.25s">{{ $t('EXP_01') }}</p>
                 </v-flex>
 				
 				<v-flex sm1 md1>
                 </v-flex>
 				
-				<v-flex xs12 sm4 md4 pt-md-10>
+				<v-flex xs12 sm4 md4 pt-md-10 class="fade-up" style="transition-delay: 0.3s">
                   <v-img class="mr-auto"
                         src="@/assets/mountfuji.jpg"
 						alt="an image of Perry WT Chan, counsellor, psychotherapist and Social Dreaming host. He provides in-person/online counselling & psychotherapy in English, Cantonese or Mandarin mainly for clients based in the UK and HK."
@@ -74,7 +74,7 @@
               </v-layout>
 			  
               <v-layout row wrap>
-                <v-flex xs12 sm4 md3 pt-md-4>
+                <v-flex xs12 sm4 md3 pt-md-4 class="fade-up" style="transition-delay: 0.1s">
                   <v-img class="mx-auto mt-md-2 mt-sm-4 mt-3"
                         src="@/assets/perrybio2.jpg"
 						alt="an image of Perry WT Chan, counsellor, psychotherapist and Social Dreaming host. He provides in-person/online counselling & psychotherapy in English, Cantonese or Mandarin mainly for clients based in the UK and HK."
@@ -87,40 +87,41 @@
                 </v-flex>
 				
 				<v-flex xs12 sm12 md7>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-md-5 pt-sm-5">{{ $t('NAME') }}
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-md-5 pt-sm-5 fade-up" style="transition-delay: 0.15s">{{ $t('NAME') }}
                   </p>
-                  <p class="body-2">{{ $t('QUALI1') }}
+                  <p class="body-2 fade-up" style="transition-delay: 0.2s">{{ $t('QUALI1') }}
                   </p>
-                  <p class="body-2">{{ $t('QUALI4') }}
+                  <p class="body-2 fade-up" style="transition-delay: 0.25s">{{ $t('QUALI4') }}
                   </p>
-                  <p class="body-2">{{ $t('QUALI6') }}
+                  <p class="body-2 fade-up" style="transition-delay: 0.3s">{{ $t('QUALI6') }}
                   </p>
-                  <p class="body-2">{{ $t('QUALI3') }}
+                  <p class="body-2 fade-up" style="transition-delay: 0.35s">{{ $t('QUALI3') }}
                   </p>
                 
 				<v-img  src="@/assets/bacp.jpg"
 						alt="BACP registered counsellor/psychotherapist"
                         max-width="230"
                         max-height="100"
-                        class="ml-md-1 mt-md-6"
+                        class="ml-md-1 mt-md-6 fade-up"
+						style="transition-delay: 0.4s"
                 ></v-img>
 				</v-flex>
               </v-layout>
 			  
               <v-layout row wrap>
 				<v-flex xs12 sm7 md7 pt-md-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-7">{{ $t('JOURNEYTITLE') }}
+                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-7 fade-up" style="transition-delay: 0.1s">{{ $t('JOURNEYTITLE') }}
                   </p>
-                  <p class="subtitle-1" v-html="$t('JOURNEY1')">
+                  <p class="subtitle-1 fade-up" style="transition-delay: 0.15s" v-html="$t('JOURNEY1')">
                   </p>
-				  <p class="subtitle-1">{{ $t('JOURNEY2') }}
+				  <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('JOURNEY2') }}
                   </p>
                 </v-flex>
 				
 				<v-flex sm1 md1>
                 </v-flex>
 
-				<v-flex xs12 sm12 md4 pt-md-10 pt-sm-5>
+				<v-flex xs12 sm12 md4 pt-md-10 pt-sm-5 class="fade-up" style="transition-delay: 0.25s">
 					<v-img class="mx-auto"
 						  src="@/assets/dark.jpg"
 						  alt="depression, anxiety, anger, stress, relationship difficulties, LGBT+ issues, sleeping problems, bereavement, loneliness, self-esteem, cross-cultural issues"
@@ -134,11 +135,18 @@
 			  
 			  
               <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
-                  <v-flex xs12 md12 class="d-flex flex-column-reverse">
-                    <p class="text-center subtitle-2 font-weight-regular">{{ $t('COPY1') }}</p>
-                    <p class="text-center subtitle-2 font-weight-regular">{{ $t('E3') }}</p>
-                  </v-flex>
-                </v-layout>
+				<v-flex xs12 md12 class="d-flex flex-column-reverse">
+				  <p class="text-center subtitle-2 font-weight-regular fade-up" style="transition-delay: 0.15s">{{ $t('COPY1') }}</p>
+				  <p class="text-center subtitle-2 font-weight-regular fade-up" style="transition-delay: 0.2s">{{ $t('E3') }}</p>
+				</v-flex>
+			  </v-layout>
+
+				<v-layout row wrap justify-center pt-md-8 pt-sm-5 pt-5>
+				  <v-flex xs12 sm8 md5>
+					<contact-form></contact-form>
+				  </v-flex>
+				</v-layout>
+
             </v-container> 
           </v-card-text>
         </v-card>
@@ -147,7 +155,13 @@
 
 
 
+<script>
+import ContactForm from '@/page/ContactForm.vue'
 
+export default {
+  components: { ContactForm }
+}
+</script>
 
 
 

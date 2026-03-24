@@ -90,31 +90,32 @@
 
 <script>
 export default {
-    data () {
-      return {
-        headers: [
-          {
-            text: '',
-            align: 'start',
-            sortable: false,
-            value: 'name',
-          },
-          { text: 'First session (20-min)', value: 'first', sortable: false},
-          { text: 'Following sessions (50-min)', value: 'following', sortable: false},
-        ],
-        fees: [
-          {
-            name: 'Clients based in the UK (£)',
-            first: 0,
-            following: 75,
-          },
-          {
-            name: 'Clients based in HK (HK$)',
-            first: 0,
-            following: 1100,
-          },
-        ],
-      }
+  computed: {
+    headers() {
+      return [
+        {
+          text: '',
+          align: 'start',
+          sortable: false,
+          value: 'name',
+        },
+        { text: this.$t('FEE_COL1'), value: 'first', sortable: false },
+        { text: this.$t('FEE_COL2'), value: 'following', sortable: false },
+      ]
     },
+	fees() {
+	  const uk = {
+		name: this.$t('FEE_UK'),
+		first: this.$t('FEE_FREE'),
+		following: 75,
+	  }
+	  const hk = {
+		name: this.$t('FEE_HK'),
+		first: this.$t('FEE_FREE'),
+		following: 1100,
+	  }
+	  return this.$i18n.locale === 'hk' ? [hk, uk] : [uk, hk]
+	}
   }
+}
 </script>

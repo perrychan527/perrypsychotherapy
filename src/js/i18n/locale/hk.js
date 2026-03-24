@@ -8,9 +8,9 @@ export const locale = {
   TAB4: "Memories",
   TAB5: "social dreaming",
   WELCOMETITLE: "歡迎",
-  WELCOME: "如果你正面對 情緒困擾、壓力、關係問題或人生困惑，心理輔導可以提供一個安全的空間，讓你慢慢探索自己的內心世界。你好，你可以叫我 Perry。我現居於蘇格蘭愛丁堡。我提供面談及網上心理輔導與心理治療服務，語言包括廣東話、英語及普通話，主要服務對象為居於香港及英國的來訪。",
+  WELCOME: "如果你正面對情緒困擾、壓力、關係問題或人生困惑，心理輔導可以提供一個安全的空間，讓你慢慢探索自己的內心世界。你好，你可以叫我Perry。我現居於蘇格蘭愛丁堡。我提供面談及網上心理輔導與心理治療服務，語言包括廣東話、英語及普通話，主要服務對象為居於香港及英國的來訪。",
   CORETITLE: "我的理念",
-  CORE1: "我並不能「治癒」。真正的療癒，是在我們彼此 一起“存在“（being）的過程中自然發生的。因此，在這段旅程中，我會成為你的同行者。與其將症狀病理化，我更傾向把它們視為每個人心靈的表達。每一個人都有獨特的故事、經歷、性格、行為模式、情結、心理結構與靈魂。這些症狀往往蘊含著象徵意義，指引我們走向個體化（individuation）的道路。",
+  CORE1: "我並不能「治癒」。真正的療癒，是在我們彼此一起“存在“（being）的過程中自然發生的。因此，在這段旅程中，我會成為你的同行者。與其將症狀病理化，我更傾向把它們視為每個人心靈的表達。每一個人都有獨特的故事、經歷、性格、行為模式、情結、心理結構與靈魂。這些症狀往往蘊含著象徵意義，指引我們走向個體化（individuation）的道路。",
   CORE2: "有些事情在當下也許難以理解，但我相信無意識總是走在我們前面。我致力於創造一個安全而穩定的心理空間，讓我們能夠一起進入心靈的深處——「讓雨下吧，讓風吹吧，讓水流吧，讓火燒吧。讓每件東西得到發展，讓將形成的有它形成的時間。」——《紅書》，卡爾·榮格",
   JOURNEYTITLE: "旅程",
   JOURNEY1: "作為一個心理治療師，多年來我一直在學習（仍在學習中），不是如何對人進行心理分析，而是如何在關係之中用「心」傾聽，如何用雙眼看見，甚至如何單純地做一個人，與世界靈魂（Anima Mundi）聯結。",
@@ -84,6 +84,11 @@ export const locale = {
   PIC7: "A misty forest, Yellowcraig 2021 summer",
   PRACTITLE1: "Fees",
   PRAC1: "I provide service mainly for clients based in the UK (in-person/online) and in Hong Kong (online only) at the rate as follows:",
+  FEE_COL1: '首次諮詢（20分鐘）',
+  FEE_COL2: '其後諮詢（50分鐘）',
+  FEE_UK: '在英國的來訪（£）',
+  FEE_HK: '在香港的來訪（HK$）',
+  FEE_FREE: '免費',
   PRACTITLE2: "First & Following Sessions",
   PRAC2: "I offer our first session gratis, in which we will get to know each other, talk about policies and how we can work together, and most importantly, see whether it feels right for you to work with me.",
   PRAC3: "When we agree to work together and on a mutually suitable time to meet, I undertake our work by providing regular weekly sessions.",
@@ -126,9 +131,15 @@ export const locale = {
   SDTITLE1: "What is Social Dreaming?",
   SD1: "COMING SOON",
 
-
-
-
+//ContactForm//
+getInTouch: "聯絡我",
+contactEmail: "perrywtchan@protonmail.com",
+formName: "你的名字",
+formEmail: "你的電郵",
+formMessage: "你的留言",
+formSend: "傳送 →",
+formSuccess: "謝謝你的留言，我會盡快回覆。",
+formError: "發生錯誤，請直接電郵聯絡我。",
 
 
 //SocialDreamingAbout//

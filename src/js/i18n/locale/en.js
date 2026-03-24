@@ -85,6 +85,11 @@ export const locale = {
   PIC7: "A misty forest, Yellowcraig 2021 summer",
   PRACTITLE1: "Fees",
   PRAC1: "I provide service mainly for clients based in the UK (in-person/online) and in Hong Kong (online only) at the rate as follows:",
+  FEE_COL1: 'First session (20-min)',
+  FEE_COL2: 'Following sessions (50-min)',
+  FEE_UK: 'Clients based in the UK (£)',
+  FEE_HK: 'Clients based in HK (HK$)',
+  FEE_FREE: 'Free',
   PRACTITLE2: "First & Following Sessions",
   PRAC2: "I offer our first session gratis, in which we will get to know each other, talk about policies and how we can work together, and most importantly, see whether it feels right for you to work with me.",
   PRAC3: "When we agree to work together and on a mutually suitable time to meet, I undertake our work by providing regular weekly sessions.",
@@ -126,6 +131,16 @@ export const locale = {
   E4: "Get in Touch: perrywtchan@protonmail.com",
   SDTITLE1: "What is Social Dreaming?",
   SD1: "COMING SOON",
+
+//ContactForm//
+getInTouch: "Get in Touch",
+contactEmail: "perrywtchan@protonmail.com",
+formName: "Your name",
+formEmail: "Your email",
+formMessage: "Your message",
+formSend: "Send message →",
+formSuccess: "Thank you — I'll be in touch soon.",
+formError: "Something went wrong. Please email me directly.",
 
 //SocialDreamingAbout//
 tabAboutSdm: "About SDM",
