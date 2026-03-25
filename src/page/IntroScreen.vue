@@ -10,7 +10,7 @@
       <div class="img-slot">
         <img v-if="show1" src="@/assets/calligraphy1.png" alt="" class="intro-img" />
       </div>
-      <p v-if="show3" class="intro-text line-1">soul to soul, dream to dream</p>
+      <p v-if="show3" class="intro-text line-1">Soul to soul, dream to dream</p>
       <p v-if="show3" class="intro-text line-2">A space to speak, to dream, to feel, and to transmute</p>
       <div v-if="show3" class="enter-btn-wrap">
         <button class="enter-btn" @click="goTo('en')">Enter</button>
@@ -34,17 +34,29 @@ export default {
     }
   },
   mounted: function() {
+    document.body.style.overflow = 'hidden'
+    document.documentElement.style.overflow = 'hidden'
+    document.addEventListener('touchmove', this.preventScroll, { passive: false })
     var self = this
     setTimeout(function() { self.show1 = true }, 300)
     setTimeout(function() { self.show2 = true }, 1000)
     setTimeout(function() { self.show3 = true }, 1700)
   },
+  beforeDestroy: function() {
+    document.removeEventListener('touchmove', this.preventScroll)
+  },
   methods: {
+    preventScroll: function(e) {
+      e.preventDefault()
+    },
     goTo: function(locale) {
       var self = this
       self.fadingOut = true
       setTimeout(function() {
         self.visible = false
+        document.body.style.overflow = ''
+        document.documentElement.style.overflow = ''
+        document.removeEventListener('touchmove', self.preventScroll)
         self.$i18n.locale = locale
         self.$router.push({ name: 'about', params: { locale: locale } })
       }, 1200)
@@ -58,7 +70,7 @@ export default {
   position: fixed;
   inset: 0;
   z-index: 9999;
-  background: #FFFFFF;
+  background: url('@/assets/washi.png') center center / cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,6 +99,7 @@ export default {
   align-items: center;
   justify-content: center;
 }
+
 
 .intro-img {
   width: 100%;
@@ -164,5 +177,33 @@ export default {
 @keyframes textFade {
   from { opacity: 0; transform: translateX(-10%) translateY(6px); }
   to { opacity: 1; transform: translateX(-10%) translateY(0); }
+}
+
+@keyframes textFadeMobile {
+  from { opacity: 0; transform: translateX(-50%) translateY(6px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+@media (max-width: 600px) {
+  .img-container {
+    width: 100vw;
+  }
+
+  .img-slot {
+    flex: 1 1 0;
+  }
+
+  .intro-text {
+    white-space: normal;
+    text-align: center;
+    left: 50%;
+    width: 80vw;
+    animation-name: textFadeMobile;
+  }
+
+  .enter-btn-wrap {
+    left: 50%;
+    animation-name: textFadeMobile;
+  }
 }
 </style>

@@ -201,6 +201,7 @@ export default {
   opacity: 0 !important;
 }
 
+
 .float-lang {
   position: fixed;
   top: 1.2rem;
