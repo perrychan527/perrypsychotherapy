@@ -55,7 +55,7 @@
 						  <v-list-item-subtitle class="subtitle-1">{{ $t('EXP12') }}</v-list-item-subtitle>
 						</v-flex>
 					</v-layout>
-				  <p class="subtitle-1 pt-md-5 pt-sm-4 fade-up" style="transition-delay: 0.25s">{{ $t('EXP_01') }}</p>
+				  <p class="subtitle-1 pt-md-5 pt-sm-4 pt-5 fade-up" style="transition-delay: 0.25s">{{ $t('EXP_01') }}</p>
                 </v-flex>
 				
 				<v-flex sm1 md1>
@@ -141,11 +141,6 @@
 				</v-flex>
 			  </v-layout>
 
-				<v-layout row wrap justify-center pt-md-8 pt-sm-5 pt-5>
-				  <v-flex xs12 sm8 md5>
-					<contact-form></contact-form>
-				  </v-flex>
-				</v-layout>
 
             </v-container> 
           </v-card-text>

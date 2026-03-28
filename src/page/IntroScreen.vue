@@ -35,31 +35,56 @@ export default {
   },
   mounted: function() {
     document.body.style.overflow = 'hidden'
-    document.documentElement.style.overflow = 'hidden'
+    document.documentElement.classList.add('intro-active')
     document.addEventListener('touchmove', this.preventScroll, { passive: false })
+
     var self = this
-    setTimeout(function() { self.show1 = true }, 300)
-    setTimeout(function() { self.show2 = true }, 1000)
-    setTimeout(function() { self.show3 = true }, 1700)
+    var started = false
+
+    function startAnimations() {
+      if (started) return
+      started = true
+      setTimeout(function() { self.show1 = true }, 300)
+      setTimeout(function() { self.show2 = true }, 1000)
+      setTimeout(function() { self.show3 = true }, 1700)
+    }
+
+    var img = new Image()
+    img.onload = startAnimations
+    img.onerror = startAnimations
+    img.src = require('@/assets/washi.png')
+    if (img.complete) startAnimations()
   },
   beforeDestroy: function() {
     document.removeEventListener('touchmove', this.preventScroll)
   },
   methods: {
-    preventScroll: function(e) {
-      e.preventDefault()
-    },
+    preventScroll: function(e) { e.preventDefault() },
     goTo: function(locale) {
       var self = this
       self.fadingOut = true
-      setTimeout(function() {
-        self.visible = false
-        document.body.style.overflow = ''
-        document.documentElement.style.overflow = ''
-        document.removeEventListener('touchmove', self.preventScroll)
-        self.$i18n.locale = locale
-        self.$router.push({ name: 'about', params: { locale: locale } })
-      }, 1200)
+      self.$i18n.locale = locale
+
+      var fadeComplete = false
+      var navComplete = false
+
+      function tryHide() {
+        if (fadeComplete && navComplete) {
+          self.visible = false
+          document.body.style.overflow = ''
+          document.documentElement.classList.remove('intro-active')
+          document.removeEventListener('touchmove', self.preventScroll)
+          var viewport = document.querySelector('meta[name=viewport]')
+          if (viewport) viewport.setAttribute('content', 'width=device-width, initial-scale=1.0')
+          self.$root.$emit('intro-done')
+        }
+      }
+
+      setTimeout(function() { fadeComplete = true; tryHide() }, 1200)
+
+      self.$router.push({ name: 'about', params: { locale: locale } })
+        .then(function() { navComplete = true; tryHide() })
+        .catch(function() { navComplete = true; tryHide() })
     }
   }
 }
@@ -68,9 +93,16 @@ export default {
 <style scoped>
 .intro-overlay {
   position: fixed;
-  inset: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: 9999;
-  background: url('@/assets/washi.png') center center / cover no-repeat;
+  background-color: #f0ebe4;
+  background-image: url('@/assets/washi.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;

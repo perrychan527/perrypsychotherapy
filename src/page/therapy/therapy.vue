@@ -94,13 +94,13 @@
                 <v-flex xs12 sm12 md6 pt-md-2 pt-sm-5>
                   <p class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.1s">{{ $t('APPTITLE3') }}
                   </p>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-9 pl-sm-8 pl-9 pr-md-8 pr-sm-8 pr-8 text-wrap fade-up" style="transition-delay: 0.2s">{{ $t('APP5_1') }}</v-list-item-subtitle>
-				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-9 pl-sm-8 pl-9 pr-md-8 pr-sm-8 pr-8 text-wrap fade-up" style="transition-delay: 0.225s">{{ $t('APP5_2') }}</v-list-item-subtitle>
-				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-9 pl-sm-8 pl-9 pr-md-8 pr-sm-8 pr-8 text-wrap fade-up" style="transition-delay: 0.3s">{{ $t('APP5_3') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-9 pl-sm-8 pl-1 pr-md-8 pr-sm-8 pr-8 text-wrap fade-up" style="transition-delay: 0.2s">{{ $t('APP5_1') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-9 pl-sm-8 pl-4 pr-md-8 pr-sm-8 pr-8 text-wrap fade-up" style="transition-delay: 0.225s">{{ $t('APP5_2') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-9 pl-sm-8 pl-7 pr-md-8 pr-sm-8 pr-8 text-wrap fade-up" style="transition-delay: 0.3s">{{ $t('APP5_3') }}</v-list-item-subtitle>
 				  <p></p>
-				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-15 pl-sm-14 pl-15 pr-md-8 pr-sm-8 pr-8 text-wrap fade-up" style="transition-delay: 0.325s">{{ $t('APP5_4') }}</v-list-item-subtitle>
-				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-15 pl-sm-14 pl-15 pr-md-8 pr-sm-8 pr-8 text-wrap fade-up" style="transition-delay: 0.35s">{{ $t('APP5_5') }}</v-list-item-subtitle>
-				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-15 pl-sm-14 pl-15 pr-md-8 pr-sm-8 pr-8 text-wrap fade-up" style="transition-delay: 0.375s">{{ $t('APP5_6') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-15 pl-sm-14 pl-12 pr-md-8 pr-sm-8 pr-8 pt-2 text-wrap fade-up" style="transition-delay: 0.325s">{{ $t('APP5_4') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-15 pl-sm-14 pl-14 pr-md-8 pr-sm-8 pr-8 text-wrap fade-up" style="transition-delay: 0.35s">{{ $t('APP5_5') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-15 pl-sm-14 pl-16 pr-md-8 pr-sm-8 pr-8 text-wrap fade-up" style="transition-delay: 0.375s">{{ $t('APP5_6') }}</v-list-item-subtitle>
                   <v-list-item-subtitle class="text-right subtitle-1 pb-md-3 pb-3 pb-sm-3 pt-md-2 pt-2 pt-sm-2 text-wrap fade-up" style="transition-delay: 0.4s">{{ $t('APP6') }}</v-list-item-subtitle>
                   <p class="subtitle-1 fade-up" style="transition-delay: 0.425s">{{ $t('APP7') }}</p>
                 </v-flex>
@@ -137,14 +137,14 @@
                 <v-flex xs12 sm12 md6 pt-md-8 pt-sm-5>
                   <p class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.2s">{{ $t('APPTITLE4') }}
                   </p>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-8 pb-md-2 pb-sm-2 pb-2 fade-up" style="transition-delay: 0.225s">{{ $t('APP9') }}</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-8 fade-up" style="transition-delay: 0.25s">{{ $t('APP10') }}</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-8 fade-up" style="transition-delay: 0.275s"">{{ $t('APP11') }}</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-8 fade-up" style="transition-delay: 0.3s">{{ $t('APP12') }}</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-8 fade-up" style="transition-delay: 0.325s">{{ $t('APP13') }}</v-list-item-subtitle>
-                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-8 pb-md-2 pb-sm-2 pb-2 fade-up" style="transition-delay: 0.35s">{{ $t('APP14') }}</v-list-item-subtitle>
-				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-16 pl-sm-8 pl-8 fade-up" style="transition-delay: 0.375s">{{ $t('APP15') }}</v-list-item-subtitle>
-				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-16 pl-sm-8 pl-8 fade-up" style="transition-delay: 0.4s">{{ $t('APP16') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-1 pb-md-2 pb-sm-2 pb-2 text-wrap fade-up" style="transition-delay: 0.225s">{{ $t('APP9') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-5 pt-2 text-wrap fade-up" style="transition-delay: 0.25s">{{ $t('APP10') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-5 text-wrap fade-up" style="transition-delay: 0.275s">{{ $t('APP11') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-5 text-wrap fade-up" style="transition-delay: 0.3s">{{ $t('APP12') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-5 text-wrap fade-up" style="transition-delay: 0.325s">{{ $t('APP13') }}</v-list-item-subtitle>
+                  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-5 pb-md-2 pb-sm-2 pb-2 text-wrap fade-up" style="transition-delay: 0.35s">{{ $t('APP14') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-16 pl-sm-8 pl-9 pt-2 text-wrap fade-up" style="transition-delay: 0.375s">{{ $t('APP15') }}</v-list-item-subtitle>
+				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-16 pl-sm-8 pl-11 text-wrap fade-up" style="transition-delay: 0.4s">{{ $t('APP16') }}</v-list-item-subtitle>
                   <p></p>
 				  <p class="subtitle-1 fade-up" style="transition-delay: 0.45s">{{ $t('APP17') }}</p>
 				</v-flex>

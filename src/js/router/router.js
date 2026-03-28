@@ -16,6 +16,10 @@ const hkMay = () => import("../../page/socialDreaming/hkMay/hkMay.vue")
 
 const router = new VueRouter({
   mode: 'history',
+  scrollBehavior: function(to, from) {
+    if (to.name === from.name) return
+    return { x: 0, y: 0 }
+  },
   routes: [
   
   

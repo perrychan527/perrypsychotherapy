@@ -2,8 +2,8 @@
   <div>
     <!-- Floating button -->
     <button class="float-btn" @click="open = !open" :aria-label="$t('getInTouch')">
-      <span v-if="!open">✉</span>
-      <span v-else>✕</span>
+      <svg v-if="!open" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,4 12,13 2,4"/></svg>
+      <svg v-else xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
     </button>
 
     <!-- Sliding form panel -->
@@ -72,37 +72,21 @@ export default {
 
 <style scoped>
 .float-btn {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  z-index: 1000;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  background: #546e7a;
-  color: white;
+  background: none;
+  color: #888;
   border: none;
-  font-size: 18px;
   cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-  opacity: 0;
-  transform: translateY(10px);
-  animation: btnEntrance 0.8s ease 0.9s forwards;
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
 }
 
-.float-btn:hover { background: #37474f; }
-
-@keyframes btnEntrance {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+.float-btn:hover { color: #333; }
 
 .float-form {
   position: fixed;
-  bottom: 5.5rem;
-  right: 2rem;
+  top: 3.2rem;
+  right: 1.5rem;
   z-index: 999;
   width: 280px;
   background: white;

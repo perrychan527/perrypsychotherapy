@@ -1,10 +1,10 @@
 <template>
     <div align="center" class="px-md-5 px-sm-0 px-4 mr-md-5">
-      <v-card flat elevation="0" max-width="1250" class="pr-md-5">
+      <v-card flat elevation="0" max-width="1250" class="pr-md-5" color="transparent">
         <v-card-text class="text-left">
           <v-container class="px-md-10 px-5 py-md-7 py-sm-7 py-3">
             <v-layout row wrap>
-              <v-flex xs2 sm2 md2 class="white">
+              <v-flex xs2 sm2 md2>
                 <div class="d-flex align-end flex-column mb-6 ">
                   <v-btn
                     disabled
