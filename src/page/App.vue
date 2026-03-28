@@ -24,66 +24,22 @@
 	  
       <v-card-subtitle class="overline text-capitalize text-center font-weight-regular fade-up" style="transition-delay: 0.2s">{{ $t('SUBHEADING') }}</v-card-subtitle>
       
-      <div class="text-center fade-up" style="transition-delay: 0.3s">
+      <div class="text-center fade-up nav-bar-wrap" style="transition-delay: 0.3s" ref="navBar">
         <router-link
+        v-for="tab in tabs"
+        :key="tab.name"
         style="text-decoration: none; color: inherit;"
-        :to="{ name: 'default', params: { locale: $route.params.locale }}">
+        :ref="'nav-' + tab.name"
+        :to="{ name: tab.name, params: { locale: $route.params.locale || 'en' }}">
           <v-btn
-          :class="['overline', 'text-capitalize', { 'nav-active': isTabActive('default') }]"
-		  color="grey darken-4"
-          plain
-        >
-          {{ $t('TAB1') }}
-          </v-btn>
-        </router-link>
-
-        <router-link
-        style="text-decoration: none; color: inherit;"
-        :to="{ name: 'therapy', params: { locale: $route.params.locale || 'en' }}">
-          <v-btn
-          :class="['overline', 'text-capitalize', { 'nav-active': isTabActive('therapy') }]"
+          class="overline text-capitalize"
           color="grey darken-4"
           plain
         >
-          {{ $t('TAB2') }}
+          {{ $t(tab.label) }}
           </v-btn>
         </router-link>
-
-        <router-link
-        style="text-decoration: none; color: inherit;"
-        :to="{ name: 'sessioninfo', params: { locale: $route.params.locale || 'en' }}">
-          <v-btn
-          :class="['overline', 'text-capitalize', { 'nav-active': isTabActive('sessioninfo') }]"
-          color="grey darken-4"
-          plain
-        >
-          {{ $t('TAB3') }}
-          </v-btn>
-        </router-link>
-
-        <router-link
-        style="text-decoration: none; color: inherit;"
-        :to="{ name: 'memories', params: { locale: $route.params.locale || 'en' }}">
-          <v-btn
-          :class="['overline', 'text-capitalize', { 'nav-active': isTabActive('memories') }]"
-          color="grey darken-4"
-          plain
-        >
-          {{ $t('TAB4') }}
-          </v-btn>
-        </router-link>
-
-        <router-link
-        style="text-decoration: none; color: inherit;"
-        :to="{ name: 'socialDreamingAbout', params: { locale: $route.params.locale || 'en' }}">
-          <v-btn
-          :class="['overline', 'text-capitalize', { 'nav-active': isTabActive('socialDreamingAbout') }]"
-          color="grey darken-4"
-          plain
-        >
-          {{ $t('TAB5') }}
-          </v-btn>
-        </router-link>
+        <div class="nav-indicator" :style="indicatorStyle"></div>
 		
       </div>
     </v-card>
@@ -147,6 +103,8 @@ export default {
       navHidden: false,
       menuOpen: false,
       introActive: true,
+      washiLoaded: false,
+      indicatorStyle: { left: '0px', width: '0px', opacity: 0 },
       tabs: [
         { name: 'default', label: 'TAB1' },
         { name: 'therapy', label: 'TAB2' },
@@ -172,6 +130,26 @@ export default {
         this.$router.push({ path: newPath })
       }
     },
+    updateIndicator: function() {
+      var self = this
+      self.$nextTick(function() {
+        var activeTab = self.tabs.find(function(t) { return self.isTabActive(t.name) })
+        if (!activeTab) { self.indicatorStyle = { opacity: 0 }; return }
+        var ref = self.$refs['nav-' + activeTab.name]
+        var el = ref && (ref[0] ? ref[0].$el || ref[0] : ref.$el || ref)
+        var bar = self.$refs.navBar
+        if (!el || !bar) return
+        var textEl = el.querySelector('.v-btn__content') || el
+        var textRect = textEl.getBoundingClientRect()
+        var barRect = bar.getBoundingClientRect()
+        self.indicatorStyle = {
+          left: (textRect.left - barRect.left) + 'px',
+          top: (textRect.bottom - barRect.top + 2) + 'px',
+          width: textRect.width + 'px',
+          opacity: 1
+        }
+      })
+    },
     $_observeElements: function() {
       var self = this
       self.$nextTick(function() {
@@ -196,6 +174,7 @@ export default {
       var self = this
       setTimeout(function() {
         self.$_observeElements()
+        self.updateIndicator()
       }, 100)
     }
   },
@@ -245,6 +224,12 @@ export default {
     })
 
     self.$_observeElements()
+    self.updateIndicator()
+
+    var washiImg = new Image()
+    washiImg.onload = function() { self.washiLoaded = true }
+    washiImg.src = require('@/assets/washi.png')
+    if (washiImg.complete) self.washiLoaded = true
   }
 }
 </script>
@@ -414,12 +399,18 @@ a.float-menu-item:hover {
 
 a.float-menu-item.menu-active {
   text-decoration: underline !important;
-  text-underline-offset: 4px;
+  text-underline-offset: 2px;
 }
 
-.nav-active .v-btn__content {
-  text-decoration: underline;
-  text-underline-offset: 4px;
+.nav-bar-wrap {
+  position: relative;
+}
+
+.nav-indicator {
+  position: absolute;
+  height: 1px;
+  background: #424242;
+  transition: left 0.3s ease, width 0.3s ease, top 0.3s ease;
 }
 
 .menu-slide-enter-active, .menu-slide-leave-active {

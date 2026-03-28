@@ -98,7 +98,7 @@
                   <p class="body-2 fade-up" style="transition-delay: 0.35s">{{ $t('QUALI3') }}
                   </p>
                 
-				<v-img  src="@/assets/bacp.jpg"
+				<v-img  src="@/assets/bacp.png"
 						alt="BACP registered counsellor/psychotherapist"
                         max-width="230"
                         max-height="100"
@@ -154,7 +154,15 @@
 import ContactForm from '@/page/ContactForm.vue'
 
 export default {
-  components: { ContactForm }
+  components: { ContactForm },
+  metaInfo: function() {
+    return {
+      title: this.$t('META_ABOUT_TITLE'),
+      meta: [
+        { vmid: 'description', name: 'description', content: this.$t('META_ABOUT_DESC') }
+      ]
+    }
+  }
 }
 </script>
 

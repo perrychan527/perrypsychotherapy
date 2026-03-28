@@ -187,6 +187,19 @@
   </div>
 </template>
 
+<script>
+export default {
+  metaInfo: function() {
+    return {
+      title: this.$t('META_THERAPY_TITLE'),
+      meta: [
+        { vmid: 'description', name: 'description', content: this.$t('META_THERAPY_DESC') }
+      ]
+    }
+  }
+}
+</script>
+
 <style scoped>
 .handwritten-strike {
   position: relative;

@@ -9,7 +9,7 @@
 						<v-container class="px-md-10 px-5 py-md-10 py-5">
 
 						  <v-layout row wrap>
-							<v-flex xs12 sm12 md12 pt-md-0 pt-sm-5>
+							<v-flex xs12 sm12 md12 pt-md-0 pt-sm-5 class="fade-up" style="transition-delay: 0.1s">
 							<v-img class="mx-auto"
 								src="@/assets/hkMaySdm.jpg"
 								alt="an image of dreaming mushrooms. Social Dreaming in Hong Kong Shue Yan University"
@@ -20,7 +20,7 @@
 						  </v-layout>
 
 						  <v-layout row wrap justify-space-around pt-md-16 pt-sm-5 pt-5>
-							<v-flex xs12 md12 class="d-flex flex-column-reverse">
+							<v-flex xs12 md12 class="d-flex flex-column-reverse fade-up" style="transition-delay: 0.15s">
 							  <p class="text-center subtitle-2 font-weight-regular">{{ $t('COPY1') }}</p>
 							</v-flex>
 						  </v-layout>

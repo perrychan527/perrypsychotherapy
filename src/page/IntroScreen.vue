@@ -1,5 +1,5 @@
 <template>
-  <div v-if="visible" class="intro-overlay" :class="{ 'fade-out': fadingOut }">
+  <div v-if="visible" class="intro-overlay" :class="{ 'fade-out': fadingOut, 'washi-visible': washiVisible }">
     <div class="img-container">
       <div class="img-slot">
         <img v-if="show3" src="@/assets/calligraphy3.png" alt="" class="intro-img" />
@@ -31,6 +31,7 @@ export default {
       show1: false,
       show2: false,
       show3: false,
+      washiVisible: false,
     }
   },
   mounted: function() {
@@ -41,12 +42,15 @@ export default {
     var self = this
     var started = false
 
+    var washiFadeDuration = 1500
+
     function startAnimations() {
       if (started) return
       started = true
-      setTimeout(function() { self.show1 = true }, 300)
-      setTimeout(function() { self.show2 = true }, 1000)
-      setTimeout(function() { self.show3 = true }, 1700)
+      self.washiVisible = true
+      setTimeout(function() { self.show1 = true }, washiFadeDuration + 300)
+      setTimeout(function() { self.show2 = true }, washiFadeDuration + 1000)
+      setTimeout(function() { self.show3 = true }, washiFadeDuration + 1700)
     }
 
     var img = new Image()
@@ -109,6 +113,22 @@ export default {
   cursor: default;
   opacity: 1;
   transition: opacity 1.2s ease;
+}
+
+.intro-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #f0ebe4;
+  transition: opacity 1.5s ease;
+  z-index: -1;
+}
+
+.intro-overlay.washi-visible::before {
+  opacity: 0;
 }
 
 .intro-overlay.fade-out {

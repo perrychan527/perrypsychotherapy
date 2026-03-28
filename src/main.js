@@ -1,10 +1,12 @@
 import Vue from 'vue'
 import App from './page/App.vue'
 import vuetify from './plugins/vuetify'
+import VueMeta from 'vue-meta'
 
 import router from './js/router/router'
 import i18n from './js/i18n/i18n'
 
+Vue.use(VueMeta)
 Vue.config.productionTip = false
 
 new Vue({
