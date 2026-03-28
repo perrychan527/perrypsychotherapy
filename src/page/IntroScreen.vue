@@ -2,13 +2,13 @@
   <div v-if="visible" class="intro-overlay" :class="{ 'fade-out': fadingOut, 'washi-visible': washiVisible }">
     <div class="img-container">
       <div class="img-slot">
-        <img v-if="show3" src="@/assets/calligraphy3.png" alt="" class="intro-img" />
+        <img v-if="show3" src="@/assets/calligraphy3.png" :alt="$t('ALT_INTRO_1')" class="intro-img" />
       </div>
       <div class="img-slot">
-        <img v-if="show2" src="@/assets/calligraphy2.png" alt="" class="intro-img" />
+        <img v-if="show2" src="@/assets/calligraphy2.png" :alt="$t('ALT_INTRO_2')" class="intro-img" />
       </div>
       <div class="img-slot">
-        <img v-if="show1" src="@/assets/calligraphy1.png" alt="" class="intro-img" />
+        <img v-if="show1" src="@/assets/calligraphy1.png" :alt="$t('ALT_INTRO_3')" class="intro-img" />
       </div>
       <p v-if="show3" class="intro-text line-1">Soul to soul, dream to dream</p>
       <p v-if="show3" class="intro-text line-2">A space to speak, to dream, to feel, and to transmute</p>

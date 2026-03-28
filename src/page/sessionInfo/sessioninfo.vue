@@ -11,7 +11,7 @@
                   <v-flex xs12 sm12 md5 pt-md-3 pt-sm-5 class="fade-up" style="transition-delay: 0.1s">
                   <v-img class="mx-auto"
                         src="@/assets/mistyforest.jpg"
-                        alt="psychotherapy and counselling service mainly for clients based in Edinburgh, in the UK (in-person/online/phone) and in Hong Kong (online only), in English, Cantonese and Mandarin Chinese"
+                        :alt="$t('ALT_SESSION_FOREST')"
                         max-width="520"
                         max-height="400"
                   ></v-img>
@@ -21,8 +21,8 @@
                   <v-flex sm1 md1>
                   </v-flex>
                   <v-flex xs12 sm12 md6>
-                    <p class="overline text-capitalize light-blue--text text--darken-4 pt-1 fade-up" style="transition-delay: 0.15s">{{ $t('PRACTITLE1') }}
-                    </p>
+                    <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-1 fade-up" style="transition-delay: 0.15s">{{ $t('PRACTITLE1') }}
+                    </h2>
                     <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('PRAC1') }}
                     </p>
                     <v-data-table
@@ -35,7 +35,7 @@
                     ></v-data-table>
                   </v-flex>
                   <v-flex xs12 sm12 md6>
-                    <p class="overline text-capitalize light-blue--text text--darken-4 pt-7 fade-up" style="transition-delay: 0.1s">{{ $t('PRACTITLE2') }}</p>
+                    <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-7 fade-up" style="transition-delay: 0.1s">{{ $t('PRACTITLE2') }}</h2>
                     <p class="subtitle-1 fade-up" style="transition-delay: 0.15s">{{ $t('PRAC2') }}
                     </p>
                     <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('PRAC3') }}
@@ -56,7 +56,7 @@
                   <v-flex xs12 sm12 md5 pt-md-3 pt-sm-5 pt-5 class="fade-up" style="transition-delay: 0.1s">
                   <v-img class="mx-auto"
                         src="@/assets/map.jpg"
-                        alt="I offer counselling/psychotherapy face-to-face (South Side Centre), online (Skype) or phone counselling session, in Edinburgh, UK, Hong Kong"
+                        :alt="$t('ALT_SESSION_MAP')"
                         max-width="520"
                         max-height="400"
                   ></v-img>
@@ -66,7 +66,7 @@
                   <v-flex sm1 md1>
                   </v-flex>
                   <v-flex xs12 sm12 md6>
-                    <p class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.15s">{{ $t('PRACTITLE3') }}</p>
+                    <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.15s">{{ $t('PRACTITLE3') }}</h2>
                     <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('PRAC4') }}
                     </p>
                     <p class="subtitle-1 fade-up" style="transition-delay: 0.25s">{{ $t('PRAC5') }}</p>

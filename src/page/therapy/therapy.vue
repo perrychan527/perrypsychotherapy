@@ -9,8 +9,8 @@
             <v-container class="px-md-10 px-5 py-md-10 py-5">
               <v-layout row wrap>
                 <v-flex xs12 sm12 md12>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.1s"><span class="handwritten-strike">{{ $t('APPTITLE1') }}</span>
-                  </p>
+                  <h2 class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.1s"><span class="handwritten-strike">{{ $t('APPTITLE1') }}</span>
+                  </h2>
                 </v-flex>
                 <v-flex xs12 sm12 md6>
                   <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('APP1') }}
@@ -59,7 +59,7 @@
                 <v-flex xs12 sm12 md5 class="fade-up" style="transition-delay: 0.35s">
                 <v-img class="mx-auto"
                       src="@/assets/2people2.jpg"
-					  alt="Two people navigating in the mist, exploring the not-knowing, like what happens in a therapy session"
+					  :alt="$t('ALT_THERAPY_MIST')"
                       max-width="520"
                       max-height="400"
                 ></v-img>
@@ -72,6 +72,7 @@
                 <v-flex xs12 sm12 md5 pt-md-16 pt-sm-5 class="fade-up" style="transition-delay: 0.1s">
                 <v-img class="mx-auto"
                       src="@/assets/oldcollege.jpg"
+                      :alt="$t('ALT_THERAPY_COLLEGE')"
                       max-width="520"
                       max-height="400"
                 ></v-img>
@@ -81,8 +82,8 @@
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.2s">{{ $t('APPTITLE2') }}
-                  </p>
+                  <h2 class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.2s">{{ $t('APPTITLE2') }}
+                  </h2>
                   <p class="subtitle-1 fade-up" style="transition-delay: 0.25s">{{ $t('APP3') }}</p>
                   <p class="subtitle-1 fade-up" style="transition-delay: 0.3s">{{ $t('APP4') }}
                   </p>
@@ -92,8 +93,8 @@
 			  
               <v-layout row wrap>
                 <v-flex xs12 sm12 md6 pt-md-2 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.1s">{{ $t('APPTITLE3') }}
-                  </p>
+                  <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.1s">{{ $t('APPTITLE3') }}
+                  </h2>
                   <v-list-item-subtitle class="font-italic subtitle-1 pl-md-9 pl-sm-8 pl-1 pr-md-8 pr-sm-8 pr-8 text-wrap fade-up" style="transition-delay: 0.2s">{{ $t('APP5_1') }}</v-list-item-subtitle>
 				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-9 pl-sm-8 pl-4 pr-md-8 pr-sm-8 pr-8 text-wrap fade-up" style="transition-delay: 0.225s">{{ $t('APP5_2') }}</v-list-item-subtitle>
 				  <v-list-item-subtitle class="font-italic subtitle-1 pl-md-9 pl-sm-8 pl-7 pr-md-8 pr-sm-8 pr-8 text-wrap fade-up" style="transition-delay: 0.3s">{{ $t('APP5_3') }}</v-list-item-subtitle>
@@ -111,6 +112,7 @@
                 <v-flex xs12 sm12 md5 pt-md-16 pt-sm-8 pt-7 class="fade-up" style="transition-delay: 0.5s">
                 <v-img
                       src="@/assets/foggycity.jpg"
+                      :alt="$t('ALT_THERAPY_CITY1')"
                       max-width="570"
                       max-height="450"
                 ></v-img>
@@ -124,7 +126,7 @@
                 <v-flex xs12 sm12 md5 pt-md-16 pt-sm-8 pt-7 class="fade-up" style="transition-delay: 0.1s">
                 <v-img
                       src="@/assets/2birds.jpg"
-					  alt="Therapeutic Process"
+					  :alt="$t('ALT_THERAPY_PROCESS')"
                       max-width="570"
                       max-height="450"
                 ></v-img>
@@ -135,8 +137,8 @@
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md6 pt-md-8 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.2s">{{ $t('APPTITLE4') }}
-                  </p>
+                  <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.2s">{{ $t('APPTITLE4') }}
+                  </h2>
                   <v-list-item-subtitle class="font-italic subtitle-1 pl-md-8 pl-sm-8 pl-1 pb-md-2 pb-sm-2 pb-2 text-wrap fade-up" style="transition-delay: 0.225s">{{ $t('APP9') }}</v-list-item-subtitle>
                   <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-5 pt-2 text-wrap fade-up" style="transition-delay: 0.25s">{{ $t('APP10') }}</v-list-item-subtitle>
                   <v-list-item-subtitle class="font-italic subtitle-1 pl-md-13 pl-sm-8 pl-5 text-wrap fade-up" style="transition-delay: 0.275s">{{ $t('APP11') }}</v-list-item-subtitle>
@@ -155,8 +157,8 @@
                 <v-flex sm0 xs0 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md5 pt-md-2 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.1s">{{ $t('APPTITLE5') }}
-                  </p>
+                  <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.1s">{{ $t('APPTITLE5') }}
+                  </h2>
                   <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('APP18') }}</p>
                   <p class="subtitle-1 fade-up" style="transition-delay: 0.25s">{{ $t('APP19') }}</p>
                   
@@ -166,6 +168,7 @@
                 <v-flex xs12 sm12 md5 pt-md-16 pt-sm-8 pt-7 class="fade-up" style="transition-delay: 0.3s">
                 <v-img
                       src="@/assets/foggycity.jpg"
+                      :alt="$t('ALT_THERAPY_CITY2')"
                       max-width="570"
                       max-height="450"
                 ></v-img>

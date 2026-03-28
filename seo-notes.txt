@@ -1,0 +1,21 @@
+SEO Notes - Missing HK Search Terms
+=====================================
+
+These are search terms HK clients would use on Google.
+Try to include them naturally in your Chinese (hk.js) content:
+
+1. 線上心理治療香港 (online psychotherapy Hong Kong)
+2. 香港心理輔導師 (Hong Kong counsellor)
+3. 廣東話治療 (Cantonese-speaking therapy)
+4. 網上輔導 (online counselling)
+5. 創傷輔導 (trauma counselling)
+6. 港人心理健康 (Hong Kong people mental health)
+7. 網上治療 (online therapy)
+
+Content Issues to Fix
+=====================
+
+1. Memories page - not translated to Chinese at all
+2. Several images missing alt text (therapy page, memories page, session info page)
+3. Section headings use <p> tags instead of <h2>/<h3> - Google can't see your page structure
+4. "Social Dreaming" is never translated - consider adding 集體夢境 or 夢境工作坊

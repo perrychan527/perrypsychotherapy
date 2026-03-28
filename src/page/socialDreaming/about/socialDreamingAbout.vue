@@ -17,8 +17,8 @@
 							<v-flex xs1 sm2 md3>
 							</v-flex>
 							<v-flex xs12 sm12 md12>
-							  <p class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.2s">{{ $t('whatIsSDM') }}
-							  </p>
+							  <h2 class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.2s">{{ $t('whatIsSDM') }}
+							  </h2>
 							</v-flex>
 							<v-flex xs12 sm12 md6>
 							  <p class="subtitle-1 fade-up" style="transition-delay: 0.25s">{{ $t('whatIsSDM_P1') }}
@@ -29,7 +29,7 @@
 							<v-flex xs12 sm12 md6 class="fade-up" style="transition-delay: 0.2s">
 							<v-img class="mx-auto"
 								  src="@/assets/mushroom2.png"
-								  alt="an image of dreaming mushrooms. Social Dreaming in the UK"
+								  :alt="$t('ALT_SD_MUSHROOM')"
 								  max-width="520"
 								  max-height="400"
 							></v-img>
@@ -42,7 +42,7 @@
 							<v-flex xs12 sm12 md6 pt-md-8 pt-sm-5 class="fade-up" style="transition-delay: 0.1s">
 							<v-img class="mx-auto"
 								  src="@/assets/dreamingfish.png"
-								  alt="an image of dreaming fishes. Social Dreaming in the UK"
+								  :alt="$t('ALT_SD_FISH')"
 								  max-width="600"
 								  max-height="800"
 							></v-img>
@@ -50,8 +50,8 @@
 							</p>
 							</v-flex>
 							<v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
-							  <p class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.15s">{{ $t('APPTITLE2') }}
-							  </p>
+							  <h2 class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.15s">{{ $t('APPTITLE2') }}
+							  </h2>
 							  <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">COMING SOON</p>
 							</v-flex>
 						  </v-layout>
@@ -59,8 +59,8 @@
 							<v-flex sm0 xs0 md1>
 							</v-flex>
 							<v-flex xs12 sm12 md5 pt-md-2 pt-sm-5>
-							  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.1s">{{ $t('SocialDreamingAbout_ref') }}
-							  </p>
+							  <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.1s">{{ $t('SocialDreamingAbout_ref') }}
+							  </h2>
 							  <p class="caption fade-up" style="transition-delay: 0.15s">Lawrence, W. Gordon. "The contribution of social dreaming to socio-analysis." Socio-Analysis 1, no. 1 (1999): 18-33.</p>
 							  <p class="caption fade-up" style="transition-delay: 0.2s">Ullman, Montague. "Psi communication through dream sharing." Parapsychology Review 12, no. 2 (1981): 1-8.</p>
 							</v-flex>

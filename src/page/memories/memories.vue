@@ -9,8 +9,8 @@
             <v-container class="px-md-10 px-5 py-md-10 py-5">
               <v-layout row wrap>
                 <v-flex xs12 sm12 md6>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.1s">{{ $t('METITLE1') }}
-                  </p>
+                  <h2 class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.1s">{{ $t('METITLE1') }}
+                  </h2>
                   <p class="subtitle-1 fade-up" style="transition-delay: 0.15s">{{ $t('ME1') }}
                   </p>
                   <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('ME2') }}
@@ -30,6 +30,7 @@
                 <v-flex xs12 sm12 md4 pt-md-4 class="fade-up" style="transition-delay: 0.2s">
                 <v-img class="mx-auto"
                       src="@/assets/fishexplore.jpg"
+                      :alt="$t('ALT_MEMORIES_EXPLORE')"
                       max-width="300"
                       max-height="800"
                 ></v-img>
@@ -44,6 +45,7 @@
                 <v-flex xs12 sm12 md5 pt-md-7 pt-sm-5 class="fade-up" style="transition-delay: 0.1s">
                 <v-img class="mx-auto"
                       src="@/assets/perryfish.jpg"
+                      :alt="$t('ALT_MEMORIES_PERRY')"
                       max-width="520"
                       max-height="400"
                 ></v-img>
@@ -53,8 +55,8 @@
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.15s">{{ $t('METITLE2') }}
-                  </p>
+                  <h2 class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.15s">{{ $t('METITLE2') }}
+                  </h2>
                   <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('ME6') }}
                   </p>
                   <p class="subtitle-1 fade-up" style="transition-delay: 0.25s">{{ $t('ME7') }}
@@ -66,8 +68,8 @@
               </v-layout>
               <v-layout row wrap>
                 <v-flex xs12 sm12 md6 pt-md-3 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.1s">{{ $t('METITLE3') }}
-                  </p>
+                  <h2 class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.1s">{{ $t('METITLE3') }}
+                  </h2>
                   <p class="subtitle-1 fade-up" style="transition-delay: 0.15s">{{ $t('ME10') }}</p>
                   <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('ME11') }}</p>
                   <p class="subtitle-1 fade-up" style="transition-delay: 0.25s">{{ $t('ME12') }}</p>
@@ -81,6 +83,7 @@
                 <v-flex xs12 sm12 md5 pt-md-16 pt-sm-8 pt-7 class="fade-up" style="transition-delay: 0.2s">
                 <v-img
                       src="@/assets/fishdiscover.jpg"
+                      :alt="$t('ALT_MEMORIES_DISCOVER')"
                       max-width="520"
                       max-height="400"
                 ></v-img>
@@ -101,8 +104,8 @@
                 <v-flex sm1 md1>
                 </v-flex>
                 <v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
-                  <p class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.15s">{{ $t('METITLE4') }}
-                  </p>
+                  <h2 class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.15s">{{ $t('METITLE4') }}
+                  </h2>
                   <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('ME15') }}
                   </p>
                 </v-flex>

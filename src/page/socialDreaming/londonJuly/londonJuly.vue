@@ -9,8 +9,8 @@
 						<v-container class="px-md-10 px-5 py-md-10 py-5">
 						  <v-layout row wrap>
 							<v-flex xs12 sm12 md12>
-							  <p class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.1s">{{ $t('londonJuly_EventName') }}
-							  </p>
+							  <h2 class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.1s">{{ $t('londonJuly_EventName') }}
+							  </h2>
 							</v-flex>
 							<v-flex xs12 sm12 md6>
 							  <p class="overline font-italic font-weight-regular text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.15s">{{ $t('londonJuly_sdDate') }}
@@ -63,8 +63,8 @@
 							<v-flex sm1 md1>
 							</v-flex>
 							<v-flex xs12 sm12 md6 pt-md-5 pt-sm-5>
-							  <p class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.15s">{{ $t('whatIsSDM') }}
-							  </p>
+							  <h2 class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.15s">{{ $t('whatIsSDM') }}
+							  </h2>
 							  <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('refer') }}
 								<router-link style="color: inherit;"
              					   :to="{ name: 'socialDreamingAbout', params: { locale: $route.params.locale || 'en' }}">
@@ -78,8 +78,8 @@
 							<v-flex sm1 md1>
 							</v-flex>
 							<v-flex xs12 sm12 md6 pt-md-2 pt-sm-5>
-							  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.1s">{{ $t('CanIParticipate') }}
-							  </p>
+							  <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.1s">{{ $t('CanIParticipate') }}
+							  </h2>
 							  <p class="subtitle-1 fade-up" style="transition-delay: 0.15s">{{ $t('londonJuly_participate_invite') }}</p>
 							  <v-list-item-subtitle class="subtitle-1 text-wrap fade-up" style="transition-delay: 0.2s">{{ $t('londonJuly_Participate_c1') }}</v-list-item-subtitle>
 							  <v-list-item-subtitle class="subtitle-1 text-wrap fade-up" style="transition-delay: 0.2s">{{ $t('londonJuly_Participate_c3') }}</v-list-item-subtitle>
@@ -87,8 +87,8 @@
 							  <v-list-item-subtitle class="subtitle-1 text-wrap fade-up" style="transition-delay: 0.2s">{{ $t('londonJuly_Participate_c5') }}</v-list-item-subtitle>
 							  <p></p>
 							  <p class="subtitle-1 fade-up" style="transition-delay: 0.25s">{{ $t('sdmNotTherapy') }}</p>
-							<p class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.3s">{{ $t('londonJuly_venue') }}
-							</p>
+							<h2 class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.3s">{{ $t('londonJuly_venue') }}
+							</h2>
 							<v-list-item-subtitle class="subtitle-1 font-weight-bold fade-up" style="transition-delay: 0.35s">Institute of Group Analysis</v-list-item-subtitle>
 							<v-list-item-subtitle class="subtitle-1 fade-up" style="transition-delay: 0.35s">1 Daleham Gardens</v-list-item-subtitle>
 							<v-list-item-subtitle class="subtitle-1 fade-up" style="transition-delay: 0.35s">London, NW3 5BY</v-list-item-subtitle>
@@ -97,8 +97,8 @@
 							<v-flex sm1 md1>
 							</v-flex>
 							<v-flex xs12 sm12 md4 pt-md-2 pt-sm-8 pt-7 class="fade-up" style="transition-delay: 0.1s">
-									<p class="overline text-capitalize light-blue--text text--darken-4 pt-5">{{ $t('londonJuly_agenda') }}
-									</p>
+									<h2 class="overline text-capitalize light-blue--text text--darken-4 pt-5">{{ $t('londonJuly_agenda') }}
+									</h2>
 									<v-row>
 									  <v-col sm="9">
 										<v-card
@@ -358,16 +358,16 @@
 							<v-flex sm1 md1>
 							</v-flex>
 							<v-flex xs12 sm12 md6 pt-md-8 pt-sm-5>
-							  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.15s">{{ $t('londonJuly_confidentiality') }}
-							  </p>
+							  <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.15s">{{ $t('londonJuly_confidentiality') }}
+							  </h2>
 							  <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('londonJuly_confidentiality_p1') }}</p>
 							  <p class="subtitle-1 fade-up" style="transition-delay: 0.25s">{{ $t('londonJuly_confidentiality_p2') }}</p>
 							</v-flex>
 							<v-flex sm1 md1>
 							</v-flex>
 							<v-flex xs12 sm12 md11 pt-md-8 pt-sm-5>
-							  <p class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.1s">{{ $t('londonJuly_AboutHost') }}
-							  </p>
+							  <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.1s">{{ $t('londonJuly_AboutHost') }}
+							  </h2>
 							  </v-flex>
 							  <v-flex sm1 md1>
 							  </v-flex>
