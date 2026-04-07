@@ -873,7 +873,7 @@ a.float-menu-item.menu-active {
   .page-content {
     position: relative;
     z-index: 2;
-    margin-top: 5.5rem;
+    margin-top: 6.5rem;
     min-height: 100vh;
   }
 
