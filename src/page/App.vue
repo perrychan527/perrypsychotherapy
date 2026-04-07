@@ -368,7 +368,11 @@ export default {
   },
   mounted: function() {
     var self = this
-    this._onResize = function() { self.windowWidth = window.innerWidth }
+    this._onResize = function() {
+      self.windowWidth = window.innerWidth
+      clearTimeout(self._resizeTimer)
+      self._resizeTimer = setTimeout(function() { self.updateIndicator() }, 100)
+    }
     window.addEventListener('resize', this._onResize)
     this._onScroll = function() {
       self.scrolledDown = window.scrollY > 20
@@ -659,18 +663,17 @@ html, body {
   position: fixed;
   top: 3.8rem;
   right: 1.5rem;
-  z-index: 1;
+  z-index: 999;
   text-align: right;
-  transition: z-index 0s;
   transform: translateZ(0);
   will-change: transform, opacity;
 }
 
 @media (max-width: 1400px) {
   .float-heading {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     border: none;
     box-shadow: 0 0 6px 2px rgba(255, 255, 255, 0.15);
     border-radius: 10px;
@@ -870,7 +873,7 @@ a.float-menu-item.menu-active {
   .page-content {
     position: relative;
     z-index: 2;
-    margin-top: 5rem;
+    margin-top: 5.5rem;
     min-height: 100vh;
   }
 
