@@ -7,9 +7,10 @@
             ">
             <v-card-text class="text-left">
               <v-container class="px-md-10 px-5 py-md-10 py-5">
+                <h1 class="sr-only">{{ $t('H1_SESSION') }}</h1>
                 <v-layout row wrap>
                   <v-flex xs12 sm12 md5 pt-md-3 pt-sm-5 class="fade-up" style="transition-delay: 0.1s">
-                  <v-img class="mx-auto"
+                  <v-img class="mx-auto parallax-slow"
                         src="@/assets/mistyforest.jpg"
                         :alt="$t('ALT_SESSION_FOREST')"
                         max-width="520"
@@ -21,7 +22,7 @@
                   <v-flex sm1 md1>
                   </v-flex>
                   <v-flex xs12 sm12 md6>
-                    <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-1 fade-up" style="transition-delay: 0.15s">{{ $t('PRACTITLE1') }}
+                    <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-1 fade-up" style="transition-delay: 0.15s">{{ $t('PRACTITLE1') }}<span class="sr-only">{{ $t('H2_FEES_SEO') }}</span>
                     </h2>
                     <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('PRAC1') }}
                     </p>
@@ -35,7 +36,7 @@
                     ></v-data-table>
                   </v-flex>
                   <v-flex xs12 sm12 md6>
-                    <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-7 fade-up" style="transition-delay: 0.1s">{{ $t('PRACTITLE2') }}</h2>
+                    <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-7 fade-up" style="transition-delay: 0.1s">{{ $t('PRACTITLE2') }}<span class="sr-only">{{ $t('H2_SESSIONS_SEO') }}</span></h2>
                     <p class="subtitle-1 fade-up" style="transition-delay: 0.15s">{{ $t('PRAC2') }}
                     </p>
                     <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('PRAC3') }}
@@ -66,7 +67,7 @@
                   <v-flex sm1 md1>
                   </v-flex>
                   <v-flex xs12 sm12 md6>
-                    <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.15s">{{ $t('PRACTITLE3') }}</h2>
+                    <h2 class="overline text-capitalize light-blue--text text--darken-4 pt-5 fade-up" style="transition-delay: 0.15s">{{ $t('PRACTITLE3') }}<span class="sr-only">{{ $t('H2_WHERE_SEO') }}</span></h2>
                     <p class="subtitle-1 fade-up" style="transition-delay: 0.2s">{{ $t('PRAC4') }}
                     </p>
                     <p class="subtitle-1 fade-up" style="transition-delay: 0.25s">{{ $t('PRAC5') }}</p>

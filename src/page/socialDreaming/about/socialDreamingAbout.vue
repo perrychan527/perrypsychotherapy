@@ -7,6 +7,7 @@
 					">
 					  <v-card-text class="text-left">
 						<v-container class="px-md-10 px-5 py-md-10 py-5">
+						  <h1 class="sr-only">{{ $t('H1_SD') }}</h1>
 						  <v-layout row wrap>
 						  <v-flex xs1 sm2 md3>
 							</v-flex>
@@ -17,7 +18,7 @@
 							<v-flex xs1 sm2 md3>
 							</v-flex>
 							<v-flex xs12 sm12 md12>
-							  <h2 class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.2s">{{ $t('whatIsSDM') }}
+							  <h2 class="overline text-capitalize light-blue--text text--darken-4 fade-up" style="transition-delay: 0.2s">{{ $t('whatIsSDM') }}<span class="sr-only">{{ $t('H2_WHATISSDM_SEO') }}</span>
 							  </h2>
 							</v-flex>
 							<v-flex xs12 sm12 md6>
@@ -27,7 +28,7 @@
 							  </p>
 							</v-flex>
 							<v-flex xs12 sm12 md6 class="fade-up" style="transition-delay: 0.2s">
-							<v-img class="mx-auto"
+							<v-img class="mx-auto parallax-slow"
 								  src="@/assets/mushroom2.png"
 								  :alt="$t('ALT_SD_MUSHROOM')"
 								  max-width="520"

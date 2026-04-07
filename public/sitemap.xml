@@ -45,6 +45,62 @@
   </url>
 
   <url>
+    <loc>https://www.perrywtchan.com/en/sessioninfo/edinburgh</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/edinburgh" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/edinburgh" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.perrywtchan.com/hk/sessioninfo/edinburgh</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/edinburgh" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/edinburgh" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.perrywtchan.com/en/sessioninfo/online-uk</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/online-uk" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/online-uk" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.perrywtchan.com/hk/sessioninfo/online-uk</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/online-uk" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/online-uk" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.perrywtchan.com/en/sessioninfo/hong-kong</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/hong-kong" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/hong-kong" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.perrywtchan.com/hk/sessioninfo/hong-kong</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/hong-kong" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/hong-kong" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.perrywtchan.com/en/sessioninfo/international</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/international" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/international" />
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.perrywtchan.com/hk/sessioninfo/international</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/international" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/international" />
+    <priority>0.7</priority>
+  </url>
+
+  <url>
     <loc>https://www.perrywtchan.com/en/memories</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/memories" />
     <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/memories" />

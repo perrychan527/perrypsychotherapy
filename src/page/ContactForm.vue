@@ -73,15 +73,24 @@ export default {
 <style scoped>
 .float-btn {
   background: none;
-  color: #888;
+  color: #666;
   border: none;
   cursor: pointer;
-  padding: 2px 4px;
+  padding: 6px;
   display: flex;
   align-items: center;
+  -webkit-tap-highlight-color: transparent;
+  transition: color 0.2s;
 }
 
 .float-btn:hover { color: #333; }
+
+@media (max-width: 600px) {
+  .float-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+}
 
 .float-form {
   position: fixed;
@@ -94,6 +103,16 @@ export default {
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+  .float-form {
+    top: auto;
+    bottom: 5rem;
+    right: 1.2rem;
+    width: calc(100vw - 2.4rem);
+    max-width: 320px;
+  }
 }
 
 .float-title {

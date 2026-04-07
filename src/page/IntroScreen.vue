@@ -1,5 +1,20 @@
 <template>
   <div v-if="visible" class="intro-overlay" :class="{ 'fade-out': fadingOut, 'washi-visible': washiVisible }">
+    <div class="intro-title" :class="{ 'intro-visible': showTitle }">
+      <span class="intro-title-name">
+        <img
+          v-if="$i18n.locale === 'hk'"
+          src="@/assets/calligraphy_name.png"
+          alt="陳渭東"
+          class="intro-title-calligraphy"
+        />
+        <template v-else>{{ $t('HEADING_NAME') }}</template>
+        <span class="intro-title-degree">{{ $t('HEADING_TITLE') }}</span>
+      </span>
+      <span class="intro-title-sub">{{ $t('INTRO_SUB1') }}</span>
+      <span class="intro-title-sub">{{ $t('INTRO_SUB2') }}</span>
+      <span class="intro-title-sub">{{ $t('INTRO_SUB3') }}</span>
+    </div>
     <div class="img-container">
       <div class="img-slot">
         <img v-if="show3" src="@/assets/calligraphy3.png" :alt="$t('ALT_INTRO_1')" class="intro-img" />
@@ -10,13 +25,19 @@
       <div class="img-slot">
         <img v-if="show1" src="@/assets/calligraphy1.png" :alt="$t('ALT_INTRO_3')" class="intro-img" />
       </div>
-      <p v-if="show3" class="intro-text line-1">Soul to soul, dream to dream</p>
-      <p v-if="show3" class="intro-text line-2">A space to speak, to dream, to feel, and to transmute</p>
-      <div v-if="show3" class="enter-btn-wrap">
-        <button class="enter-btn" @click="goTo('en')">Enter</button>
-        <span class="enter-divider">|</span>
-        <button class="enter-btn" @click="goTo('hk')">進入</button>
+      <p v-if="show3" class="intro-text line-1">{{ $t('INTRO_LINE1') }}</p>
+      <p v-if="show3" class="intro-text line-2">{{ $t('INTRO_LINE2') }}</p>
+    </div>
+    <div v-if="show2" class="scroll-hint">
+      <div class="intro-lang">
+        <button :class="['intro-lang-btn', { active: $i18n.locale === 'en' }]" @click="setLocale('en')">Eng</button>
+        <span class="intro-lang-divider">|</span>
+        <button :class="['intro-lang-btn', { active: $i18n.locale === 'hk' }]" @click="setLocale('hk')">繁中</button>
       </div>
+      <span class="scroll-hint-text">{{ $t('INTRO_SCROLL') }}</span>
+      <svg width="20" height="12" viewBox="0 0 20 12" fill="none">
+        <path d="M1 1L10 10L19 1" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
     </div>
   </div>
 </template>
@@ -31,27 +52,103 @@ export default {
       show1: false,
       show2: false,
       show3: false,
+      showTitle: false,
       washiVisible: false,
     }
   },
   mounted: function() {
     document.body.style.overflow = 'hidden'
     document.documentElement.classList.add('intro-active')
-    document.addEventListener('touchmove', this.preventScroll, { passive: false })
 
     var self = this
     var started = false
+    var dismissing = false
 
-    var washiFadeDuration = 1500
+    var washiFadeDuration = 1000
 
     function startAnimations() {
       if (started) return
       started = true
       self.washiVisible = true
-      setTimeout(function() { self.show1 = true }, washiFadeDuration + 300)
-      setTimeout(function() { self.show2 = true }, washiFadeDuration + 1000)
-      setTimeout(function() { self.show3 = true }, washiFadeDuration + 1700)
+      setTimeout(function() { self.show1 = true; self.showTitle = true }, 500)
+      setTimeout(function() { self.show2 = true }, 1200)
+      setTimeout(function() { self.show3 = true }, 1900)
     }
+
+    function removeListeners() {
+      window.removeEventListener('wheel', self._onWheel)
+      document.removeEventListener('touchstart', self._onTouchStart)
+      document.removeEventListener('touchmove', self._onTouchMove)
+      document.removeEventListener('keydown', self._onKeyDown)
+    }
+
+    self._lockScroll = function() { window.scrollTo(0, 0) }
+
+    function preventScroll(e) { e.preventDefault() }
+
+    function dismiss() {
+      if (dismissing) return
+      dismissing = true
+      removeListeners()
+
+      // Block all scrolling during fade
+      window.addEventListener('wheel', preventScroll, { passive: false })
+      document.addEventListener('touchmove', preventScroll, { passive: false })
+      window.scrollTo(0, 0)
+      var scrollLock = setInterval(self._lockScroll, 16)
+
+      var locale = self.$i18n.locale || 'en'
+
+      requestAnimationFrame(function() {
+        self.fadingOut = true
+      })
+
+      setTimeout(function() {
+        clearInterval(scrollLock)
+        window.removeEventListener('wheel', preventScroll)
+        document.removeEventListener('touchmove', preventScroll)
+        window.scrollTo(0, 0)
+        self.visible = false
+        document.body.style.overflow = ''
+        document.documentElement.classList.remove('intro-active')
+        var viewport = document.querySelector('meta[name=viewport]')
+        if (viewport) viewport.setAttribute('content', 'width=device-width, initial-scale=1.0')
+        self.$root.$emit('intro-done')
+      }, 1200)
+
+      if (self.$route.name === 'default') {
+        self.$router.push({ name: 'about', params: { locale: locale } }).catch(function() {})
+      }
+    }
+
+    var scrollTotal = 0
+    var scrollThreshold = 1500
+
+    self._onWheel = function(e) {
+      e.preventDefault()
+      window.scrollTo(0, 0)
+      if (e.deltaY > 0) scrollTotal += e.deltaY
+      if (scrollTotal >= scrollThreshold) dismiss()
+    }
+    self._onTouchStart = function(e) {
+      self._touchStartY = e.touches[0].clientY
+    }
+    self._onTouchMove = function(e) {
+      e.preventDefault()
+      var dy = self._touchStartY - e.touches[0].clientY
+      if (dy > 120) dismiss()
+    }
+    self._onKeyDown = function(e) {
+      if (e.key === 'ArrowDown' || e.key === ' ' || e.key === 'PageDown') {
+        e.preventDefault()
+        dismiss()
+      }
+    }
+
+    window.addEventListener('wheel', self._onWheel, { passive: false })
+    document.addEventListener('touchstart', self._onTouchStart, { passive: true })
+    document.addEventListener('touchmove', self._onTouchMove, { passive: false })
+    document.addEventListener('keydown', self._onKeyDown)
 
     var img = new Image()
     img.onload = startAnimations
@@ -60,35 +157,14 @@ export default {
     if (img.complete) startAnimations()
   },
   beforeDestroy: function() {
-    document.removeEventListener('touchmove', this.preventScroll)
+    window.removeEventListener('wheel', this._onWheel)
+    document.removeEventListener('touchstart', this._onTouchStart)
+    document.removeEventListener('touchmove', this._onTouchMove)
+    document.removeEventListener('keydown', this._onKeyDown)
   },
   methods: {
-    preventScroll: function(e) { e.preventDefault() },
-    goTo: function(locale) {
-      var self = this
-      self.fadingOut = true
-      self.$i18n.locale = locale
-
-      var fadeComplete = false
-      var navComplete = false
-
-      function tryHide() {
-        if (fadeComplete && navComplete) {
-          self.visible = false
-          document.body.style.overflow = ''
-          document.documentElement.classList.remove('intro-active')
-          document.removeEventListener('touchmove', self.preventScroll)
-          var viewport = document.querySelector('meta[name=viewport]')
-          if (viewport) viewport.setAttribute('content', 'width=device-width, initial-scale=1.0')
-          self.$root.$emit('intro-done')
-        }
-      }
-
-      setTimeout(function() { fadeComplete = true; tryHide() }, 1200)
-
-      self.$router.push({ name: 'about', params: { locale: locale } })
-        .then(function() { navComplete = true; tryHide() })
-        .catch(function() { navComplete = true; tryHide() })
+    setLocale: function(locale) {
+      this.$i18n.locale = locale
     }
   }
 }
@@ -112,7 +188,7 @@ export default {
   justify-content: center;
   cursor: default;
   opacity: 1;
-  transition: opacity 1.2s ease;
+  transition: opacity 1.2s ease, transform 1.2s ease;
 }
 
 .intro-overlay::before {
@@ -133,6 +209,7 @@ export default {
 
 .intro-overlay.fade-out {
   opacity: 0;
+  transform: translateY(-100px);
 }
 
 .img-container {
@@ -151,7 +228,6 @@ export default {
   align-items: center;
   justify-content: center;
 }
-
 
 .intro-img {
   width: 100%;
@@ -194,24 +270,75 @@ export default {
   animation-delay: 1.4s;
 }
 
-.enter-btn-wrap {
+.scroll-hint {
   position: absolute;
-  top: 82%;
+  bottom: 2.5rem;
   left: 50%;
-  transform: translateX(-10%);
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
+  transform: translateX(-50%);
+  text-align: center;
   opacity: 0;
-  animation: textFade 1.2s ease forwards;
-  animation-delay: 2.1s;
+  animation: scrollHintFade 1.2s ease forwards;
+  animation-delay: 0.4s;
 }
 
-.enter-btn {
+.intro-title {
+  position: absolute;
+  top: 2rem;
+  left: 2.5rem;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1.2s ease;
+}
+
+.intro-title.intro-visible {
+  opacity: 1;
+}
+
+.intro-title-name {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: clamp(22px, 2.4vw, 32px);
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  color: #444;
+}
+
+.intro-title-degree {
+  font-size: 0.75em;
+  font-weight: 300;
+  color: #333;
+}
+
+.intro-title-calligraphy {
+  height: 3.5rem;
+  vertical-align: bottom;
+  margin-left: -3px;
+}
+
+.intro-title-sub {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: clamp(11px, 1vw, 15px);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: none;
+  color: #555;
+  margin-top: 2px;
+}
+
+.intro-lang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.intro-lang-btn {
   background: none;
   border: none;
   font-family: Georgia, serif;
-  font-size: 13px;
+  font-size: clamp(10px, 1vw, 13px);
   letter-spacing: 0.14em;
   color: #888;
   cursor: pointer;
@@ -219,11 +346,39 @@ export default {
   transition: color 0.2s;
 }
 
-.enter-btn:hover { color: #222; }
+.intro-lang-btn:hover { color: #444; }
 
-.enter-divider {
+.intro-lang-btn.active {
+  color: #444;
+  font-weight: 600;
+}
+
+.intro-lang-divider {
   color: #ccc;
   font-size: 13px;
+}
+
+.scroll-hint-text {
+  display: block;
+  font-family: Georgia, serif;
+  font-size: clamp(10px, 1vw, 13px);
+  letter-spacing: 0.14em;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.scroll-hint svg {
+  animation: bounceDown 1.8s ease-in-out infinite;
+}
+
+@keyframes scrollHintFade {
+  from { opacity: 0; transform: translateX(-50%) translateY(6px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+@keyframes bounceDown {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
 }
 
 @keyframes textFade {
@@ -234,6 +389,11 @@ export default {
 @keyframes textFadeMobile {
   from { opacity: 0; transform: translateX(-50%) translateY(6px); }
   to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+@keyframes textFadeMobileRight {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 @media (max-width: 600px) {
@@ -247,15 +407,34 @@ export default {
 
   .intro-text {
     white-space: normal;
-    text-align: center;
-    left: 50%;
-    width: 80vw;
-    animation-name: textFadeMobile;
+    text-align: right;
+    left: auto;
+    right: 8vw;
+    width: auto;
+    max-width: 55vw;
+    transform: none;
+    animation-name: textFadeMobileRight;
   }
 
-  .enter-btn-wrap {
-    left: 50%;
-    animation-name: textFadeMobile;
+  .line-1 {
+    top: 68%;
+  }
+
+  .line-2 {
+    top: 71%;
+  }
+
+  .intro-title {
+    top: 1.2rem;
+    left: 1.2rem;
+  }
+
+  .intro-title-calligraphy {
+    height: 2.4rem;
+  }
+
+  .scroll-hint {
+    bottom: 1.5rem;
   }
 }
 </style>
