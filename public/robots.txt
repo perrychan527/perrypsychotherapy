@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /tc/
+Disallow: /tc
 
 Sitemap: https://www.perrywtchan.com/sitemap.xml

@@ -3,147 +3,147 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://www.perrywtchan.com/en</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.perrywtchan.com/en" />
+    <loc>https://www.perrywtchan.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.perrywtchan.com/en/" />
     <lastmod>2026-04-07</lastmod>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/hk</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.perrywtchan.com/en" />
-    <lastmod>2026-04-07</lastmod>
+    <loc>https://www.perrywtchan.com/hk/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.perrywtchan.com/en/" />
+    <lastmod>2026-04-21</lastmod>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/en/therapy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/therapy" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/therapy" />
+    <loc>https://www.perrywtchan.com/en/therapy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/therapy/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/therapy/" />
     <lastmod>2026-04-07</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/hk/therapy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/therapy" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/therapy" />
+    <loc>https://www.perrywtchan.com/hk/therapy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/therapy/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/therapy/" />
     <lastmod>2026-04-07</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/en/sessioninfo</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo" />
+    <loc>https://www.perrywtchan.com/en/sessioninfo/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/" />
     <lastmod>2026-04-07</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/hk/sessioninfo</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo" />
+    <loc>https://www.perrywtchan.com/hk/sessioninfo/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/" />
     <lastmod>2026-04-07</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/en/sessioninfo/edinburgh</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/edinburgh" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/edinburgh" />
+    <loc>https://www.perrywtchan.com/en/sessioninfo/edinburgh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/edinburgh/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/edinburgh/" />
     <lastmod>2026-04-07</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/hk/sessioninfo/edinburgh</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/edinburgh" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/edinburgh" />
+    <loc>https://www.perrywtchan.com/hk/sessioninfo/edinburgh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/edinburgh/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/edinburgh/" />
     <lastmod>2026-04-07</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/en/sessioninfo/online-uk</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/online-uk" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/online-uk" />
+    <loc>https://www.perrywtchan.com/en/sessioninfo/online-uk/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/online-uk/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/online-uk/" />
     <lastmod>2026-04-07</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/hk/sessioninfo/online-uk</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/online-uk" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/online-uk" />
+    <loc>https://www.perrywtchan.com/hk/sessioninfo/online-uk/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/online-uk/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/online-uk/" />
     <lastmod>2026-04-07</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/en/sessioninfo/hong-kong</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/hong-kong" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/hong-kong" />
-    <lastmod>2026-04-07</lastmod>
-    <priority>0.8</priority>
+    <loc>https://www.perrywtchan.com/en/sessioninfo/hong-kong/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/hong-kong/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/hong-kong/" />
+    <lastmod>2026-04-21</lastmod>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/hk/sessioninfo/hong-kong</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/hong-kong" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/hong-kong" />
-    <lastmod>2026-04-07</lastmod>
-    <priority>0.8</priority>
+    <loc>https://www.perrywtchan.com/hk/sessioninfo/hong-kong/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/hong-kong/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/hong-kong/" />
+    <lastmod>2026-04-21</lastmod>
+    <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/en/sessioninfo/international</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/international" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/international" />
+    <loc>https://www.perrywtchan.com/en/sessioninfo/international/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/international/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/international/" />
     <lastmod>2026-04-07</lastmod>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/hk/sessioninfo/international</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/international" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/international" />
+    <loc>https://www.perrywtchan.com/hk/sessioninfo/international/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sessioninfo/international/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sessioninfo/international/" />
     <lastmod>2026-04-07</lastmod>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/en/memories</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/memories" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/memories" />
+    <loc>https://www.perrywtchan.com/en/memories/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/memories/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/memories/" />
     <lastmod>2026-04-07</lastmod>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/hk/memories</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/memories" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/memories" />
+    <loc>https://www.perrywtchan.com/hk/memories/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/memories/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/memories/" />
     <lastmod>2026-04-07</lastmod>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/en/sd/about</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sd/about" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sd/about" />
+    <loc>https://www.perrywtchan.com/en/sd/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sd/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sd/about/" />
     <lastmod>2026-04-07</lastmod>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://www.perrywtchan.com/hk/sd/about</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sd/about" />
-    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sd/about" />
+    <loc>https://www.perrywtchan.com/hk/sd/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.perrywtchan.com/en/sd/about/" />
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.perrywtchan.com/hk/sd/about/" />
     <lastmod>2026-04-07</lastmod>
     <priority>0.7</priority>
   </url>
